@@ -5,15 +5,10 @@
 
 $config = [
     'error_manage' => '',
-
-    'usertablename' => 'dy_user',                   //用户表
-
     //缓存路径
     'Cacheroot' => C('APP_PATH').'cache/',
 
-
     //'application_folder' => dirname(__FILE__),
-
 
     //入口系统模块 - hmvc必须
     'modules' => [
@@ -32,16 +27,15 @@ $config = [
 //            "quiet"     =>  0
 //        ],
         'default'=>[
-            "hostname"  =>  '127.0.0.1',
-            "username"  =>  'root',
-            "password"  =>  'root3306',
-            "database"  =>  'gracephp',
+            "hostname"  =>  '58.30.248.98',
+            "username"  =>  'gracemain',
+            "password"  =>  'gracemain',
+            "database"  =>  'gracemain',
 
             "charset"   =>  'utf8',
             "pconnect"  =>  0,
             "quiet"     =>  0
         ],
-
     ],
 
     //rbac相关设置
@@ -50,8 +44,10 @@ $config = [
         'accessrules_lib'=>'g_rulelib',
     ],
 
+    'usertablename' => 'dy_user',                   //用户表
 
     'User'=> [
+        'tablename'=> 'dy_user',                    //用户表名
         'AdminGroupid'=>[9,0],
         'UserField'=> [
 //        'tablename'   => 'dy_user',
