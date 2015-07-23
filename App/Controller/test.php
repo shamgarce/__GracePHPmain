@@ -6,15 +6,12 @@
  * Time: 11:16
  */
 
-class v8 extends Controller {
+class test extends BaseController {
 
     public function doIndex($param)
     {
-
+        echo 123;
         print_r($param);//另外一个
-
-
-
     }
 
 }

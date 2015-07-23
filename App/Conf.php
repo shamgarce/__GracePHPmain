@@ -5,8 +5,13 @@
 
 $config = [
     'error_manage' => '',
-    'usertablename' => 'dy_user',
+
+    'usertablename' => 'dy_user',                   //用户表
+
+    //缓存路径
     'Cacheroot' => C('APP_PATH').'cache/',
+
+
     //'application_folder' => dirname(__FILE__),
 
 
@@ -38,10 +43,14 @@ $config = [
         ],
 
     ],
+
+    //rbac相关设置
     'Rbacdb'=>[
         'accessrules'   =>'g_accessrules',
         'accessrules_lib'=>'g_rulelib',
     ],
+
+
     'User'=> [
         'AdminGroupid'=>[9,0],
         'UserField'=> [
