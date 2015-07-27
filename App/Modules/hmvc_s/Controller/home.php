@@ -11,7 +11,10 @@ class home extends BaseController {
      * 综合页
      */
     public function doIndex(){
-        $this->Redirect('/s/home/login');
+
+        $this->display('',[
+            'title'=>'主界面'
+        ]);
     }
 
     public function doMain()
@@ -46,7 +49,9 @@ class home extends BaseController {
             'title'=>'登陆',
         ]);       //默认的index.php
     }
-
     //?ref=main.php
+
+
+
 
 }

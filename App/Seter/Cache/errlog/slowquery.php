@@ -14478,3 +14478,147 @@ TM : 0.0039999485015869 : 2015-07-23 17:56:22
 Select * from dy_user
 TM : 0.0039999485015869 : 2015-07-23 17:56:22
 ----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-27 13:59:22
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0039999485015869 : 2015-07-27 13:59:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-27 13:59:23
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-27 13:59:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040009021759033 : 2015-07-27 13:59:24
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0040009021759033 : 2015-07-27 13:59:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-27 13:59:24
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050010681152344 : 2015-07-27 13:59:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-27 13:59:25
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050008296966553 : 2015-07-27 13:59:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-27 13:59:25
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-27 13:59:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040011405944824 : 2015-07-27 13:59:25
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0040011405944824 : 2015-07-27 13:59:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-27 13:59:41
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050010681152344 : 2015-07-27 13:59:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-27 13:59:47
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050010681152344 : 2015-07-27 13:59:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-27 13:59:47
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0039999485015869 : 2015-07-27 13:59:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-27 13:59:48
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0039999485015869 : 2015-07-27 13:59:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-27 13:59:48
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-27 13:59:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060000419616699 : 2015-07-27 13:59:48
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0060000419616699 : 2015-07-27 13:59:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-27 14:01:44
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-27 14:01:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-27 16:35:47
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-27 16:35:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-27 16:36:09
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-27 16:36:09
+----------------------------

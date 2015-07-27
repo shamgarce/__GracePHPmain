@@ -364,6 +364,7 @@ class Controller {
         header("Content-Type:text/html; charset=utf-8");
         //access rules
         //+--------------------------------------------------
+        //D($this->getaccessRules());
         $this->rbac->run($this->getaccessRules());
         //+--------------------------------------------------
         if($this->request->post) $this->ispost = true;
@@ -423,8 +424,10 @@ class Controller {
             $router = C('router');
             $tpl = $router['Action'];
         }
+
         $data['router'] = $this->router;
         $data['env']    = $this->env;
+        $data['env']['ET']    = T();
 
         $this->_view->display($tpl,$data);
     }
@@ -434,8 +437,11 @@ class Controller {
             $router = C('router');
             $tpl = $router['Action'];
         }
+
         $data['router'] = $this->router;
         $data['env']    = $this->env;
+        $data['env']['ET']    = T();
+
         return $this->_view->fetch($tpl,$data);
     }
 
@@ -497,7 +503,7 @@ class View {
      */
     public function __construct($tplDir=''){
         if($tplDir == ''){
-            $this->_tplDir = './'.C('APP_PATH').'/View';
+            $this->_tplDir = './'.C('APP_PATH').'View';
         }else{
             $this->_tplDir = $tplDir;
         }
@@ -564,7 +570,7 @@ class View {
      */
     public static function tplInclude($path, $data=array()){
         self::$tmpData = array(
-            'path' => C('APP_FULL_PATH') . '/View/' . $path . '.php',
+            'path' => C('APP_FULL_PATH') . 'View/' . $path . '.php',
             'data' => $data,
         );
         unset($path);

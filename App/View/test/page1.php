@@ -143,6 +143,7 @@
 		</div>
 		
 	</div>
+
 	
 	<nav class="navbar horizontal-menu navbar-fixed-top"><!-- set fixed position by adding class "navbar-fixed-top" -->
 		
