@@ -282,7 +282,7 @@ View::tplInclude('Frame/sitebar', $data);
 <td><input class="iswitch iswitch-red" type="checkbox" checked=""></td>
 <td>
 <a class="btn btn-primary btn-single btn-sm  btn-icon icon-left" >Show Me</a>
-<a class="btn btn-secondary btn-sm btn-icon icon-left" onclick="showAjaxModal();" href="javascript:;"> Edit </a>
+<a class="btn btn-secondary btn-sm btn-icon icon-left" onClick="showAjaxModal();" href="javascript:;"> Edit </a>
 <a class="btn btn-danger btn-sm btn-icon icon-left" href="#"> Delete </a>
 <a class="btn btn-info btn-sm btn-icon icon-left" href="#"> Profile </a>
 
@@ -339,54 +339,6 @@ View::tplInclude('Frame/sitebar', $data);
 </div>
 <!-- -->        
         
-					
-
-			
-			<div class="jumbotron">
-				<h1>首页</h1>
-				
-<p>
-<pre>
-404
-login
-logout
-</pre>
-菜单设置
-<pre>
-用户管理
-接口管理
-
---针对个人的临时设置
-1  ： 显示帮助信息
-2 ： 
-Notifications
-
-Messages
-Events
-Updates
-SeverUptims
-
-
-
---我的
-
-message
-notifications
-
-
-设置
-修改信息
-修改密码
-退出登陆
-锁定
-</pre>
-
-                
-                
-                    
-                    </p>
-				
-			</div>
 			
 
 			

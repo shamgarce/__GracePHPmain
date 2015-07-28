@@ -41,8 +41,8 @@ View::tplInclude('Frame/sitebar', $data);
 <!-- path nav -->
 <div class="page-title">
     <div class="title-env">
-        <h1 class="title">用户管理</h1>
-        <p class="description">用户增删改查</p>
+        <h1 class="title">用户组管理</h1>
+        <p class="description">用户组增删改查</p>
     </div>
 
     <div class="breadcrumb-env">
@@ -282,7 +282,7 @@ View::tplInclude('Frame/sitebar', $data);
 <td><input class="iswitch iswitch-red" type="checkbox" checked=""></td>
 <td>
 <a class="btn btn-primary btn-single btn-sm  btn-icon icon-left" >Show Me</a>
-<a class="btn btn-secondary btn-sm btn-icon icon-left" onclick="showAjaxModal();" href="javascript:;"> Edit </a>
+<a class="btn btn-secondary btn-sm btn-icon icon-left" onClick="showAjaxModal();" href="javascript:;"> Edit </a>
 <a class="btn btn-danger btn-sm btn-icon icon-left" href="#"> Delete </a>
 <a class="btn btn-info btn-sm btn-icon icon-left" href="#"> Profile </a>
 
@@ -290,40 +290,6 @@ View::tplInclude('Frame/sitebar', $data);
 
 </tr>
 
-<tr>
-  <td colspan="9" align="right">
-  
-  <div id="example-1_paginate" class="dataTables_paginate paging_simple_numbers">
-<ul class="pagination">
-<li id="example-1_previous" class="paginate_button previous disabled" aria-controls="example-1" tabindex="0">
-<a href="#">Previous</a>
-</li>
-<li class="paginate_button active" aria-controls="example-1" tabindex="0">
-<a href="#">1</a>
-</li>
-<li class="paginate_button " aria-controls="example-1" tabindex="0">
-<a href="#">2</a>
-</li>
-<li class="paginate_button " aria-controls="example-1" tabindex="0">
-<a href="#">3</a>
-</li>
-<li class="paginate_button " aria-controls="example-1" tabindex="0">
-<a href="#">4</a>
-</li>
-<li class="paginate_button " aria-controls="example-1" tabindex="0">
-<a href="#">5</a>
-</li>
-<li class="paginate_button " aria-controls="example-1" tabindex="0">
-<a href="#">6</a>
-</li>
-<li id="example-1_next" class="paginate_button next" aria-controls="example-1" tabindex="0">
-<a href="#">Next</a>
-</li>
-</ul>
-</div>
-  
-  </td>
-  </tr>
 
 </tbody>
 </table>
@@ -339,54 +305,6 @@ View::tplInclude('Frame/sitebar', $data);
 </div>
 <!-- -->        
         
-					
-
-			
-			<div class="jumbotron">
-				<h1>首页</h1>
-				
-<p>
-<pre>
-404
-login
-logout
-</pre>
-菜单设置
-<pre>
-用户管理
-接口管理
-
---针对个人的临时设置
-1  ： 显示帮助信息
-2 ： 
-Notifications
-
-Messages
-Events
-Updates
-SeverUptims
-
-
-
---我的
-
-message
-notifications
-
-
-设置
-修改信息
-修改密码
-退出登陆
-锁定
-</pre>
-
-                
-                
-                    
-                    </p>
-				
-			</div>
 			
 
 			
