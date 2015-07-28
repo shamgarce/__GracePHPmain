@@ -10,7 +10,36 @@
 class UserModel extends Model
 {
 
+    //更改用户信息
+    public function edit()
+    {
 
+        $this->S->user->edit($this->S->request->post);
+        St::AjaxReturn();
+    }
+
+    //更改密码
+    public function changepassword($parmas = array())
+    {
+        $this->S->user->changepassword($this->post['pwd'],$this->post['newpwd']);
+        St::AjaxReturn();
+    }
+
+    //注册
+    public function signup($parmas=array())
+    {
+        $res = [
+            'uname' =>  $this->post['uname'],
+            'pwd'   =>  $this->post['pwd'],
+            'tname' =>  $this->post['tname'],
+            'tel'   =>  $this->post['tel'],
+        ];
+        $this->S->user->signup($res);
+        St::AjaxReturn();
+    }
+
+
+    //登陆
     public function signin($parmas=array())
     {
         //$dc = $this->S->user->signin($this->post['uname'],$this->post['pwd'])->json();            //查看操作json
@@ -18,6 +47,8 @@ class UserModel extends Model
         St::AjaxReturn();
     }
 
+
+    //注销
     public function signout()
     {
         return $this->S->user->signout();
@@ -63,47 +94,5 @@ class UserModel extends Model
         ];
     }
 
-//+=========================================================
-//+=========================================================
-//状态返回 下面内容
-//+=========================================================
-//+=========================================================
-//    public function jsoncode($code = 0)
-//    {
-//        $this->json = [
-//            'code'  => $code,
-//            'msg'   => $this->DefaultCoderes()[$code]
-//        ];
-//        return true;
-//    }
-//
-//
-//    //结果输出修饰
-//    //返回操作结果    或者      给结果赋值
-//    public function res($data = '')
-//    {
-//        if(!empty($data))  $this->json['data'] = $data;
-//        return $this->json['data'];
-//    }
-//
-//    //返回json数组
-//    public function json()
-//    {
-//        return $this->json;
-//    }
-//
-//    //返回json串
-//    public function AjaxReturn()
-//    {
-//        echo json_encode($this->json);
-//        exit;
-//    }
-//
-//    //返回操作bool
-//    public function bool()
-//    {
-//        return intval($this->json['code']>0)?true:false;
-//        exit;
-//    }
 
 }

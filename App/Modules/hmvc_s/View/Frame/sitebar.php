@@ -82,6 +82,11 @@
                             <span class="title">Help Tip</span>
                         </a>
                     </li>
+                    <li>
+                        <a href="layout-horizontal-menu-click-to-open-subs.html">
+                            <span class="title">接口管理</span>
+                        </a>
+                    </li>
                 </ul>
             </li>
             

@@ -75,7 +75,7 @@ View::tplInclude('Frame/sitebar', $data);
 <div class="panel panel-default collapsed">
     <div class="panel-heading">
     <h3 class="panel-title"><a data-toggle="panel" href="#">
-    <span class="expand-icon">添加</span>
+    <span class="expand-icon">添加用户</span>
     </a></h3>
         <div class="panel-options">
             <!-- a href="#">

@@ -5,10 +5,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta name="description" content="Xenon Boostrap Admin Panel" />
+	<meta name="description" content="" />
 	<meta name="author" content="" />
 	
-	<title>Xenon - Horizontal &amp; Sidebar Menu</title>
+	<title><?=$title?> - Xenon</title>
 
 	<link rel="stylesheet" href="http://fonts.useso.com/css?family=Arimo:400,700,400italic">
 	<link rel="stylesheet" href="/assets/css/fonts/linecons/css/linecons.css">

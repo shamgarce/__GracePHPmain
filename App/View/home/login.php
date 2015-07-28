@@ -3,14 +3,12 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta name="description" content="Xenon Boostrap Admin Panel" />
-	<meta name="author" content="" />
-	
-	<title>Xenon - Login Light</title>
+	<meta name="description" content="" />
+	<meta name="author" content="Shampeak" />
+	<title>后台管理 - Xenon</title>
 
-	<link rel="stylesheet" href="http://fonts.useso.com/css?family=Arimo:400,700,400italic">
+	<!-- link rel="stylesheet" href="http://fonts.useso.com/css?family=Arimo:400,700,400italic" -->
 	<link rel="stylesheet" href="/assets/css/fonts/linecons/css/linecons.css">
 	<link rel="stylesheet" href="/assets/css/fonts/fontawesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="/assets/css/bootstrap.css">
@@ -31,12 +29,8 @@
 	
 </head>
 <body class="page-body login-page login-light">
-
-	
 	<div class="login-container">
-	
 		<div class="row">
-		
 			<div class="col-sm-6">
 			
 				<script type="text/javascript">
@@ -60,11 +54,11 @@
 							
 							messages: {
 								username: {
-									required: 'Please enter your username.'
+									required: '请输入用户名.'
 								},
 								
 								passwd: {
-									required: 'Please enter your password.'
+									required: '请输入密码.'
 								}
 							},
 							
@@ -89,13 +83,13 @@
 								};
 									
 								$.ajax({
-									url: "data/login-check.php",
+									url: "/home/login",
 									method: 'POST',
 									dataType: 'json',
 									data: {
 										do_login: true,
-										username: $(form).find('#username').val(),
-										passwd: $(form).find('#passwd').val(),
+										uname: $(form).find('#username').val(),
+										pwd: $(form).find('#passwd').val(),
 									},
 									success: function(resp)
 									{
@@ -103,13 +97,12 @@
 											delay: .5,
 											pct: 100,
 											finish: function(){
-												
 												// Redirect after successful login page (when progress bar reaches 100%)
-												if(resp.accessGranted)
+												if(resp.code>0)
 												{
-													window.location.href = 'dashboard-1.html';
+													window.location.href = '/s/';
 												}
-																						}
+											}
 										});
 										
 																			
@@ -118,17 +111,15 @@
 										
 										
 										// Show errors
-										if(resp.accessGranted == false)
+										if(resp.code <0)
 										{
 											$(".errors-container").html('<div class="alert alert-danger">\
 												<button type="button" class="close" data-dismiss="alert">\
 													<span aria-hidden="true">&times;</span>\
 													<span class="sr-only">Close</span>\
 												</button>\
-												' + resp.errors + '\
+												' + resp.msg + '\
 											</div>');
-											
-											
 											$(".errors-container .alert").hide().slideDown();
 											$(form).find('#passwd').select();
 										}
@@ -145,8 +136,6 @@
 				
 				<!-- Errors container -->
 				<div class="errors-container">
-				
-									
 				</div>
 				
 				<!-- Add class "fade-in-effect" for login form effect -->
@@ -197,12 +186,11 @@
 				
 				<!-- External login -->
 				<div class="external-login">
+					<!-- 
 					<a href="#" class="facebook">
 						<i class="fa-facebook"></i>
 						Facebook Login
 					</a>
-					
-					<!-- 
 					<a href="#" class="twitter">
 						<i class="fa-twitter"></i>
 						Login with Twitter

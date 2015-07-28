@@ -41,8 +41,8 @@ View::tplInclude('Frame/sitebar', $data);
 <!-- path nav -->
 <div class="page-title">
     <div class="title-env">
-        <h1 class="title">用户组管理</h1>
-        <p class="description">用户组增删改查</p>
+        <h1 class="title">用户管理</h1>
+        <p class="description">用户增删改查</p>
     </div>
 
     <div class="breadcrumb-env">
@@ -72,10 +72,10 @@ View::tplInclude('Frame/sitebar', $data);
 
 
 <div class="col-sm-12">
-<div class="panel panel-default collapsed">
+<div class="panel panel-default">
     <div class="panel-heading">
     <h3 class="panel-title"><a data-toggle="panel" href="#">
-    <span class="expand-icon">添加用户组</span>
+    <span class="expand-icon">修改用户资料</span>
     </a></h3>
         <div class="panel-options">
             <!-- a href="#">
@@ -216,7 +216,7 @@ View::tplInclude('Frame/sitebar', $data);
                                 
                                 
 							
-							</form>
+			</form>
 
 
 
@@ -229,79 +229,6 @@ View::tplInclude('Frame/sitebar', $data);
     </div>
 </div>
 </div>
-
-
-
-
-<div class="col-sm-12">
-
-<div class="panel panel-default">
-    <div class="panel-heading">
-    <h3 class="panel-title">用户列表</h3>
-        <div class="panel-options">
-            <a  onclick="showAjaxModal();" href="javascript:;">
-            <i class="linecons-cog"></i>
-            </a>
-            <a data-toggle="panel" href="#">
-            <span class="collapse-icon">–</span>
-            <span class="expand-icon">+</span>
-            </a>
-            <a data-toggle="reload" href="#">
-            <i class="fa-rotate-right"></i>
-            </a>
-            <a data-toggle="remove" href="#"> × </a>
-        </div>
-    </div>
-
-    <div class="panel-body">
-   
-
-<table class="table table-model-2 table-hover">
-<thead>
-<tr>
-<th>id</th>
-<th>登陆名</th>
-<th>真实姓名</th>
-<th>用户组</th>
-<th>注册时间</th>
-<th>登陆时间</th>
-<th>登陆ip</th>
-<th width=70>无效？</th>
-<th width=300>操作</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>#</td>
-<td>Name<span class="label label-success">New2</span></td>
-<td>Address</td>
-<td>#</td>
-<td>Name</td>
-<td>Address</td>
-<td>#</td>
-<td><input class="iswitch iswitch-red" type="checkbox" checked=""></td>
-<td>
-<a class="btn btn-primary btn-single btn-sm  btn-icon icon-left" >Show Me</a>
-<a class="btn btn-secondary btn-sm btn-icon icon-left" onClick="showAjaxModal();" href="javascript:;"> Edit </a>
-<a class="btn btn-danger btn-sm btn-icon icon-left" href="#"> Delete </a>
-<a class="btn btn-info btn-sm btn-icon icon-left" href="#"> Profile </a>
-
-</td>
-
-</tr>
-
-
-</tbody>
-</table>
-   
-   
-   
-    </div>
-</div>
-</div>
-
-
-
 </div>
 <!-- -->        
         

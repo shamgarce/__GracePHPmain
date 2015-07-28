@@ -13,9 +13,24 @@ class home extends BaseController {
     public function doIndex(){
 
         $this->display('',[
+            'title' => '仪表盘',
+            'dis'   => '显示系统的使用情况，和数据情况',
+        ]);
+    }
+
+    public function doDashboard(){
+        $this->display('',[
             'title'=>'主界面'
         ]);
     }
+
+
+
+
+
+
+
+
 
     public function doMain()
     {

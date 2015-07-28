@@ -1,24 +1,18 @@
 <?php
-View::tplInclude('Frame/header', ['title' => 'Welcome']);
+View::tplInclude('Frame/header', ['title' => $title]);
 ?>
 
 
 
 <body class="page-body">
 <div class="page-loading-overlay"><div class="loader-2"></div></div>
-	<?php
-$data = array(
-'title' => 'Welcome',  //设置title变量为Welcome
-);
-View::tplInclude('Frame/setting', $data);
+<?php
+View::tplInclude('Frame/setting',  ['title' => $title]);
 ?>
 
 	
-		<?php
-$data = array(
-'title' => 'Welcome',  //设置title变量为Welcome
-);
-View::tplInclude('Frame/headbar', $data);
+<?php
+View::tplInclude('Frame/headbar',  ['title' => $title]);
 ?>
 
 	
@@ -26,10 +20,7 @@ View::tplInclude('Frame/headbar', $data);
 	
 	<div class="page-container"><!-- add class "sidebar-collapsed" to close sidebar by default, "chat-visible" to make chat appear always -->
 <?php
-$data = array(
-'title' => 'Welcome',  //设置title变量为Welcome
-);
-View::tplInclude('Frame/sitebar', $data);
+View::tplInclude('Frame/sitebar',['title' => $title]);
 ?>
 		
 
@@ -41,8 +32,8 @@ View::tplInclude('Frame/sitebar', $data);
 <!-- path nav -->
 <div class="page-title">
     <div class="title-env">
-        <h1 class="title">用户管理</h1>
-        <p class="description">用户增删改查</p>
+        <h1 class="title">仪表盘</h1>
+        <p class="description">显示系统的运行情况，和数据情况</p>
     </div>
 
     <div class="breadcrumb-env">
@@ -64,338 +55,174 @@ View::tplInclude('Frame/sitebar', $data);
 </div>        
 <!-- path nav end -->
         
-        
+        <script>
+				var xenonPalette = ['#68b828','#7c38bc','#0e62c7','#fcd036','#4fcdfc','#00b19d','#ff6264','#f7aa47'];
+			</script>
 <!-- row -->
-<div class="row">
 
 
-
-
-<div class="col-sm-12">
-<div class="panel panel-default collapsed">
-    <div class="panel-heading">
-    <h3 class="panel-title"><a data-toggle="panel" href="#">
-    <span class="expand-icon">添加</span>
-    </a></h3>
-        <div class="panel-options">
-            <!-- a href="#">
-            <i class="linecons-cog"></i>
-            </a -->
-            <a data-toggle="panel" href="#">
-            <span class="collapse-icon">–</span>
-            <span class="expand-icon">+</span>
-            </a>
-            <!-- a data-toggle="reload" href="#">
-            <i class="fa-rotate-right"></i>
-            </a -->
-            <a data-toggle="remove" href="#"> × </a>
-        </div>
-    </div>
-
-    <div class="panel-body">
-
-
-
-
-
-
-
-<form role="form" class="form-horizontal">
-								
-								<div class="form-group">
-									<label class="col-sm-2 control-label">登陆名</label>
+			<div class="row">
+				<div class="col-sm-12">
+				
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">数据库数据情况</h3>
+							<div class="panel-options">
+								<a href="#" data-toggle="panel">
+									<span class="collapse-icon">&ndash;</span>
+									<span class="expand-icon">+</span>
+								</a>
+								<a href="#" data-toggle="remove">
+									&times;
+								</a>
+							</div>
+						</div>
+						<div class="panel-body">	
+							<script type="text/javascript">
+								jQuery(document).ready(function($)
+								{
+									$("#bar-1").dxChart({
+										dataSource: [
+											{day: "Monday", sales: 3},
+											{day: "Tuesday", sales: 2},
+											{day: "Wednesday", sales: 3},
+											{day: "Thursday", sales: 4},
+											{day: "Friday", sales: 6},
+											{day: "Saturday", sales: 11},
+											{day: "Sund2ay", sales: 4} ,
+											{day: "Sunday", sales: 4} 
+										],
+									 
+										series: {
+											argumentField: "day",
+											valueField: "sales",
+											name: "Sales",
+											type: "bar",
+											color: '#68b828'
+										}
+									});
 									
-									<div class="col-sm-10">
-										<div class="input-group input-group-lg input-group-minimal">
-											<span class="input-group-addon">
-												<i class="linecons-pencil"></i>
-											</span>
-											<input type="email" class="form-control no-right-border" placeholder="登陆名">
-											<span class="input-group-addon">
-												<i class="linecons-paper-plane"></i>
-											</span>
-										</div>
-
-									</div>
-								</div>
+									$("#bar-1-randomize").on('click', function(ev)
+									{
+										ev.preventDefault();
+										
+										$('#bar-1').dxChart('instance').option('dataSource', [
+											{day: "Monday", sales: between(1,25)},
+											{day: "Tuesday", sales: between(1,25)},
+											{day: "Wednesday", sales: between(1,25)},
+											{day: "Thursday", sales: between(1,25)},
+											{day: "Friday", sales: between(1,25)},
+											{day: "Saturday", sales: between(1,25)},
+											{day: "Sunday", sales: between(1,25)} 
+										]);
+									});
+								});
 								
-								<div class="form-group-separator"></div>
-								
-								<div class="form-group">
-									<label class="col-sm-2 control-label">密码</label>
+								function between(randNumMin, randNumMax)
+								{
+									var randInt = Math.floor((Math.random() * ((randNumMax + 1) - randNumMin)) + randNumMin);
 									
-									<div class="col-sm-10">
-										<div class="input-group input-group-lg input-group-minimal">
-											<span class="input-group-addon">
-												<i class="linecons-pencil"></i>
-											</span>
-											<input type="email" class="form-control no-right-border" placeholder="密码">
-											<span class="input-group-addon">
-												<i class="linecons-paper-plane"></i>
-											</span>
-										</div>
-
-									</div>
-								</div>
-								
-								<div class="form-group-separator"></div>
-								
-								<div class="form-group">
-									<label class="col-sm-2 control-label">确认密码</label>
+									return randInt;
+								}
+							</script>
+							<div id="bar-1" style="height: 440px; width: 100%;"></div>
+							<br />
+							<a href="#" id="bar-1-randomize" class="btn btn-primary btn-small">Randomize</a>
+						</div>
+					</div>
+						
+				</div>
+			</div>
+			
+		
+			
+			
+			
+			<div class="row">
+				<div class="col-sm-12">
+				
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">数据库数据情况</h3>
+							<div class="panel-options">
+								<a href="#" data-toggle="panel">
+									<span class="collapse-icon">&ndash;</span>
+									<span class="expand-icon">+</span>
+								</a>
+								<a href="#" data-toggle="remove">
+									&times;
+								</a>
+							</div>
+						</div>
+						<div class="panel-body">	
+							<script type="text/javascript">
+								jQuery(document).ready(function($)
+								{
+									var dataSource = [
+										{region: "As1ia", val: 4119626293},
+										{region: "Af1rica", val: 1012956064},
+										{region: "No1rthern America", val: 344124520},
+										{region: "La1tin America and the Caribbean", val: 590946440},
+										{region: "Eu1rope", val: 727082222},
+										{region: "Asia", val: 4119626293},
+										{region: "Africa", val: 1012956064},
+										{region: "Northern America", val: 344124520},
+										{region: "Latin America and the Caribbean", val: 590946440},
+										{region: "Europe", val: 727082222},
+										{region: "Oceania", val: 35104756}
+									], timer;
 									
-									<div class="col-sm-10">
-										<div class="input-group input-group-lg input-group-minimal">
-											<span class="input-group-addon">
-												<i class="linecons-pencil"></i>
-											</span>
-											<input type="email" class="form-control no-right-border" placeholder="确认密码">
-											<span class="input-group-addon">
-												<i class="linecons-paper-plane"></i>
-											</span>
-										</div>
-
-									</div>
-								</div>
-								
-								<div class="form-group-separator"></div>
-								
-								<div class="form-group">
-									<label class="col-sm-2 control-label">真实姓名</label>
+									$("#bar-10").dxPieChart({
+										dataSource: dataSource,
+										title: "数据库数据情况",
+										tooltip: {
+											enabled: false,
+										  	format:"millions",
+											customizeText: function() { 
+												return this.argumentText + "<br/>" + this.valueText;
+											}
+										},
+										size: {
+											height: 420
+										},
+										pointClick: function(point) {
+											point.showTooltip();
+											clearTimeout(timer);
+											timer = setTimeout(function() { point.hideTooltip(); }, 2000);
+											$("select option:contains(" + point.argument + ")").prop("selected", true);
+										},
+										legend: {
+											visible: false
+										},  
+										series: [{
+											type: "doughnut",
+											argumentField: "region"
+										}],
+										palette: xenonPalette
+									});
 									
-									<div class="col-sm-10">
-										<div class="input-group input-group-lg input-group-minimal">
-											<span class="input-group-addon">
-												<i class="linecons-pencil"></i>
-											</span>
-											<input type="email" class="form-control no-right-border" placeholder="真实姓名">
-											<span class="input-group-addon">
-												<i class="linecons-paper-plane"></i>
-											</span>
-										</div>
-
-									</div>
-								</div>
-								
-								<div class="form-group-separator"></div>
-								
-								<div class="form-group">
-									<label class="col-sm-2 control-label">联系电话</label>
-									
-									<div class="col-sm-10">
-										<div class="input-group input-group-lg input-group-minimal">
-											<span class="input-group-addon">
-												<i class="linecons-pencil"></i>
-											</span>
-											<input type="email" class="form-control no-right-border" placeholder="联系电话">
-											<span class="input-group-addon">
-												<i class="linecons-paper-plane"></i>
-											</span>
-										</div>
-									</div>
-								</div>
-								
-								<div class="form-group-separator"></div>
-								<div class="form-group">
-									<label class="col-sm-2 control-label"></label>
-									<div class="col-sm-10">
-										<div class="input-group input-group-lg input-group-minimal">
-                                            <div class="form-group">
-                                            <button class="btn btn-success" type="submit">确定</button>
-                                            <button class="btn btn-white" type="reset">重置</button>
-                                            </div>
-
-										</div>
-									</div>
-								</div>
-								
-								
-                                
-                                
-                                
-                                
-                                
-                                
-							
-							</form>
+								});
+							</script>
+							<div id="bar-10" style="height: 450px; width: 100%;"></div>
+						</div>
+					</div>
+						
+				</div>
+			</div>
 
 
-
-
-
-
-
-
-
-    </div>
-</div>
-</div>
-
-
-
-
-<div class="col-sm-12">
-
-<div class="panel panel-default">
-    <div class="panel-heading">
-    <h3 class="panel-title">用户列表</h3>
-        <div class="panel-options">
-            <a  onclick="showAjaxModal();" href="javascript:;">
-            <i class="linecons-cog"></i>
-            </a>
-            <a data-toggle="panel" href="#">
-            <span class="collapse-icon">–</span>
-            <span class="expand-icon">+</span>
-            </a>
-            <a data-toggle="reload" href="#">
-            <i class="fa-rotate-right"></i>
-            </a>
-            <a data-toggle="remove" href="#"> × </a>
-        </div>
-    </div>
-
-    <div class="panel-body">
-   
-
-<table class="table table-model-2 table-hover">
-<thead>
-<tr>
-<th>id</th>
-<th>登陆名</th>
-<th>真实姓名</th>
-<th>用户组</th>
-<th>注册时间</th>
-<th>登陆时间</th>
-<th>登陆ip</th>
-<th width=70>无效？</th>
-<th width=300>操作</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>#</td>
-<td>Name<span class="label label-success">New2</span></td>
-<td>Address</td>
-<td>#</td>
-<td>Name</td>
-<td>Address</td>
-<td>#</td>
-<td><input class="iswitch iswitch-red" type="checkbox" checked=""></td>
-<td>
-<a class="btn btn-primary btn-single btn-sm  btn-icon icon-left" >Show Me</a>
-<a class="btn btn-secondary btn-sm btn-icon icon-left" onclick="showAjaxModal();" href="javascript:;"> Edit </a>
-<a class="btn btn-danger btn-sm btn-icon icon-left" href="#"> Delete </a>
-<a class="btn btn-info btn-sm btn-icon icon-left" href="#"> Profile </a>
-
-</td>
-
-</tr>
-
-<tr>
-  <td colspan="9" align="right">
-  
-  <div id="example-1_paginate" class="dataTables_paginate paging_simple_numbers">
-<ul class="pagination">
-<li id="example-1_previous" class="paginate_button previous disabled" aria-controls="example-1" tabindex="0">
-<a href="#">Previous</a>
-</li>
-<li class="paginate_button active" aria-controls="example-1" tabindex="0">
-<a href="#">1</a>
-</li>
-<li class="paginate_button " aria-controls="example-1" tabindex="0">
-<a href="#">2</a>
-</li>
-<li class="paginate_button " aria-controls="example-1" tabindex="0">
-<a href="#">3</a>
-</li>
-<li class="paginate_button " aria-controls="example-1" tabindex="0">
-<a href="#">4</a>
-</li>
-<li class="paginate_button " aria-controls="example-1" tabindex="0">
-<a href="#">5</a>
-</li>
-<li class="paginate_button " aria-controls="example-1" tabindex="0">
-<a href="#">6</a>
-</li>
-<li id="example-1_next" class="paginate_button next" aria-controls="example-1" tabindex="0">
-<a href="#">Next</a>
-</li>
-</ul>
-</div>
-  
-  </td>
-  </tr>
-
-</tbody>
-</table>
-   
-   
-   
-    </div>
-</div>
-</div>
-
-
-
-</div>
 <!-- -->        
         
 					
 
 			
-			<div class="jumbotron">
-				<h1>首页</h1>
-				
-<p>
-<pre>
-404
-login
-logout
-</pre>
-菜单设置
-<pre>
-用户管理
-接口管理
-
---针对个人的临时设置
-1  ： 显示帮助信息
-2 ： 
-Notifications
-
-Messages
-Events
-Updates
-SeverUptims
-
-
-
---我的
-
-message
-notifications
-
-
-设置
-修改信息
-修改密码
-退出登陆
-锁定
-</pre>
-
-                
-                
-                    
-                    </p>
-				
-			</div>
+			
 			
 
 			
 
-		  <?php
-$data = array(
-'title' => 'Welcome',  //设置title变量为Welcome
-);
-View::tplInclude('Frame/footer', $data);
+<?php
+View::tplInclude('Frame/footer',[]);
 ?>
 	  </div>
 		
@@ -405,11 +232,8 @@ View::tplInclude('Frame/footer', $data);
 	</div>
 	
 	
-	<?php
-$data = array(
-'title' => 'Welcome',  //设置title变量为Welcome
-);
-View::tplInclude('Frame/footerjs', $data);
+<?php
+View::tplInclude('Frame/footerjs', []);
 ?>
 
 
@@ -458,6 +282,10 @@ $(document).ready(function(){
 			</div>
 		</div>
 	</div>
+
+	<!-- Imported scripts on this page -->
+	<script src="/assets/js/devexpress-web-14.1/js/globalize.min.js"></script>
+	<script src="/assets/js/devexpress-web-14.1/js/dx.chartjs.js"></script>
 
 </body>
 </html>

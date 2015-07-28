@@ -8,29 +8,47 @@ class home extends Controller {
 
         if(!$this->user->islogin()){
             //跳登陆
-            $this->Redirect('/s/home/login');
-        }elseif($this->user->islock()){
+            $this->Redirect('/home/login');
+//        }elseif($this->user->islock()){
             //跳锁定
-            $this->Redirect('/s/home/locked');
+//            $this->Redirect('/s/home/locked');
         }else{
             //跳主页
-            $this->Redirect('/s/home/main');
+            $this->Redirect('/s/');
         }
         //登陆 跳主页
         //未登陆，跳登陆页
         //锁定，跳锁定也
-
-
         //默认跳转到s模块
 //        $this->redirect("/home/login");
     }
 
     //登陆
     public function doLogin(){
+
+        if($this->user->islogin()){
+            R('/s');
+        }
+
+        if($this->ispost){
+            $this->model->UserModel->signin();
+        }
+
+
+
         $this->display('',[
             'title'=>'登陆',
         ]);       //默认的index.php
     }
+
+    //退出登陆
+    public function doLogout()
+    {
+        $this->model->UserModel->signout();
+        $this->Redirect('/');
+    }
+
+
 
     //404错误
     public function doE404(){
@@ -62,10 +80,6 @@ class home extends Controller {
         ]);       //默认的index.php
     }
 
-    //登出
-    public function doLogout(){
-        echo '退出';
-    }
 
 
 
