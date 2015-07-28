@@ -23,10 +23,10 @@
                     <i class="linecons-cog"></i>
                 </a>
                 
-                <a href="#" data-toggle="user-info-menu-horizontal">
+                <!--a href="#" data-toggle="user-info-menu-horizontal">
                     <i class="fa-bell-o"></i>
                     <span class="badge badge-success">7</span>
-                </a>
+                </a -->
                 
                 <!-- data-toggle="mobile-menu-horizontal" will show horizontal menu links only -->
                 <!-- data-toggle="mobile-menu" will show sidebar menu links only -->
@@ -48,104 +48,73 @@
             <li>
                 <a href="dashboard-1.html">
                     <i class="linecons-cog"></i>
-                    <span class="title">Dashboard</span>
+                    <span class="title">菜单</span>
                 </a>
                 <ul>
                     <li>
+                        <a href="dashboard-3.html">
+                            <span class="title">仪表盘</span>
+                        </a>
+                    </li>
+                    <li>
                         <a href="dashboard-1.html">
-                            <span class="title">Dashboard 1</span>
+                            <span class="title">用户管理</span>
                         </a>
                     </li>
                     <li>
                         <a href="dashboard-2.html">
-                            <span class="title">Dashboard 2</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="dashboard-3.html">
-                            <span class="title">Dashboard 3</span>
+                            <span class="title">用户组管理</span>
                         </a>
                     </li>
                     <li>
                         <a href="dashboard-4.html">
-                            <span class="title">Dashboard 4</span>
+                            <span class="title">权限管理</span>
                         </a>
                     </li>
                     <li>
                         <a href="skin-generator.html">
-                            <span class="title">Skin Generator</span>
+                            <span class="title">接口管理</span>
                         </a>
                     </li>
                 </ul>
             </li>
+            
             <li class="opened active">
                 <a href="layout-variants.html">
                     <i class="linecons-desktop"></i>
-                    <span class="title">Layouts</span>
+                    <span class="title">临时</span>
                 </a>
                 <ul>
                     <li>
-                        <a href="layout-variants.html">
-                            <span class="title">Layout Variants &amp; API</span>
+                        <a href="/home/login">
+                            <span class="title">登陆</span>
                         </a>
                     </li>
                     <li>
-                        <a href="layout-collapsed-sidebar.html">
-                            <span class="title">Collapsed Sidebar</span>
+                        <a href="/home/logout">
+                            <span class="title">退出</span>
                         </a>
                     </li>
                     <li>
                         <a href="layout-static-sidebar.html">
-                            <span class="title">Static Sidebar</span>
+                            <span class="title">修改用户</span>
                         </a>
                     </li>
                     <li>
                         <a href="layout-horizontal-menu.html">
-                            <span class="title">Horizontal Menu</span>
+                            <span class="title">修改用户组</span>
                         </a>
                     </li>
                     <li class="active">
                         <a href="layout-horizontal-plus-sidebar.html">
-                            <span class="title">Horizontal &amp; Sidebar Menu</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="layout-horizontal-menu-click-to-open-subs.html">
-                            <span class="title">Horizontal Open On Click</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="layout-horizontal-menu-min.html">
-                            <span class="title">Horizontal Menu Minimal</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="layout-right-sidebar.html">
-                            <span class="title">Right Sidebar</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="layout-chat-open.html">
-                            <span class="title">Chat Open</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="layout-horizontal-sidebar-menu-collapsed-right.html">
-                            <span class="title">Both Menus &amp; Collapsed</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="layout-boxed.html">
-                            <span class="title">Boxed Layout</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="layout-boxed-horizontal-menu.html">
-                            <span class="title">Boxed &amp; Horizontal Menu</span>
+                            <span class="title">修改个人资料</span>
                         </a>
                     </li>
                 </ul>
             </li>
+            
+            <!--
+            
             <li>
                 <a href="ui-panels.html">
                     <i class="linecons-note"></i>
@@ -593,6 +562,7 @@
                     </li>
                 </ul>
             </li>
+            -->
         </ul>
                 
         

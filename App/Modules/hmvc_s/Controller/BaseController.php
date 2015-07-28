@@ -9,6 +9,16 @@ class BaseController extends Controller{
         parent::__construct();
     }
 
+    protected function _init(){
+        header("Content-Type:text/html; charset=utf-8");
+        //+--------------------------------------------------
+        $this->rbac->run($this->getaccessRules());
+        //+--------------------------------------------------
+        if($this->request->post) $this->ispost = true;
+        //加入个人资料    $myinfo
+
+    }
+
 
 //  '*'     //所有
 //  '@'     //登陆用户

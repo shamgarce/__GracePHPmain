@@ -39,16 +39,13 @@ View::tplInclude('Frame/sitebar',['title' => $title]);
     <div class="breadcrumb-env">
         <ol class="breadcrumb bc-1">
         <li>
-            <a href="dashboard-1.html">
+            <a href="/">
             <i class="fa-home"></i>
             Home
             </a>
         </li>
-        <li>
-            <a href="tables-basic.html">Tables</a>
-        </li>
         <li class="active">
-            <strong>Data Tables</strong>
+            <a>仪表盘</a>
         </li>
         </ol>
     </div>

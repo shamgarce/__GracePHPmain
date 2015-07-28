@@ -15972,3 +15972,105 @@ TM : 0.0050008296966553 : 2015-07-28 17:31:24
 UPDATE dy_user SET logtime = '192.168.1.200', regtime = '1438075884.6066' WHERE uname = 'irones'
 TM : 0.0050008296966553 : 2015-07-28 17:31:24
 ----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-28 17:34:03
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-28 17:34:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-28 17:43:04
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-28 17:43:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-28 17:43:06
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-28 17:43:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-28 17:43:06
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050008296966553 : 2015-07-28 17:43:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-28 17:43:06
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-28 17:43:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-28 17:43:14
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-28 17:43:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040009021759033 : 2015-07-28 17:43:14
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0040009021759033 : 2015-07-28 17:43:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-28 17:43:15
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050010681152344 : 2015-07-28 17:43:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-28 17:43:15
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0050010681152344 : 2015-07-28 17:43:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-28 17:43:15
+----------------------------
+DESC dy_user
+TM : 0.0050010681152344 : 2015-07-28 17:43:15
+----------------------------
+UPDATE dy_user SET logtime = '192.168.1.200', regtime = '1438076595.9723' WHERE uname = 'irones'
+TM : 0.0050010681152344 : 2015-07-28 17:43:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-28 17:43:21
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-28 17:43:21
+----------------------------
