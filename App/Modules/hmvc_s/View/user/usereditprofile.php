@@ -1,23 +1,17 @@
 <?php
-View::tplInclude('Frame/header', ['title' => 'Welcome']);
+View::tplInclude('Frame/header', $data);
 ?>
 
 
 
 <body class="page-body">
 <div class="page-loading-overlay"><div class="loader-2"></div></div>
-	<?php
-$data = array(
-'title' => 'Welcome',  //设置title变量为Welcome
-);
+<?php
 View::tplInclude('Frame/setting', $data);
 ?>
 
 	
-		<?php
-$data = array(
-'title' => 'Welcome',  //设置title变量为Welcome
-);
+<?php
 View::tplInclude('Frame/headbar', $data);
 ?>
 
@@ -26,9 +20,6 @@ View::tplInclude('Frame/headbar', $data);
 	
 	<div class="page-container"><!-- add class "sidebar-collapsed" to close sidebar by default, "chat-visible" to make chat appear always -->
 <?php
-$data = array(
-'title' => 'Welcome',  //设置title变量为Welcome
-);
 View::tplInclude('Frame/sitebar', $data);
 ?>
 		
@@ -95,11 +86,6 @@ View::tplInclude('Frame/sitebar', $data);
     <div class="panel-body">
 
 
-
-
-
-
-
 <form role="form" class="form-horizontal">
 								
 								<div class="form-group">
@@ -110,7 +96,7 @@ View::tplInclude('Frame/sitebar', $data);
 											<span class="input-group-addon">
 												<i class="linecons-pencil"></i>
 											</span>
-											<input type="email" class="form-control no-right-border" placeholder="登陆名">
+											<input name="uname" class="form-control no-right-border" placeholder="登陆名" disabled value="<?=$user['uname']?>">
 											<span class="input-group-addon">
 												<i class="linecons-paper-plane"></i>
 											</span>
@@ -129,7 +115,7 @@ View::tplInclude('Frame/sitebar', $data);
 											<span class="input-group-addon">
 												<i class="linecons-pencil"></i>
 											</span>
-											<input type="email" class="form-control no-right-border" placeholder="密码">
+											<input type="password" name="pwd" class="form-control no-right-border" placeholder="密码">
 											<span class="input-group-addon">
 												<i class="linecons-paper-plane"></i>
 											</span>
@@ -148,7 +134,7 @@ View::tplInclude('Frame/sitebar', $data);
 											<span class="input-group-addon">
 												<i class="linecons-pencil"></i>
 											</span>
-											<input type="email" class="form-control no-right-border" placeholder="确认密码">
+											<input type="password" name="pwdre" class="form-control no-right-border" placeholder="确认密码">
 											<span class="input-group-addon">
 												<i class="linecons-paper-plane"></i>
 											</span>
@@ -167,7 +153,7 @@ View::tplInclude('Frame/sitebar', $data);
 											<span class="input-group-addon">
 												<i class="linecons-pencil"></i>
 											</span>
-											<input type="email" class="form-control no-right-border" placeholder="真实姓名">
+											<input name="tname" class="form-control no-right-border" placeholder="真实姓名" value="<?=$user['tname']?>">
 											<span class="input-group-addon">
 												<i class="linecons-paper-plane"></i>
 											</span>
@@ -176,31 +162,14 @@ View::tplInclude('Frame/sitebar', $data);
 									</div>
 								</div>
 								
-								<div class="form-group-separator"></div>
-								
-								<div class="form-group">
-									<label class="col-sm-2 control-label">联系电话</label>
-									
-									<div class="col-sm-10">
-										<div class="input-group input-group-lg input-group-minimal">
-											<span class="input-group-addon">
-												<i class="linecons-pencil"></i>
-											</span>
-											<input type="email" class="form-control no-right-border" placeholder="联系电话">
-											<span class="input-group-addon">
-												<i class="linecons-paper-plane"></i>
-											</span>
-										</div>
-									</div>
-								</div>
-								
+							
 								<div class="form-group-separator"></div>
 								<div class="form-group">
 									<label class="col-sm-2 control-label"></label>
 									<div class="col-sm-10">
 										<div class="input-group input-group-lg input-group-minimal">
                                             <div class="form-group">
-                                            <button class="btn btn-success" type="submit">确定</button>
+                                            <a class="btn btn-success form_submit" type="submit">确定</a>
                                             <button class="btn btn-white" type="reset">重置</button>
                                             </div>
 
@@ -236,10 +205,7 @@ View::tplInclude('Frame/sitebar', $data);
 
 			
 
-		  <?php
-$data = array(
-'title' => 'Welcome',  //设置title变量为Welcome
-);
+<?php
 View::tplInclude('Frame/footer', $data);
 ?>
 	  </div>
@@ -250,10 +216,7 @@ View::tplInclude('Frame/footer', $data);
 	</div>
 	
 	
-	<?php
-$data = array(
-'title' => 'Welcome',  //设置title变量为Welcome
-);
+<?php
 View::tplInclude('Frame/footerjs', $data);
 ?>
 
@@ -261,48 +224,40 @@ View::tplInclude('Frame/footerjs', $data);
 
     
 <script language="javascript"> 
-function showAjaxModal()
-{
-	jQuery('#modal-7').modal('show', {backdrop: 'static'});
-	
-	jQuery.ajax({
-		url: "/test.html",
-		success: function(response)
-		{
-			jQuery('#modal-7 .modal-body').html(response);
-		}
-	});
-}
-
 $(document).ready(function(){
-
+	
+        $('.form_submit').click(function(){
+			if(	$("input[name='pwd']").val() != $("input[name='pwdre']").val()){
+				alert('两次密码不一样');
+			}
+			var res = $.ajax({
+				url : '/s/user/usereditprofile',
+				type: 'post',
+				data: {
+					uname 	: $("input[name='uname']").val(),
+					pwd 	: $("input[name='pwd']").val(),
+					pwdre 	: $("input[name='pwdre']").val(),
+					tname 	: $("input[name='tname']").val(),
+					},
+				dataType: "json",
+				async:false,
+				cache:false
+			}).responseJSON;
+			//console.log(res);
+			//==========================1
+			if(res.code<0){
+				alert(res.msg);
+				return false;
+			}else{
+				location.reload();
+				return true;
+			}
+			
+        })
 
 }) 
 </script> 
     
-    	<!-- Modal 7 (Ajax Modal)-->
-	<div class="modal fade" id="modal-7">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h4 class="modal-title">Dynamic Content</h4>
-				</div>
-				
-				<div class="modal-body">
-				
-					Content is loading...
-					
-				</div>
-				
-				<div class="modal-footer">
-					<button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
-					<button type="button" class="btn btn-info">Save changes</button>
-				</div>
-			</div>
-		</div>
-	</div>
-
+    
 </body>
 </html>

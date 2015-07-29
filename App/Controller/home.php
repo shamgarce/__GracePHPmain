@@ -35,9 +35,45 @@ class home extends Controller {
         $this->Redirect('/');
     }
 
+
+
+
+
+
+
+
+
+
+
+
+    //用户组enable变换
+    public function doGroupenablechange()
+    {
+        $groupid = $this->request->post['groupid'];
+        $res['enable'] = $this->request->post['enable']?0:1;
+        $this->table->g_group->where("groupid =  $groupid")->update($res);
+        echo json_encode([
+            'code'  => 200,
+            'msg'   => '完成',
+        ]);
+        exit;
+    }
+
+    //仪表盘调用
     public function doGetdbused()
     {
-        echo json_encode([1,2,3]);
+
+        $sql = "select table_name
+                from information_schema.tables
+                where table_schema='{$this->db->Config['database']}' and table_type='base table'";
+        $rc = $this->db->getcol($sql);
+        foreach($rc as $value){
+            $mc[] = [
+                'table' => $value,
+                'val'   => intval($this->table->$value->getcount())
+            ];
+        }
+        echo json_encode($mc);
         exit;
     }
 

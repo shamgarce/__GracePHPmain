@@ -1,10 +1,12 @@
+<?php
+?>
 <nav class="navbar horizontal-menu navbar-fixed-top"><!-- set fixed position by adding class "navbar-fixed-top" -->
     
     <div class="navbar-inner">
     
         <!-- Navbar Brand -->
         <div class="navbar-brand">
-            <a href="dashboard-1.html" class="logo">
+            <a href="/" class="logo">
                 <img src="/assets/images/logo-white-bg@2x.png" width="80" alt="" class="hidden-xs" />
                 <img src="/assets/images/logo@2x.png" width="80" alt="" class="visible-xs" />
             </a>
@@ -46,33 +48,28 @@
                 
         <ul class="navbar-nav">
             <li>
-                <a href="dashboard-1.html">
+                <a href="#">
                     <i class="linecons-cog"></i>
                     <span class="title">菜单</span>
                 </a>
                 <ul>
                     <li>
-                        <a href="dashboard-3.html">
+                        <a href="/s">
                             <span class="title">仪表盘</span>
                         </a>
                     </li>
                     <li>
-                        <a href="dashboard-1.html">
+                        <a href="/s/user/userlist">
                             <span class="title">用户管理</span>
                         </a>
                     </li>
                     <li>
-                        <a href="dashboard-2.html">
+                        <a href="/s/user/grouplist">
                             <span class="title">用户组管理</span>
                         </a>
                     </li>
                     <li>
-                        <a href="dashboard-4.html">
-                            <span class="title">权限管理</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="skin-generator.html">
+                        <a href="/s/api/list">
                             <span class="title">接口管理</span>
                         </a>
                     </li>
@@ -80,11 +77,16 @@
             </li>
             
             <li class="opened active">
-                <a href="layout-variants.html">
+                <a href="#">
                     <i class="linecons-desktop"></i>
                     <span class="title">临时</span>
                 </a>
                 <ul>
+                    <li>
+                        <a href="/s/home/view">
+                            <span class="title">查看</span>
+                        </a>
+                    </li>
                     <li>
                         <a href="/home/login">
                             <span class="title">登陆</span>
@@ -96,7 +98,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="layout-static-sidebar.html">
+                        <a href="">
                             <span class="title">修改用户</span>
                         </a>
                     </li>
@@ -106,7 +108,7 @@
                         </a>
                     </li>
                     <li class="active">
-                        <a href="layout-horizontal-plus-sidebar.html">
+                        <a href="/s/user/usereditprofile">
                             <span class="title">修改个人资料</span>
                         </a>
                     </li>
@@ -830,8 +832,7 @@
             <li class="dropdown user-profile">
                 <a href="#" data-toggle="dropdown">
                     <img src="/assets/images/user-1.png" alt="user-image" class="img-circle img-inline userpic-32" width="28" />
-                    <span>
-                        Arlind Nushi
+                    <span><?=$user['tname']?:$user['uname'];?>
                         <i class="fa-angle-down"></i>
                     </span>
                 </a>
@@ -850,7 +851,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/home/profile">
+                        <a href="/s/user/usereditprofile">
                             <i class="fa-user"></i>
                             修改个人资料
                         </a>

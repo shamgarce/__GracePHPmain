@@ -5,7 +5,7 @@ View::tplInclude('Frame/header', ['title' => 'Welcome']);
 
 
 <body class="page-body">
-<div class="page-loading-overlay"><div class="loader-2"></div></div>
+<!--div class="page-loading-overlay"><div class="loader-2"></div></div -->
 	<?php
 $data = array(
 'title' => 'Welcome',  //设置title变量为Welcome
@@ -74,9 +74,10 @@ View::tplInclude('Frame/sitebar', $data);
 <div class="col-sm-12">
 <div class="panel panel-default collapsed">
     <div class="panel-heading">
-    <h3 class="panel-title"><a data-toggle="panel" href="#">
-    <span class="expand-icon">添加用户组</span>
-    </a></h3>
+    <h3 class="panel-title"><a class="btn btn-info btn-lg btn-icon icon-left" data-toggle="panel" href="#">
+    <span class=" expand-icon">添加用户组</span></a></h3>
+    
+    
         <div class="panel-options">
             <!-- a href="#">
             <i class="linecons-cog"></i>
@@ -103,14 +104,14 @@ View::tplInclude('Frame/sitebar', $data);
 <form role="form" class="form-horizontal">
 								
 								<div class="form-group">
-									<label class="col-sm-2 control-label">登陆名</label>
+									<label class="col-sm-2 control-label">组名</label>
 									
 									<div class="col-sm-10">
 										<div class="input-group input-group-lg input-group-minimal">
 											<span class="input-group-addon">
 												<i class="linecons-pencil"></i>
 											</span>
-											<input type="email" class="form-control no-right-border" placeholder="登陆名">
+											<input name="groupname" class="form-control no-right-border" placeholder="组名">
 											<span class="input-group-addon">
 												<i class="linecons-paper-plane"></i>
 											</span>
@@ -122,14 +123,14 @@ View::tplInclude('Frame/sitebar', $data);
 								<div class="form-group-separator"></div>
 								
 								<div class="form-group">
-									<label class="col-sm-2 control-label">密码</label>
+									<label class="col-sm-2 control-label">标识</label>
 									
 									<div class="col-sm-10">
 										<div class="input-group input-group-lg input-group-minimal">
 											<span class="input-group-addon">
 												<i class="linecons-pencil"></i>
 											</span>
-											<input type="email" class="form-control no-right-border" placeholder="密码">
+											<input name="groupchr" class="form-control no-right-border" placeholder="标识">
 											<span class="input-group-addon">
 												<i class="linecons-paper-plane"></i>
 											</span>
@@ -141,14 +142,14 @@ View::tplInclude('Frame/sitebar', $data);
 								<div class="form-group-separator"></div>
 								
 								<div class="form-group">
-									<label class="col-sm-2 control-label">确认密码</label>
+									<label class="col-sm-2 control-label">排序</label>
 									
 									<div class="col-sm-10">
 										<div class="input-group input-group-lg input-group-minimal">
 											<span class="input-group-addon">
 												<i class="linecons-pencil"></i>
 											</span>
-											<input type="email" class="form-control no-right-border" placeholder="确认密码">
+											<input name="sort" class="form-control no-right-border" placeholder="排序">
 											<span class="input-group-addon">
 												<i class="linecons-paper-plane"></i>
 											</span>
@@ -157,42 +158,7 @@ View::tplInclude('Frame/sitebar', $data);
 									</div>
 								</div>
 								
-								<div class="form-group-separator"></div>
 								
-								<div class="form-group">
-									<label class="col-sm-2 control-label">真实姓名</label>
-									
-									<div class="col-sm-10">
-										<div class="input-group input-group-lg input-group-minimal">
-											<span class="input-group-addon">
-												<i class="linecons-pencil"></i>
-											</span>
-											<input type="email" class="form-control no-right-border" placeholder="真实姓名">
-											<span class="input-group-addon">
-												<i class="linecons-paper-plane"></i>
-											</span>
-										</div>
-
-									</div>
-								</div>
-								
-								<div class="form-group-separator"></div>
-								
-								<div class="form-group">
-									<label class="col-sm-2 control-label">联系电话</label>
-									
-									<div class="col-sm-10">
-										<div class="input-group input-group-lg input-group-minimal">
-											<span class="input-group-addon">
-												<i class="linecons-pencil"></i>
-											</span>
-											<input type="email" class="form-control no-right-border" placeholder="联系电话">
-											<span class="input-group-addon">
-												<i class="linecons-paper-plane"></i>
-											</span>
-										</div>
-									</div>
-								</div>
 								
 								<div class="form-group-separator"></div>
 								<div class="form-group">
@@ -200,7 +166,7 @@ View::tplInclude('Frame/sitebar', $data);
 									<div class="col-sm-10">
 										<div class="input-group input-group-lg input-group-minimal">
                                             <div class="form-group">
-                                            <button class="btn btn-success" type="submit">确定</button>
+                                            <a class="btn btn-success form_submit" type="submit">确定</a>
                                             <button class="btn btn-white" type="reset">重置</button>
                                             </div>
 
@@ -259,36 +225,34 @@ View::tplInclude('Frame/sitebar', $data);
 <table class="table table-model-2 table-hover">
 <thead>
 <tr>
-<th>id</th>
-<th>登陆名</th>
-<th>真实姓名</th>
-<th>用户组</th>
-<th>注册时间</th>
-<th>登陆时间</th>
-<th>登陆ip</th>
-<th width=70>无效？</th>
-<th width=300>操作</th>
+<th width=50>id</th>
+<th>用户组名称</th>
+<th>标识</th>
+<th>排序</th>
+<th width=70>有效？</th>
+<th width=150>操作</th>
 </tr>
 </thead>
 <tbody>
+
+<?php
+foreach($rc as $key=>$value){
+?>
+
 <tr>
-<td>#</td>
-<td>Name<span class="label label-success">New2</span></td>
-<td>Address</td>
-<td>#</td>
-<td>Name</td>
-<td>Address</td>
-<td>#</td>
-<td><input class="iswitch iswitch-red" type="checkbox" checked=""></td>
+<td><?=$value['groupid']?></td>
+<td><?=$value['groupname']?></td>
+<td><?=$value['groupchr']?></td>
+<td><?=$value['sort']?></td>
+<td><input type="checkbox" class="iswitch iswitch-red changeenableflag" cenable="<?=$value['enable']?>" relid="<?=$value['groupid']?>" <?=$value['enable']?'checked="CHECKED"':''?>></td>
 <td>
-<a class="btn btn-primary btn-single btn-sm  btn-icon icon-left" >Show Me</a>
-<a class="btn btn-secondary btn-sm btn-icon icon-left" onClick="showAjaxModal();" href="javascript:;"> Edit </a>
-<a class="btn btn-danger btn-sm btn-icon icon-left" href="#"> Delete </a>
-<a class="btn btn-info btn-sm btn-icon icon-left" href="#"> Profile </a>
-
+<a class="btn btn-secondary btn-sm btn-icon icon-left" onClick="showAjaxModal();" href="javascript:;"> 修改 </a>
+<a class="btn btn-info btn-sm btn-icon icon-left" href="/s/user/grouplist/delete/<?=$value['groupid']?>">删除</a>
 </td>
-
 </tr>
+<?php
+}
+?>
 
 
 </tbody>
@@ -348,7 +312,56 @@ function showAjaxModal()
 }
 
 $(document).ready(function(){
-
+	
+		$('.changeenableflag').click(function(){
+			var res = $.ajax({
+				url : '/home/groupenablechange',
+				type: 'post',
+				data: {
+					groupid : $(this).attr("relid"),
+					enable 	: $(this).attr("cenable"),
+					},
+				dataType: "json",
+				async:false,
+				cache:false
+			}).responseJSON;
+			//console.log(res);
+			//==========================1
+			if(res.code<0){
+				alert(res.msg);
+				return false;
+			}else{
+				location.reload();
+				return true;
+			}
+			
+        })
+				
+	//提交添加组
+		$('.form_submit').click(function(){
+			var res = $.ajax({
+				url : '/s/user/grouplist',
+				type: 'post',
+				data: {
+					groupname 	: $("input[name='groupname']").val(),
+					groupchr 	: $("input[name='groupchr']").val(),
+					sort 		: $("input[name='sort']").val(),
+					},
+				dataType: "json",
+				async:false,
+				cache:false
+			}).responseJSON;
+			//console.log(res);
+			//==========================1
+			if(res.code<0){
+				alert(res.msg);
+				return false;
+			}else{
+				location.reload();
+				return true;
+			}
+			
+        })
 
 }) 
 </script> 

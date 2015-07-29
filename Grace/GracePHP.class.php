@@ -428,6 +428,8 @@ class Controller {
         $data['router'] = $this->router;
         $data['env']    = $this->env;
         $data['env']['ET']    = T();
+        $data['user']    = $this->user->getuserinfo();
+
 
         $this->_view->display($tpl,$data);
     }
@@ -441,6 +443,7 @@ class Controller {
         $data['router'] = $this->router;
         $data['env']    = $this->env;
         $data['env']['ET']    = T();
+        $data['user']    = $this->user->getuserinfo();
 
         return $this->_view->fetch($tpl,$data);
     }

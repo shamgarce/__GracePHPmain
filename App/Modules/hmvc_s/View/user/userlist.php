@@ -1,23 +1,19 @@
 <?php
-View::tplInclude('Frame/header', ['title' => 'Welcome']);
+View::tplInclude('Frame/header', $data);
 ?>
 
 
 
 <body class="page-body">
 <div class="page-loading-overlay"><div class="loader-2"></div></div>
-	<?php
-$data = array(
-'title' => 'Welcome',  //设置title变量为Welcome
-);
+<?php
+
 View::tplInclude('Frame/setting', $data);
 ?>
 
-	
-		<?php
-$data = array(
-'title' => 'Welcome',  //设置title变量为Welcome
-);
+
+<?php
+
 View::tplInclude('Frame/headbar', $data);
 ?>
 
@@ -26,9 +22,6 @@ View::tplInclude('Frame/headbar', $data);
 	
 	<div class="page-container"><!-- add class "sidebar-collapsed" to close sidebar by default, "chat-visible" to make chat appear always -->
 <?php
-$data = array(
-'title' => 'Welcome',  //设置title变量为Welcome
-);
 View::tplInclude('Frame/sitebar', $data);
 ?>
 		
@@ -74,9 +67,9 @@ View::tplInclude('Frame/sitebar', $data);
 <div class="col-sm-12">
 <div class="panel panel-default collapsed">
     <div class="panel-heading">
-    <h3 class="panel-title"><a data-toggle="panel" href="#">
-    <span class="expand-icon">添加用户</span>
-    </a></h3>
+    <h3 class="panel-title"><a class="btn btn-info btn-lg btn-icon icon-left" data-toggle="panel" href="#">
+    <span class=" expand-icon">添加新用户</span></a></h3>
+    
         <div class="panel-options">
             <!-- a href="#">
             <i class="linecons-cog"></i>
@@ -292,7 +285,7 @@ View::tplInclude('Frame/sitebar', $data);
 
 <tr>
   <td colspan="9" align="right">
-  
+ <!-- 
   <div id="example-1_paginate" class="dataTables_paginate paging_simple_numbers">
 <ul class="pagination">
 <li id="example-1_previous" class="paginate_button previous disabled" aria-controls="example-1" tabindex="0">
@@ -321,7 +314,7 @@ View::tplInclude('Frame/sitebar', $data);
 </li>
 </ul>
 </div>
-  
+-->  
   </td>
   </tr>
 
@@ -343,10 +336,7 @@ View::tplInclude('Frame/sitebar', $data);
 
 			
 
-		  <?php
-$data = array(
-'title' => 'Welcome',  //设置title变量为Welcome
-);
+<?php
 View::tplInclude('Frame/footer', $data);
 ?>
 	  </div>
@@ -357,10 +347,7 @@ View::tplInclude('Frame/footer', $data);
 	</div>
 	
 	
-	<?php
-$data = array(
-'title' => 'Welcome',  //设置title变量为Welcome
-);
+<?php
 View::tplInclude('Frame/footerjs', $data);
 ?>
 

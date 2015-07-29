@@ -16074,3 +16074,21875 @@ TM : 0.0049998760223389 : 2015-07-28 17:43:21
  select uid,uname from dy_user
 TM : 0.0049998760223389 : 2015-07-28 17:43:21
 ----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 09:33:05
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0039999485015869 : 2015-07-29 09:33:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 09:33:18
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 09:33:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 09:33:18
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 09:33:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 09:33:18
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 09:33:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 09:33:21
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 09:33:21
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 09:33:21
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 09:33:21
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 09:33:21
+----------------------------
+DESC dy_user
+TM : 0.005000114440918 : 2015-07-29 09:33:21
+----------------------------
+UPDATE dy_user SET logtime = '192.168.1.200', regtime = '1438133601.6799' WHERE uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 09:33:21
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:02:25
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0039999485015869 : 2015-07-29 10:02:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:02:35
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:02:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060009956359863 : 2015-07-29 10:02:59
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0060009956359863 : 2015-07-29 10:02:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060000419616699 : 2015-07-29 10:03:34
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0060000419616699 : 2015-07-29 10:03:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060000419616699 : 2015-07-29 10:03:34
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0060000419616699 : 2015-07-29 10:03:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:03:36
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0039999485015869 : 2015-07-29 10:03:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:03:36
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0039999485015869 : 2015-07-29 10:03:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:03:48
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:03:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:03:48
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:03:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:04:00
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:04:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:04:00
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 10:04:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:06:57
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:06:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:06:57
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 10:06:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:07:56
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:07:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:07:56
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:07:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040011405944824 : 2015-07-29 10:07:59
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0040011405944824 : 2015-07-29 10:07:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040011405944824 : 2015-07-29 10:07:59
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0040011405944824 : 2015-07-29 10:07:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:08:34
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050010681152344 : 2015-07-29 10:08:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:08:34
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0050010681152344 : 2015-07-29 10:08:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:09:16
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:09:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:09:16
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:09:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 10:10:38
+----------------------------
+ select uid,uname from dy_user
+TM : 0.004000186920166 : 2015-07-29 10:10:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 10:10:38
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.004000186920166 : 2015-07-29 10:10:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:10:39
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:10:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:10:39
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:10:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 10:11:04
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 10:11:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 10:11:04
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 10:11:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:11:39
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:11:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:11:39
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:11:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:11:42
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:11:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:11:42
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:11:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:11:56
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0039999485015869 : 2015-07-29 10:11:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:11:56
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0039999485015869 : 2015-07-29 10:11:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:11:59
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0039999485015869 : 2015-07-29 10:11:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:11:59
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0039999485015869 : 2015-07-29 10:11:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:12:09
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:12:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:12:09
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:12:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:12:50
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:12:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:12:50
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 10:12:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040011405944824 : 2015-07-29 10:13:19
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0040011405944824 : 2015-07-29 10:13:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040011405944824 : 2015-07-29 10:13:19
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0040011405944824 : 2015-07-29 10:13:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:22:56
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:22:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:22:56
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:22:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0099999904632568 : 2015-07-29 10:25:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0040011405944824 : 2015-07-29 10:27:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0039999485015869 : 2015-07-29 10:27:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:27:44
+----------------------------
+ select count(*) from dy_user
+TM : 0.0039999485015869 : 2015-07-29 10:27:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:27:44
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0039999485015869 : 2015-07-29 10:27:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:27:44
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0039999485015869 : 2015-07-29 10:27:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:28:31
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0039999485015869 : 2015-07-29 10:28:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:28:31
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:28:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:28:31
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:28:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0039999485015869 : 2015-07-29 10:28:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:28:32
+----------------------------
+ select count(*) from dy_user
+TM : 0.0039999485015869 : 2015-07-29 10:28:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:28:32
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0039999485015869 : 2015-07-29 10:28:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:28:32
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0039999485015869 : 2015-07-29 10:28:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:28:36
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:28:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:28:36
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:28:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0049998760223389 : 2015-07-29 10:28:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:28:37
+----------------------------
+ select count(*) from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:28:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:28:37
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0049998760223389 : 2015-07-29 10:28:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:28:37
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0049998760223389 : 2015-07-29 10:28:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:29:08
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050010681152344 : 2015-07-29 10:29:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:29:08
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0050010681152344 : 2015-07-29 10:29:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0060000419616699 : 2015-07-29 10:29:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060000419616699 : 2015-07-29 10:29:09
+----------------------------
+ select count(*) from dy_user
+TM : 0.0060000419616699 : 2015-07-29 10:29:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060000419616699 : 2015-07-29 10:29:09
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0060000419616699 : 2015-07-29 10:29:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060000419616699 : 2015-07-29 10:29:09
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0060000419616699 : 2015-07-29 10:29:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:31:22
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:31:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:31:22
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 10:31:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0050010681152344 : 2015-07-29 10:31:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:31:23
+----------------------------
+ select count(*) from dy_user
+TM : 0.0050010681152344 : 2015-07-29 10:31:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:31:23
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0050010681152344 : 2015-07-29 10:31:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:31:23
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0050010681152344 : 2015-07-29 10:31:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0059998035430908 : 2015-07-29 10:31:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0059998035430908 : 2015-07-29 10:31:23
+----------------------------
+ select count(*) from dy_user
+TM : 0.0059998035430908 : 2015-07-29 10:31:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0059998035430908 : 2015-07-29 10:31:23
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0059998035430908 : 2015-07-29 10:31:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0059998035430908 : 2015-07-29 10:31:23
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0059998035430908 : 2015-07-29 10:31:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:31:33
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:31:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:31:33
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 10:31:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0040009021759033 : 2015-07-29 10:31:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040009021759033 : 2015-07-29 10:31:33
+----------------------------
+ select count(*) from dy_user
+TM : 0.0040009021759033 : 2015-07-29 10:31:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040009021759033 : 2015-07-29 10:31:33
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0040009021759033 : 2015-07-29 10:31:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040009021759033 : 2015-07-29 10:31:33
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0040009021759033 : 2015-07-29 10:31:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0060000419616699 : 2015-07-29 10:31:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060000419616699 : 2015-07-29 10:31:33
+----------------------------
+ select count(*) from dy_user
+TM : 0.0060000419616699 : 2015-07-29 10:31:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060000419616699 : 2015-07-29 10:31:33
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0060000419616699 : 2015-07-29 10:31:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060000419616699 : 2015-07-29 10:31:33
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0060000419616699 : 2015-07-29 10:31:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:31:44
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:31:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:31:44
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:31:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0050008296966553 : 2015-07-29 10:31:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-29 10:31:45
+----------------------------
+ select count(*) from dy_user
+TM : 0.0050008296966553 : 2015-07-29 10:31:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-29 10:31:45
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0050008296966553 : 2015-07-29 10:31:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-29 10:31:45
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0050008296966553 : 2015-07-29 10:31:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0050010681152344 : 2015-07-29 10:31:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:31:45
+----------------------------
+ select count(*) from dy_user
+TM : 0.0050010681152344 : 2015-07-29 10:31:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:31:45
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0050010681152344 : 2015-07-29 10:31:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:31:45
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0050010681152344 : 2015-07-29 10:31:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.005000114440918 : 2015-07-29 10:32:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:32:04
+----------------------------
+ select count(*) from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:32:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:32:04
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.005000114440918 : 2015-07-29 10:32:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:32:04
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.005000114440918 : 2015-07-29 10:32:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0040011405944824 : 2015-07-29 10:32:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040011405944824 : 2015-07-29 10:32:10
+----------------------------
+ select count(*) from dy_user
+TM : 0.0040011405944824 : 2015-07-29 10:32:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040011405944824 : 2015-07-29 10:32:10
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0040011405944824 : 2015-07-29 10:32:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040011405944824 : 2015-07-29 10:32:10
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0040011405944824 : 2015-07-29 10:32:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0099999904632568 : 2015-07-29 10:32:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0099999904632568 : 2015-07-29 10:32:10
+----------------------------
+ select count(*) from dy_user
+TM : 0.0099999904632568 : 2015-07-29 10:32:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0099999904632568 : 2015-07-29 10:32:10
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0099999904632568 : 2015-07-29 10:32:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0099999904632568 : 2015-07-29 10:32:10
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0099999904632568 : 2015-07-29 10:32:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0040009021759033 : 2015-07-29 10:32:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040009021759033 : 2015-07-29 10:32:11
+----------------------------
+ select count(*) from dy_user
+TM : 0.0040009021759033 : 2015-07-29 10:32:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040009021759033 : 2015-07-29 10:32:11
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0040009021759033 : 2015-07-29 10:32:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040009021759033 : 2015-07-29 10:32:11
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0040009021759033 : 2015-07-29 10:32:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0049998760223389 : 2015-07-29 10:32:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:32:11
+----------------------------
+ select count(*) from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:32:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:32:11
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0049998760223389 : 2015-07-29 10:32:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:32:11
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0049998760223389 : 2015-07-29 10:32:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0049998760223389 : 2015-07-29 10:32:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:32:12
+----------------------------
+ select count(*) from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:32:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:32:12
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0049998760223389 : 2015-07-29 10:32:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:32:12
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0049998760223389 : 2015-07-29 10:32:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0060009956359863 : 2015-07-29 10:32:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060009956359863 : 2015-07-29 10:32:12
+----------------------------
+ select count(*) from dy_user
+TM : 0.0060009956359863 : 2015-07-29 10:32:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060009956359863 : 2015-07-29 10:32:12
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0060009956359863 : 2015-07-29 10:32:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060009956359863 : 2015-07-29 10:32:12
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0060009956359863 : 2015-07-29 10:32:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.005000114440918 : 2015-07-29 10:32:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:32:12
+----------------------------
+ select count(*) from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:32:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:32:12
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.005000114440918 : 2015-07-29 10:32:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:32:12
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.005000114440918 : 2015-07-29 10:32:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0049998760223389 : 2015-07-29 10:32:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:32:39
+----------------------------
+ select count(*) from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:32:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:32:39
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0049998760223389 : 2015-07-29 10:32:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:32:39
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0049998760223389 : 2015-07-29 10:32:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:32:41
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050010681152344 : 2015-07-29 10:32:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:32:41
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0050010681152344 : 2015-07-29 10:32:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0060000419616699 : 2015-07-29 10:32:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060000419616699 : 2015-07-29 10:32:42
+----------------------------
+ select count(*) from dy_user
+TM : 0.0060000419616699 : 2015-07-29 10:32:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060000419616699 : 2015-07-29 10:32:42
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0060000419616699 : 2015-07-29 10:32:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060000419616699 : 2015-07-29 10:32:42
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0060000419616699 : 2015-07-29 10:32:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0050010681152344 : 2015-07-29 10:32:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:32:42
+----------------------------
+ select count(*) from dy_user
+TM : 0.0050010681152344 : 2015-07-29 10:32:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:32:42
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0050010681152344 : 2015-07-29 10:32:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:32:42
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0050010681152344 : 2015-07-29 10:32:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:32:48
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050010681152344 : 2015-07-29 10:32:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:32:48
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0050010681152344 : 2015-07-29 10:32:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0039999485015869 : 2015-07-29 10:32:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:32:48
+----------------------------
+ select count(*) from dy_user
+TM : 0.0039999485015869 : 2015-07-29 10:32:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:32:48
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0039999485015869 : 2015-07-29 10:32:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:32:48
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0039999485015869 : 2015-07-29 10:32:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0039999485015869 : 2015-07-29 10:32:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:32:48
+----------------------------
+ select count(*) from dy_user
+TM : 0.0039999485015869 : 2015-07-29 10:32:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:32:48
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0039999485015869 : 2015-07-29 10:32:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:32:48
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0039999485015869 : 2015-07-29 10:32:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0049998760223389 : 2015-07-29 10:32:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:32:53
+----------------------------
+ select count(*) from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:32:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:32:53
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0049998760223389 : 2015-07-29 10:32:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:32:53
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0049998760223389 : 2015-07-29 10:32:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.005000114440918 : 2015-07-29 10:32:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:32:56
+----------------------------
+ select count(*) from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:32:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:32:56
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.005000114440918 : 2015-07-29 10:32:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:32:56
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.005000114440918 : 2015-07-29 10:32:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.005000114440918 : 2015-07-29 10:33:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:33:20
+----------------------------
+ select count(*) from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:33:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:33:20
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.005000114440918 : 2015-07-29 10:33:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:33:20
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.005000114440918 : 2015-07-29 10:33:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:33:21
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0039999485015869 : 2015-07-29 10:33:21
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:33:21
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0039999485015869 : 2015-07-29 10:33:21
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.004000186920166 : 2015-07-29 10:33:21
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 10:33:21
+----------------------------
+ select count(*) from dy_user
+TM : 0.004000186920166 : 2015-07-29 10:33:21
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 10:33:21
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.004000186920166 : 2015-07-29 10:33:21
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 10:33:21
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.004000186920166 : 2015-07-29 10:33:21
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0049998760223389 : 2015-07-29 10:33:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:33:22
+----------------------------
+ select count(*) from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:33:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:33:22
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0049998760223389 : 2015-07-29 10:33:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:33:22
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0049998760223389 : 2015-07-29 10:33:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0099999904632568 : 2015-07-29 10:33:52
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0099999904632568 : 2015-07-29 10:33:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0099999904632568 : 2015-07-29 10:33:52
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0099999904632568 : 2015-07-29 10:33:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0040009021759033 : 2015-07-29 10:33:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040009021759033 : 2015-07-29 10:33:53
+----------------------------
+ select count(*) from dy_user
+TM : 0.0040009021759033 : 2015-07-29 10:33:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040009021759033 : 2015-07-29 10:33:53
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0040009021759033 : 2015-07-29 10:33:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040009021759033 : 2015-07-29 10:33:53
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0040009021759033 : 2015-07-29 10:33:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0049998760223389 : 2015-07-29 10:33:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:33:53
+----------------------------
+ select count(*) from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:33:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:33:53
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0049998760223389 : 2015-07-29 10:33:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:33:53
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0049998760223389 : 2015-07-29 10:33:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:33:57
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:33:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:33:57
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:33:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0049998760223389 : 2015-07-29 10:33:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:33:59
+----------------------------
+ select count(*) from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:33:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:33:59
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0049998760223389 : 2015-07-29 10:33:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:33:59
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0049998760223389 : 2015-07-29 10:33:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0039999485015869 : 2015-07-29 10:33:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:33:59
+----------------------------
+ select count(*) from dy_user
+TM : 0.0039999485015869 : 2015-07-29 10:33:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:33:59
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0039999485015869 : 2015-07-29 10:33:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:33:59
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0039999485015869 : 2015-07-29 10:33:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:34:03
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:34:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:34:03
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:34:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0050008296966553 : 2015-07-29 10:34:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-29 10:34:03
+----------------------------
+ select count(*) from dy_user
+TM : 0.0050008296966553 : 2015-07-29 10:34:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-29 10:34:03
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0050008296966553 : 2015-07-29 10:34:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-29 10:34:03
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0050008296966553 : 2015-07-29 10:34:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.005000114440918 : 2015-07-29 10:34:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:34:04
+----------------------------
+ select count(*) from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:34:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:34:04
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.005000114440918 : 2015-07-29 10:34:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:34:04
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.005000114440918 : 2015-07-29 10:34:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:34:36
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:34:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:34:36
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 10:34:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0039999485015869 : 2015-07-29 10:34:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:34:36
+----------------------------
+ select count(*) from dy_user
+TM : 0.0039999485015869 : 2015-07-29 10:34:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:34:36
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0039999485015869 : 2015-07-29 10:34:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:34:36
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0039999485015869 : 2015-07-29 10:34:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0050008296966553 : 2015-07-29 10:34:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-29 10:34:36
+----------------------------
+ select count(*) from dy_user
+TM : 0.0050008296966553 : 2015-07-29 10:34:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-29 10:34:36
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0050008296966553 : 2015-07-29 10:34:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-29 10:34:36
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0050008296966553 : 2015-07-29 10:34:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:34:43
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0039999485015869 : 2015-07-29 10:34:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:34:43
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0039999485015869 : 2015-07-29 10:34:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0049998760223389 : 2015-07-29 10:34:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:34:43
+----------------------------
+ select count(*) from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:34:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:34:43
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0049998760223389 : 2015-07-29 10:34:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:34:43
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0049998760223389 : 2015-07-29 10:34:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0049998760223389 : 2015-07-29 10:34:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:34:44
+----------------------------
+ select count(*) from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:34:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:34:44
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0049998760223389 : 2015-07-29 10:34:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:34:44
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0049998760223389 : 2015-07-29 10:34:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:34:52
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:34:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:34:52
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 10:34:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0039999485015869 : 2015-07-29 10:34:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:34:52
+----------------------------
+ select count(*) from dy_user
+TM : 0.0039999485015869 : 2015-07-29 10:34:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:34:52
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0039999485015869 : 2015-07-29 10:34:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:34:52
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0039999485015869 : 2015-07-29 10:34:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0039999485015869 : 2015-07-29 10:34:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:34:52
+----------------------------
+ select count(*) from dy_user
+TM : 0.0039999485015869 : 2015-07-29 10:34:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:34:52
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0039999485015869 : 2015-07-29 10:34:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:34:52
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0039999485015869 : 2015-07-29 10:34:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0070011615753174 : 2015-07-29 10:35:20
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0070011615753174 : 2015-07-29 10:35:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0070011615753174 : 2015-07-29 10:35:20
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0070011615753174 : 2015-07-29 10:35:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.004000186920166 : 2015-07-29 10:35:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 10:35:20
+----------------------------
+ select count(*) from dy_user
+TM : 0.004000186920166 : 2015-07-29 10:35:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 10:35:20
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.004000186920166 : 2015-07-29 10:35:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 10:35:20
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.004000186920166 : 2015-07-29 10:35:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.005000114440918 : 2015-07-29 10:35:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:35:20
+----------------------------
+ select count(*) from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:35:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:35:20
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.005000114440918 : 2015-07-29 10:35:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:35:20
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.005000114440918 : 2015-07-29 10:35:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040009021759033 : 2015-07-29 10:35:52
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0040009021759033 : 2015-07-29 10:35:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040009021759033 : 2015-07-29 10:35:53
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0040009021759033 : 2015-07-29 10:35:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0049998760223389 : 2015-07-29 10:35:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:35:53
+----------------------------
+ select count(*) from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:35:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:35:53
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0049998760223389 : 2015-07-29 10:35:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:35:53
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0049998760223389 : 2015-07-29 10:35:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0040011405944824 : 2015-07-29 10:35:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040011405944824 : 2015-07-29 10:35:53
+----------------------------
+ select count(*) from dy_user
+TM : 0.0040011405944824 : 2015-07-29 10:35:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040011405944824 : 2015-07-29 10:35:53
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0040011405944824 : 2015-07-29 10:35:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040011405944824 : 2015-07-29 10:35:53
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0040011405944824 : 2015-07-29 10:35:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:35:57
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0039999485015869 : 2015-07-29 10:35:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:35:57
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0039999485015869 : 2015-07-29 10:35:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0050010681152344 : 2015-07-29 10:35:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:35:58
+----------------------------
+ select count(*) from dy_user
+TM : 0.0050010681152344 : 2015-07-29 10:35:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:35:58
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0050010681152344 : 2015-07-29 10:35:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:35:58
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0050010681152344 : 2015-07-29 10:35:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0040011405944824 : 2015-07-29 10:35:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040011405944824 : 2015-07-29 10:35:58
+----------------------------
+ select count(*) from dy_user
+TM : 0.0040011405944824 : 2015-07-29 10:35:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040011405944824 : 2015-07-29 10:35:58
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0040011405944824 : 2015-07-29 10:35:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040011405944824 : 2015-07-29 10:35:58
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0040011405944824 : 2015-07-29 10:35:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:37:47
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050010681152344 : 2015-07-29 10:37:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:37:47
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0050010681152344 : 2015-07-29 10:37:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.004000186920166 : 2015-07-29 10:37:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 10:37:47
+----------------------------
+ select count(*) from dy_user
+TM : 0.004000186920166 : 2015-07-29 10:37:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 10:37:47
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.004000186920166 : 2015-07-29 10:37:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 10:37:47
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.004000186920166 : 2015-07-29 10:37:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0050010681152344 : 2015-07-29 10:37:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:37:48
+----------------------------
+ select count(*) from dy_user
+TM : 0.0050010681152344 : 2015-07-29 10:37:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:37:48
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0050010681152344 : 2015-07-29 10:37:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:37:48
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0050010681152344 : 2015-07-29 10:37:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040009021759033 : 2015-07-29 10:37:50
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0040009021759033 : 2015-07-29 10:37:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040009021759033 : 2015-07-29 10:37:50
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0040009021759033 : 2015-07-29 10:37:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:38:10
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:38:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:38:10
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:38:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:38:47
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:38:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:38:47
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:38:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:38:48
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050010681152344 : 2015-07-29 10:38:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:38:48
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0050010681152344 : 2015-07-29 10:38:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 10:39:23
+----------------------------
+ select uid,uname from dy_user
+TM : 0.004000186920166 : 2015-07-29 10:39:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 10:39:23
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.004000186920166 : 2015-07-29 10:39:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:39:28
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:39:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:39:28
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 10:39:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:39:33
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050010681152344 : 2015-07-29 10:39:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:39:33
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0050010681152344 : 2015-07-29 10:39:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:40:24
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050010681152344 : 2015-07-29 10:40:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:40:24
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0050010681152344 : 2015-07-29 10:40:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:40:38
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:40:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:40:38
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 10:40:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-29 10:40:41
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050008296966553 : 2015-07-29 10:40:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:40:41
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0039999485015869 : 2015-07-29 10:40:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:40:41
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0039999485015869 : 2015-07-29 10:40:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0050010681152344 : 2015-07-29 10:40:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:40:42
+----------------------------
+ select count(*) from dy_user
+TM : 0.0050010681152344 : 2015-07-29 10:40:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:40:42
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0050010681152344 : 2015-07-29 10:40:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:40:42
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0050010681152344 : 2015-07-29 10:40:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.005000114440918 : 2015-07-29 10:40:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:40:42
+----------------------------
+ select count(*) from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:40:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:40:42
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.005000114440918 : 2015-07-29 10:40:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:40:42
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.005000114440918 : 2015-07-29 10:40:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:40:45
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:40:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:40:45
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 10:40:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.005000114440918 : 2015-07-29 10:40:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:40:46
+----------------------------
+ select count(*) from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:40:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:40:46
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.005000114440918 : 2015-07-29 10:40:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:40:46
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.005000114440918 : 2015-07-29 10:40:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0050010681152344 : 2015-07-29 10:40:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:40:46
+----------------------------
+ select count(*) from dy_user
+TM : 0.0050010681152344 : 2015-07-29 10:40:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:40:46
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0050010681152344 : 2015-07-29 10:40:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:40:46
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0050010681152344 : 2015-07-29 10:40:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:41:09
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:41:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:41:09
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 10:41:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0039999485015869 : 2015-07-29 10:41:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:41:10
+----------------------------
+ select count(*) from dy_user
+TM : 0.0039999485015869 : 2015-07-29 10:41:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:41:10
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0039999485015869 : 2015-07-29 10:41:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:41:10
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0039999485015869 : 2015-07-29 10:41:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0050008296966553 : 2015-07-29 10:41:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-29 10:41:10
+----------------------------
+ select count(*) from dy_user
+TM : 0.0050008296966553 : 2015-07-29 10:41:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-29 10:41:10
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0050008296966553 : 2015-07-29 10:41:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-29 10:41:10
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0050008296966553 : 2015-07-29 10:41:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:41:11
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:41:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:41:12
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:41:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:41:12
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:41:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0040009021759033 : 2015-07-29 10:41:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040009021759033 : 2015-07-29 10:41:12
+----------------------------
+ select count(*) from dy_user
+TM : 0.0040009021759033 : 2015-07-29 10:41:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040009021759033 : 2015-07-29 10:41:12
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0040009021759033 : 2015-07-29 10:41:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040009021759033 : 2015-07-29 10:41:12
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0040009021759033 : 2015-07-29 10:41:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0050010681152344 : 2015-07-29 10:41:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:41:12
+----------------------------
+ select count(*) from dy_user
+TM : 0.0050010681152344 : 2015-07-29 10:41:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:41:12
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0050010681152344 : 2015-07-29 10:41:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:41:12
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0050010681152344 : 2015-07-29 10:41:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060009956359863 : 2015-07-29 10:41:24
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0060009956359863 : 2015-07-29 10:41:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:41:24
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050010681152344 : 2015-07-29 10:41:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:41:24
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0050010681152344 : 2015-07-29 10:41:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.005000114440918 : 2015-07-29 10:41:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:41:25
+----------------------------
+ select count(*) from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:41:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:41:25
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.005000114440918 : 2015-07-29 10:41:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:41:25
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.005000114440918 : 2015-07-29 10:41:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.004000186920166 : 2015-07-29 10:41:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 10:41:25
+----------------------------
+ select count(*) from dy_user
+TM : 0.004000186920166 : 2015-07-29 10:41:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 10:41:25
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.004000186920166 : 2015-07-29 10:41:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 10:41:25
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.004000186920166 : 2015-07-29 10:41:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:41:43
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:41:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:41:43
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 10:41:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.004000186920166 : 2015-07-29 10:41:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 10:41:44
+----------------------------
+ select count(*) from dy_user
+TM : 0.004000186920166 : 2015-07-29 10:41:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 10:41:44
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.004000186920166 : 2015-07-29 10:41:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 10:41:44
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.004000186920166 : 2015-07-29 10:41:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0050008296966553 : 2015-07-29 10:41:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-29 10:41:44
+----------------------------
+ select count(*) from dy_user
+TM : 0.0050008296966553 : 2015-07-29 10:41:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-29 10:41:44
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0050008296966553 : 2015-07-29 10:41:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-29 10:41:44
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0050008296966553 : 2015-07-29 10:41:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:42:03
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:42:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:42:03
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 10:42:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.005000114440918 : 2015-07-29 10:42:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:42:03
+----------------------------
+ select count(*) from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:42:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:42:03
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.005000114440918 : 2015-07-29 10:42:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:42:03
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.005000114440918 : 2015-07-29 10:42:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0050010681152344 : 2015-07-29 10:42:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:42:03
+----------------------------
+ select count(*) from dy_user
+TM : 0.0050010681152344 : 2015-07-29 10:42:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:42:04
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0050010681152344 : 2015-07-29 10:42:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:42:04
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0050010681152344 : 2015-07-29 10:42:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:42:19
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:42:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:42:19
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:42:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:42:24
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0039999485015869 : 2015-07-29 10:42:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:42:24
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0039999485015869 : 2015-07-29 10:42:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040011405944824 : 2015-07-29 10:42:41
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0040011405944824 : 2015-07-29 10:42:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040011405944824 : 2015-07-29 10:42:41
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0040011405944824 : 2015-07-29 10:42:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 10:42:44
+----------------------------
+ select uid,uname from dy_user
+TM : 0.004000186920166 : 2015-07-29 10:42:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 10:42:44
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.004000186920166 : 2015-07-29 10:42:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:42:52
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0039999485015869 : 2015-07-29 10:42:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:42:52
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0039999485015869 : 2015-07-29 10:42:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 10:43:01
+----------------------------
+ select uid,uname from dy_user
+TM : 0.004000186920166 : 2015-07-29 10:43:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 10:43:01
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.004000186920166 : 2015-07-29 10:43:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:43:09
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:43:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:43:09
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:43:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:43:12
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:43:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:43:12
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:43:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:43:14
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:43:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:43:14
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:43:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:43:21
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0039999485015869 : 2015-07-29 10:43:21
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:43:21
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0039999485015869 : 2015-07-29 10:43:21
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:43:31
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:43:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:43:31
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 10:43:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:43:37
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:43:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:43:37
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 10:43:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060000419616699 : 2015-07-29 10:43:51
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0060000419616699 : 2015-07-29 10:43:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060000419616699 : 2015-07-29 10:43:51
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0060000419616699 : 2015-07-29 10:43:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:44:04
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0039999485015869 : 2015-07-29 10:44:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:44:04
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0039999485015869 : 2015-07-29 10:44:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:44:09
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:44:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:44:09
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 10:44:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:44:26
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:44:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:44:26
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:44:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:44:56
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:44:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:44:56
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:44:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:44:58
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0039999485015869 : 2015-07-29 10:44:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:44:58
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0039999485015869 : 2015-07-29 10:44:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 10:45:01
+----------------------------
+ select uid,uname from dy_user
+TM : 0.004000186920166 : 2015-07-29 10:45:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 10:45:01
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.004000186920166 : 2015-07-29 10:45:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0039999485015869 : 2015-07-29 10:45:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:45:02
+----------------------------
+ select count(*) from dy_user
+TM : 0.0039999485015869 : 2015-07-29 10:45:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:45:02
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0039999485015869 : 2015-07-29 10:45:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:45:02
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0039999485015869 : 2015-07-29 10:45:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0049998760223389 : 2015-07-29 10:45:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:45:02
+----------------------------
+ select count(*) from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:45:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:45:02
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0049998760223389 : 2015-07-29 10:45:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:45:02
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0049998760223389 : 2015-07-29 10:45:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:45:04
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050010681152344 : 2015-07-29 10:45:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:45:04
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0050010681152344 : 2015-07-29 10:45:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:45:08
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:45:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:45:08
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:45:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0060009956359863 : 2015-07-29 10:45:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060009956359863 : 2015-07-29 10:45:09
+----------------------------
+ select count(*) from dy_user
+TM : 0.0060009956359863 : 2015-07-29 10:45:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060009956359863 : 2015-07-29 10:45:09
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0060009956359863 : 2015-07-29 10:45:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060009956359863 : 2015-07-29 10:45:09
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0060009956359863 : 2015-07-29 10:45:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0049998760223389 : 2015-07-29 10:45:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:45:09
+----------------------------
+ select count(*) from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:45:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:45:09
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0049998760223389 : 2015-07-29 10:45:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:45:09
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0049998760223389 : 2015-07-29 10:45:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:45:32
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:45:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:45:33
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:45:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040009021759033 : 2015-07-29 10:45:54
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0040009021759033 : 2015-07-29 10:45:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040009021759033 : 2015-07-29 10:45:54
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0040009021759033 : 2015-07-29 10:45:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040011405944824 : 2015-07-29 10:45:57
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0040011405944824 : 2015-07-29 10:45:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040011405944824 : 2015-07-29 10:45:57
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0040011405944824 : 2015-07-29 10:45:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:45:59
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:45:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:45:59
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:45:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:46:12
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:46:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:46:12
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 10:46:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:46:13
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:46:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:46:13
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:46:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 10:46:16
+----------------------------
+ select uid,uname from dy_user
+TM : 0.004000186920166 : 2015-07-29 10:46:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 10:46:16
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.004000186920166 : 2015-07-29 10:46:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0050010681152344 : 2015-07-29 10:46:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:46:16
+----------------------------
+ select count(*) from dy_user
+TM : 0.0050010681152344 : 2015-07-29 10:46:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:46:16
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0050010681152344 : 2015-07-29 10:46:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:46:16
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0050010681152344 : 2015-07-29 10:46:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0060000419616699 : 2015-07-29 10:46:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060000419616699 : 2015-07-29 10:46:16
+----------------------------
+ select count(*) from dy_user
+TM : 0.0060000419616699 : 2015-07-29 10:46:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060000419616699 : 2015-07-29 10:46:16
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0060000419616699 : 2015-07-29 10:46:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060000419616699 : 2015-07-29 10:46:16
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0060000419616699 : 2015-07-29 10:46:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040009021759033 : 2015-07-29 10:46:20
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0040009021759033 : 2015-07-29 10:46:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040009021759033 : 2015-07-29 10:46:20
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0040009021759033 : 2015-07-29 10:46:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040011405944824 : 2015-07-29 10:46:23
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0040011405944824 : 2015-07-29 10:46:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040011405944824 : 2015-07-29 10:46:23
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0040011405944824 : 2015-07-29 10:46:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:46:28
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0039999485015869 : 2015-07-29 10:46:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:46:28
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0039999485015869 : 2015-07-29 10:46:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:46:36
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:46:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:46:36
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 10:46:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:46:39
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0039999485015869 : 2015-07-29 10:46:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:46:39
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0039999485015869 : 2015-07-29 10:46:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:46:41
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050010681152344 : 2015-07-29 10:46:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:46:41
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0050010681152344 : 2015-07-29 10:46:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:46:43
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:46:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:46:43
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 10:46:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:46:45
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050010681152344 : 2015-07-29 10:46:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:46:45
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0050010681152344 : 2015-07-29 10:46:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0050010681152344 : 2015-07-29 10:46:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:46:46
+----------------------------
+ select count(*) from dy_user
+TM : 0.0050010681152344 : 2015-07-29 10:46:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:46:46
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0050010681152344 : 2015-07-29 10:46:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:46:46
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0050010681152344 : 2015-07-29 10:46:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.005000114440918 : 2015-07-29 10:46:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:46:46
+----------------------------
+ select count(*) from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:46:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:46:46
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.005000114440918 : 2015-07-29 10:46:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:46:46
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.005000114440918 : 2015-07-29 10:46:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0059998035430908 : 2015-07-29 10:46:48
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0059998035430908 : 2015-07-29 10:46:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0059998035430908 : 2015-07-29 10:46:48
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0059998035430908 : 2015-07-29 10:46:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060009956359863 : 2015-07-29 10:46:52
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0060009956359863 : 2015-07-29 10:46:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:46:52
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:46:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:46:52
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:46:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0049998760223389 : 2015-07-29 10:46:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:46:52
+----------------------------
+ select count(*) from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:46:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:46:52
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0049998760223389 : 2015-07-29 10:46:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:46:52
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0049998760223389 : 2015-07-29 10:46:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.005000114440918 : 2015-07-29 10:46:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:46:52
+----------------------------
+ select count(*) from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:46:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:46:52
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.005000114440918 : 2015-07-29 10:46:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:46:52
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.005000114440918 : 2015-07-29 10:46:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:47:01
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0039999485015869 : 2015-07-29 10:47:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:47:01
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:47:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:47:01
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:47:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0039999485015869 : 2015-07-29 10:47:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:47:02
+----------------------------
+ select count(*) from dy_user
+TM : 0.0039999485015869 : 2015-07-29 10:47:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:47:02
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0039999485015869 : 2015-07-29 10:47:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:47:02
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0039999485015869 : 2015-07-29 10:47:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0049998760223389 : 2015-07-29 10:47:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:47:02
+----------------------------
+ select count(*) from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:47:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:47:02
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0049998760223389 : 2015-07-29 10:47:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:47:02
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0049998760223389 : 2015-07-29 10:47:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:47:05
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:47:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040009021759033 : 2015-07-29 10:47:05
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0040009021759033 : 2015-07-29 10:47:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060009956359863 : 2015-07-29 10:47:05
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0060009956359863 : 2015-07-29 10:47:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:47:07
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0039999485015869 : 2015-07-29 10:47:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:47:07
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0039999485015869 : 2015-07-29 10:47:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:47:07
+----------------------------
+DESC dy_user
+TM : 0.0039999485015869 : 2015-07-29 10:47:07
+----------------------------
+UPDATE dy_user SET logtime = '192.168.1.200', regtime = '1438138027.3102' WHERE uname = 'irones'
+TM : 0.0039999485015869 : 2015-07-29 10:47:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.007000207901001 : 2015-07-29 10:47:07
+----------------------------
+ select uid,uname from dy_user
+TM : 0.007000207901001 : 2015-07-29 10:47:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.007000207901001 : 2015-07-29 10:47:07
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.007000207901001 : 2015-07-29 10:47:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0039999485015869 : 2015-07-29 10:47:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:47:08
+----------------------------
+ select count(*) from dy_user
+TM : 0.0039999485015869 : 2015-07-29 10:47:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:47:08
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0039999485015869 : 2015-07-29 10:47:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:47:08
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0039999485015869 : 2015-07-29 10:47:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0060000419616699 : 2015-07-29 10:47:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060000419616699 : 2015-07-29 10:47:08
+----------------------------
+ select count(*) from dy_user
+TM : 0.0060000419616699 : 2015-07-29 10:47:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060000419616699 : 2015-07-29 10:47:08
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0060000419616699 : 2015-07-29 10:47:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060000419616699 : 2015-07-29 10:47:08
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0060000419616699 : 2015-07-29 10:47:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:47:10
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050010681152344 : 2015-07-29 10:47:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:47:10
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0050010681152344 : 2015-07-29 10:47:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060009956359863 : 2015-07-29 10:47:33
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0060009956359863 : 2015-07-29 10:47:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060009956359863 : 2015-07-29 10:47:33
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0060009956359863 : 2015-07-29 10:47:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:47:36
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:47:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:47:36
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 10:47:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-29 10:48:30
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050008296966553 : 2015-07-29 10:48:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-29 10:48:30
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0050008296966553 : 2015-07-29 10:48:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:48:34
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:48:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:48:34
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 10:48:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:48:43
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:48:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:48:43
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:48:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:49:03
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:49:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:49:03
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 10:49:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:49:17
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:49:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:49:17
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 10:49:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.011001110076904 : 2015-07-29 10:49:44
+----------------------------
+ select uid,uname from dy_user
+TM : 0.011001110076904 : 2015-07-29 10:49:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.011001110076904 : 2015-07-29 10:49:44
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.011001110076904 : 2015-07-29 10:49:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:50:12
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:50:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:50:12
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 10:50:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:50:29
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:50:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:50:30
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 10:50:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:50:50
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050010681152344 : 2015-07-29 10:50:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:50:50
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0050010681152344 : 2015-07-29 10:50:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 10:51:26
+----------------------------
+ select uid,uname from dy_user
+TM : 0.004000186920166 : 2015-07-29 10:51:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 10:51:26
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.004000186920166 : 2015-07-29 10:51:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:52:52
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:52:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:52:52
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 10:52:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:53:02
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:53:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:53:02
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:53:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:53:17
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0039999485015869 : 2015-07-29 10:53:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:53:17
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0039999485015869 : 2015-07-29 10:53:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:53:20
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:53:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:53:20
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 10:53:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:54:04
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:54:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:54:04
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 10:54:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:54:05
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050010681152344 : 2015-07-29 10:54:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:54:05
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0050010681152344 : 2015-07-29 10:54:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:54:12
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:54:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:54:12
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:54:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:55:24
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050010681152344 : 2015-07-29 10:55:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:55:24
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0050010681152344 : 2015-07-29 10:55:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:55:31
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050010681152344 : 2015-07-29 10:55:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:55:31
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0050010681152344 : 2015-07-29 10:55:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:55:36
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050010681152344 : 2015-07-29 10:55:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:55:36
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0050010681152344 : 2015-07-29 10:55:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:56:03
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:56:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:56:03
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 10:56:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 10:56:19
+----------------------------
+ select uid,uname from dy_user
+TM : 0.004000186920166 : 2015-07-29 10:56:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 10:56:19
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.004000186920166 : 2015-07-29 10:56:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:56:42
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:56:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:56:42
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:56:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:56:45
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050010681152344 : 2015-07-29 10:56:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 10:56:45
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0050010681152344 : 2015-07-29 10:56:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-29 10:57:13
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050008296966553 : 2015-07-29 10:57:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-29 10:57:13
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0050008296966553 : 2015-07-29 10:57:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:57:17
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:57:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:57:17
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:57:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:57:18
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:57:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:57:19
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 10:57:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060000419616699 : 2015-07-29 10:57:24
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0060000419616699 : 2015-07-29 10:57:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060000419616699 : 2015-07-29 10:57:24
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0060000419616699 : 2015-07-29 10:57:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:57:29
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 10:57:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 10:57:29
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 10:57:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:57:37
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:57:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:57:37
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:57:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 10:57:42
+----------------------------
+ select uid,uname from dy_user
+TM : 0.004000186920166 : 2015-07-29 10:57:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 10:57:42
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.004000186920166 : 2015-07-29 10:57:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:57:49
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:57:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:57:49
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:57:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0030009746551514 : 2015-07-29 10:57:54
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0030009746551514 : 2015-07-29 10:57:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0030009746551514 : 2015-07-29 10:57:54
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0030009746551514 : 2015-07-29 10:57:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:57:56
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 10:57:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 10:57:56
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 10:57:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0060009956359863 : 2015-07-29 10:57:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060009956359863 : 2015-07-29 10:57:56
+----------------------------
+ select count(*) from dy_user
+TM : 0.0060009956359863 : 2015-07-29 10:57:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060009956359863 : 2015-07-29 10:57:56
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0060009956359863 : 2015-07-29 10:57:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060009956359863 : 2015-07-29 10:57:56
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0060009956359863 : 2015-07-29 10:57:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0050008296966553 : 2015-07-29 10:57:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-29 10:57:57
+----------------------------
+ select count(*) from dy_user
+TM : 0.0050008296966553 : 2015-07-29 10:57:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-29 10:57:57
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0050008296966553 : 2015-07-29 10:57:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-29 10:57:57
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0050008296966553 : 2015-07-29 10:57:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:57:59
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0039999485015869 : 2015-07-29 10:57:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:57:59
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0039999485015869 : 2015-07-29 10:57:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:58:03
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0039999485015869 : 2015-07-29 10:58:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 10:58:03
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0039999485015869 : 2015-07-29 10:58:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-29 10:58:53
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050008296966553 : 2015-07-29 10:58:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-29 10:58:53
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0050008296966553 : 2015-07-29 10:58:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 11:00:38
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050010681152344 : 2015-07-29 11:00:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 11:00:38
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0050010681152344 : 2015-07-29 11:00:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040009021759033 : 2015-07-29 11:00:42
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0040009021759033 : 2015-07-29 11:00:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040009021759033 : 2015-07-29 11:00:42
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0040009021759033 : 2015-07-29 11:00:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0059998035430908 : 2015-07-29 11:00:50
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0059998035430908 : 2015-07-29 11:00:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0059998035430908 : 2015-07-29 11:00:50
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0059998035430908 : 2015-07-29 11:00:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 11:01:06
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050010681152344 : 2015-07-29 11:01:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 11:01:06
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0050010681152344 : 2015-07-29 11:01:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 11:01:09
+----------------------------
+ select uid,uname from dy_user
+TM : 0.004000186920166 : 2015-07-29 11:01:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 11:01:10
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.004000186920166 : 2015-07-29 11:01:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040011405944824 : 2015-07-29 11:01:23
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0040011405944824 : 2015-07-29 11:01:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040011405944824 : 2015-07-29 11:01:23
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0040011405944824 : 2015-07-29 11:01:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 11:01:33
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 11:01:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 11:01:33
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 11:01:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0049998760223389 : 2015-07-29 11:01:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 11:01:34
+----------------------------
+ select count(*) from dy_user
+TM : 0.0049998760223389 : 2015-07-29 11:01:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 11:01:34
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0049998760223389 : 2015-07-29 11:01:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 11:01:34
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0049998760223389 : 2015-07-29 11:01:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0039999485015869 : 2015-07-29 11:01:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 11:01:34
+----------------------------
+ select count(*) from dy_user
+TM : 0.0039999485015869 : 2015-07-29 11:01:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 11:01:34
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0039999485015869 : 2015-07-29 11:01:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 11:01:34
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0039999485015869 : 2015-07-29 11:01:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040009021759033 : 2015-07-29 11:01:39
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0040009021759033 : 2015-07-29 11:01:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040009021759033 : 2015-07-29 11:01:39
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0040009021759033 : 2015-07-29 11:01:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 11:02:41
+----------------------------
+ select uid,uname from dy_user
+TM : 0.004000186920166 : 2015-07-29 11:02:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 11:02:41
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.004000186920166 : 2015-07-29 11:02:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 11:02:44
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0039999485015869 : 2015-07-29 11:02:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 11:02:44
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0039999485015869 : 2015-07-29 11:02:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 11:03:06
+----------------------------
+ select uid,uname from dy_user
+TM : 0.004000186920166 : 2015-07-29 11:03:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 11:03:06
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.004000186920166 : 2015-07-29 11:03:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 11:03:12
+----------------------------
+ select uid,uname from dy_user
+TM : 0.004000186920166 : 2015-07-29 11:03:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 11:03:12
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.004000186920166 : 2015-07-29 11:03:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 11:03:23
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 11:03:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 11:03:23
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 11:03:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 11:03:27
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0039999485015869 : 2015-07-29 11:03:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0039999485015869 : 2015-07-29 11:03:27
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0039999485015869 : 2015-07-29 11:03:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 11:03:35
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 11:03:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 11:03:35
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 11:03:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 11:03:38
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 11:03:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 11:03:38
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 11:03:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 11:03:51
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 11:03:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 11:03:51
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 11:03:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 11:03:55
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 11:03:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 11:03:55
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 11:03:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 11:03:58
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 11:03:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 11:03:58
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 11:03:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-29 11:04:26
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050008296966553 : 2015-07-29 11:04:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-29 11:04:26
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0050008296966553 : 2015-07-29 11:04:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-29 11:04:32
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050008296966553 : 2015-07-29 11:04:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-29 11:04:32
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0050008296966553 : 2015-07-29 11:04:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 11:04:38
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 11:04:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 11:04:38
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 11:04:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 11:04:40
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 11:04:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 11:04:40
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 11:04:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 11:04:43
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 11:04:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 11:04:43
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 11:04:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040009021759033 : 2015-07-29 11:04:52
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0040009021759033 : 2015-07-29 11:04:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040009021759033 : 2015-07-29 11:04:52
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0040009021759033 : 2015-07-29 11:04:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 11:05:19
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050010681152344 : 2015-07-29 11:05:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050010681152344 : 2015-07-29 11:05:19
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0050010681152344 : 2015-07-29 11:05:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 11:05:29
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 11:05:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 11:05:29
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 11:05:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 11:05:37
+----------------------------
+ select uid,uname from dy_user
+TM : 0.004000186920166 : 2015-07-29 11:05:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.004000186920166 : 2015-07-29 11:05:37
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.004000186920166 : 2015-07-29 11:05:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040011405944824 : 2015-07-29 11:05:48
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0040011405944824 : 2015-07-29 11:05:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040011405944824 : 2015-07-29 11:05:48
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0040011405944824 : 2015-07-29 11:05:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0040011405944824 : 2015-07-29 11:05:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040011405944824 : 2015-07-29 11:05:53
+----------------------------
+ select count(*) from dy_user
+TM : 0.0040011405944824 : 2015-07-29 11:05:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040011405944824 : 2015-07-29 11:05:53
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0040011405944824 : 2015-07-29 11:05:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0040011405944824 : 2015-07-29 11:05:53
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0040011405944824 : 2015-07-29 11:05:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-29 11:05:55
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050008296966553 : 2015-07-29 11:05:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-29 11:05:55
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0050008296966553 : 2015-07-29 11:05:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-29 11:06:22
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0050008296966553 : 2015-07-29 11:06:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0050008296966553 : 2015-07-29 11:06:22
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0050008296966553 : 2015-07-29 11:06:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 11:27:23
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0049998760223389 : 2015-07-29 11:27:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0049998760223389 : 2015-07-29 11:27:23
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0049998760223389 : 2015-07-29 11:27:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 11:27:25
+----------------------------
+ select uid,uname from dy_user
+TM : 0.005000114440918 : 2015-07-29 11:27:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.005000114440918 : 2015-07-29 11:27:25
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.005000114440918 : 2015-07-29 11:27:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060009956359863 : 2015-07-29 11:28:04
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0060009956359863 : 2015-07-29 11:28:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0060009956359863 : 2015-07-29 11:28:04
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0060009956359863 : 2015-07-29 11:28:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:34:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:34:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:34:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:34:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:34:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:34:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:34:50
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 14:34:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:34:50
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 14:34:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:36:02
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 14:36:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:36:02
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 14:36:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:36:07
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 14:36:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:36:07
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 14:36:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 14:36:10
+----------------------------
+ select uid,uname from dy_user
+TM : 0.00099992752075195 : 2015-07-29 14:36:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 14:36:10
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.00099992752075195 : 2015-07-29 14:36:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:36:15
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 14:36:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:36:15
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 14:36:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:36:15
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 14:36:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:36:16
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 14:36:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:36:19
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 14:36:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:36:26
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 14:36:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:36:38
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 14:36:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:36:45
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 14:36:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:36:49
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 14:36:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:36:49
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 14:36:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:36:49
+----------------------------
+DESC dy_user
+TM : 0 : 2015-07-29 14:36:49
+----------------------------
+UPDATE dy_user SET logtime = '192.168.1.200', regtime = '1438151809.7093' WHERE uname = 'irones'
+TM : 0 : 2015-07-29 14:36:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:36:50
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 14:36:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:36:50
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 14:36:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 14:36:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:36:50
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 14:36:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:36:50
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 14:36:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:36:50
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 14:36:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 14:36:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:36:50
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 14:36:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:36:50
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 14:36:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:36:50
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 14:36:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:36:57
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 14:36:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:36:57
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 14:36:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 14:36:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:36:57
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 14:36:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:36:57
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 14:36:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:36:57
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 14:36:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 14:36:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:36:57
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 14:36:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:36:57
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 14:36:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:36:57
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 14:36:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:37:12
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 14:37:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:37:12
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 14:37:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 14:37:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:37:13
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 14:37:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:37:13
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 14:37:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:37:13
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 14:37:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 14:37:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:37:13
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 14:37:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:37:13
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 14:37:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:37:13
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 14:37:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:37:45
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 14:37:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:37:45
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 14:37:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 14:37:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:37:45
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 14:37:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:37:45
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 14:37:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:37:45
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 14:37:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 14:37:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:37:45
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 14:37:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:37:45
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 14:37:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 14:37:45
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 14:37:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:52:39
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 15:52:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:52:39
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 15:52:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:52:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:52:40
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:52:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:52:40
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:52:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:52:40
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:52:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:52:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:52:40
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:52:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:52:40
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:52:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:52:40
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:52:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:52:43
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 15:52:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:52:43
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 15:52:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:52:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:52:43
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:52:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:52:43
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:52:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:52:43
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:52:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:52:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:52:44
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:52:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:52:44
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:52:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:52:44
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:52:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 15:52:52
+----------------------------
+ select uid,uname from dy_user
+TM : 0.00099992752075195 : 2015-07-29 15:52:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 15:52:52
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.00099992752075195 : 2015-07-29 15:52:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:52:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:52:53
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:52:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:52:53
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:52:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:52:53
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:52:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:52:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:52:53
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:52:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:52:53
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:52:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:52:53
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:52:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:39
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 15:53:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:39
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 15:53:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:53:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:41
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:53:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:41
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:53:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:41
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:53:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:53:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:41
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:53:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:41
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:53:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:41
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:53:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:43
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 15:53:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:43
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 15:53:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:53:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:44
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:53:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:44
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:53:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:44
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:53:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:53:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:44
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:53:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:44
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:53:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:44
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:53:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 15:53:47
+----------------------------
+ select uid,uname from dy_user
+TM : 0.00099992752075195 : 2015-07-29 15:53:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 15:53:47
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.00099992752075195 : 2015-07-29 15:53:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:53:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:48
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:53:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:48
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:53:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:48
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:53:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:53:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:48
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:53:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:48
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:53:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:48
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:53:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:50
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 15:53:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:50
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 15:53:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:53:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:51
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:53:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:51
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:53:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:51
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:53:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:53:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:51
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:53:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:51
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:53:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:51
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:53:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:54
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 15:53:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:54
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 15:53:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:53:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:55
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:53:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:55
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:53:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:55
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:53:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:53:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:55
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:53:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:55
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:53:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:53:55
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:53:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:22
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 15:54:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:22
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 15:54:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:23
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:23
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:23
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:23
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:23
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:23
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:29
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 15:54:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:29
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 15:54:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:30
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:30
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:30
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:30
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:30
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:30
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:39
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:39
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:39
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:40
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:40
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:40
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:41
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:41
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:41
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0010001659393311 : 2015-07-29 15:54:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-07-29 15:54:41
+----------------------------
+ select count(*) from dy_user
+TM : 0.0010001659393311 : 2015-07-29 15:54:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-07-29 15:54:41
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0010001659393311 : 2015-07-29 15:54:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-07-29 15:54:41
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0010001659393311 : 2015-07-29 15:54:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:41
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:41
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:41
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:41
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:41
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:41
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:41
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:41
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:41
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.00099992752075195 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from dy_user
+TM : 0.00099992752075195 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.00099992752075195 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.00099992752075195 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.00099992752075195 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from dy_user
+TM : 0.00099992752075195 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.00099992752075195 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.00099992752075195 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.00099992752075195 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from dy_user
+TM : 0.00099992752075195 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.00099992752075195 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.00099992752075195 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.00099992752075195 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from dy_user
+TM : 0.00099992752075195 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.00099992752075195 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.00099992752075195 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:54:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:55:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:08
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:55:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:08
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:55:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:08
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:55:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:55:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:09
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:55:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:09
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:55:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:09
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:55:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0010011196136475 : 2015-07-29 15:55:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0010011196136475 : 2015-07-29 15:55:09
+----------------------------
+ select count(*) from dy_user
+TM : 0.0010011196136475 : 2015-07-29 15:55:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0010011196136475 : 2015-07-29 15:55:09
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0010011196136475 : 2015-07-29 15:55:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0010011196136475 : 2015-07-29 15:55:09
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0010011196136475 : 2015-07-29 15:55:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:55:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:09
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:55:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:09
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:55:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:09
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:55:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:55:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:55:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:11
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:55:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:11
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:55:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:11
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:55:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:13
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 15:55:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:13
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 15:55:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:55:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:14
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:55:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:14
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:55:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:14
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:55:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:55:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:14
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:55:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:14
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:55:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:14
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:55:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:17
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 15:55:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:17
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 15:55:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:55:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:18
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:55:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:18
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:55:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:18
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:55:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:55:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:18
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:55:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:18
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:55:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:55:18
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:55:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:56:46
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 15:56:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:56:46
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 15:56:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:56:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:56:46
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:56:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:56:46
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:56:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:56:46
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:56:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:56:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:56:47
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:56:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:56:47
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:56:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:56:47
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:56:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:56:59
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 15:56:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:56:59
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 15:56:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:57:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:00
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:57:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:00
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:57:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:00
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:57:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.00099992752075195 : 2015-07-29 15:57:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 15:57:00
+----------------------------
+ select count(*) from dy_user
+TM : 0.00099992752075195 : 2015-07-29 15:57:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 15:57:00
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.00099992752075195 : 2015-07-29 15:57:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 15:57:00
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.00099992752075195 : 2015-07-29 15:57:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:02
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 15:57:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:02
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 15:57:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:57:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:02
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:57:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:02
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:57:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:02
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:57:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:57:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:02
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:57:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:02
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:57:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:02
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:57:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:04
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 15:57:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:04
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 15:57:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.00099992752075195 : 2015-07-29 15:57:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 15:57:05
+----------------------------
+ select count(*) from dy_user
+TM : 0.00099992752075195 : 2015-07-29 15:57:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 15:57:05
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.00099992752075195 : 2015-07-29 15:57:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 15:57:05
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.00099992752075195 : 2015-07-29 15:57:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:57:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:05
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:57:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:05
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:57:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:05
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:57:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-07-29 15:57:06
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0010001659393311 : 2015-07-29 15:57:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-07-29 15:57:06
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0010001659393311 : 2015-07-29 15:57:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:57:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:07
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:57:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:07
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:57:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:07
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:57:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:57:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:07
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:57:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:07
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:57:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:07
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:57:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:09
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 15:57:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:09
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 15:57:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:57:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:09
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:57:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:09
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:57:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:09
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:57:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:57:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:10
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:57:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:10
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:57:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:10
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:57:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:29
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 15:57:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:29
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 15:57:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:57:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:30
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:57:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:30
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:57:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:30
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:57:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:57:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:30
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:57:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:30
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:57:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:30
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:57:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:31
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 15:57:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:31
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 15:57:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:33
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 15:57:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:33
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 15:57:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:57:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:33
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:57:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:33
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:57:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:33
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:57:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:57:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:33
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:57:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:33
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:57:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:33
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:57:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:35
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 15:57:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:35
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 15:57:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.00099992752075195 : 2015-07-29 15:57:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 15:57:35
+----------------------------
+ select count(*) from dy_user
+TM : 0.00099992752075195 : 2015-07-29 15:57:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 15:57:35
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.00099992752075195 : 2015-07-29 15:57:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 15:57:35
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.00099992752075195 : 2015-07-29 15:57:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:57:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:35
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:57:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:35
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:57:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:35
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:57:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:55
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 15:57:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:55
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 15:57:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:57:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:56
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:57:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:56
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:57:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:56
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:57:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:57:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:56
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:57:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:56
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:57:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:56
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:57:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:58
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 15:57:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:58
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 15:57:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:57:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:58
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:57:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:58
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:57:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:58
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:57:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:57:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:58
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:57:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:58
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:57:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:57:58
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:57:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:58:03
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 15:58:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:58:03
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 15:58:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:58:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:58:04
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:58:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:58:04
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:58:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:58:04
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:58:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:58:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:58:04
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:58:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:58:04
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:58:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:58:04
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:58:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:58:12
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 15:58:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:58:12
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 15:58:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:58:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:58:13
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:58:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:58:13
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:58:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:58:13
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:58:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:58:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:58:13
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:58:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:58:13
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:58:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:58:13
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:58:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:58:15
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 15:58:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:58:15
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 15:58:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:58:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:58:16
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:58:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:58:16
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:58:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:58:16
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:58:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:58:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:58:16
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:58:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:58:16
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:58:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:58:16
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:58:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:04
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 15:59:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:04
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 15:59:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:59:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:05
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:59:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:05
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:59:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:05
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:59:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:59:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:05
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:59:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:05
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:59:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:05
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:59:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:12
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 15:59:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:12
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 15:59:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:59:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:13
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:59:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:13
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:59:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:13
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:59:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:59:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:13
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:59:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:13
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:59:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:13
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:59:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:36
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 15:59:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:36
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 15:59:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:59:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:36
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:59:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:36
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:59:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:36
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:59:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:59:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:36
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:59:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:36
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:59:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:36
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:59:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:45
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 15:59:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:45
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 15:59:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:59:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:46
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:59:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:46
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:59:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:46
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:59:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:59:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:46
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:59:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:46
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:59:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:46
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:59:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:47
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 15:59:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:47
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 15:59:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:59:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:47
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:59:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:47
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:59:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:47
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:59:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 15:59:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:47
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 15:59:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:47
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 15:59:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 15:59:47
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 15:59:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:12
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:00:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:12
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:00:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:00:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:13
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:00:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:13
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:00:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:13
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:00:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:00:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:13
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:00:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:13
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:00:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:13
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:00:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:26
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:00:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:26
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:00:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:00:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:27
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:00:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:27
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:00:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:27
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:00:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:00:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:27
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:00:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:27
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:00:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:27
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:00:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:38
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:00:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:38
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:00:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:00:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:39
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:00:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:39
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:00:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:39
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:00:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:00:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:39
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:00:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:39
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:00:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:39
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:00:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:47
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:00:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:47
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:00:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:00:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:48
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:00:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:48
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:00:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:48
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:00:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:00:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:48
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:00:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:48
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:00:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:48
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:00:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:53
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:00:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:53
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:00:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:00:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:53
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:00:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:53
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:00:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:53
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:00:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:00:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:54
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:00:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:54
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:00:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:00:54
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:00:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:09
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:01:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:09
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:01:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:01:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:10
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:01:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:10
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:01:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:10
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:01:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:01:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:10
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:01:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:10
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:01:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:10
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:01:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:15
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:01:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:15
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:01:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:01:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:16
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:01:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:16
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:01:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:16
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:01:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:01:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:16
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:01:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:16
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:01:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:16
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:01:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:20
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:01:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:20
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:01:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:01:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:20
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:01:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:20
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:01:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:20
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:01:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:01:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:20
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:01:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:20
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:01:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:20
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:01:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:54
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:01:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:54
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:01:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:01:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:54
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:01:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:54
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:01:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:54
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:01:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:01:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:54
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:01:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:54
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:01:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:54
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:01:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:56
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:01:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:56
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:01:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.00099992752075195 : 2015-07-29 16:01:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 16:01:57
+----------------------------
+ select count(*) from dy_user
+TM : 0.00099992752075195 : 2015-07-29 16:01:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 16:01:57
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.00099992752075195 : 2015-07-29 16:01:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 16:01:57
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.00099992752075195 : 2015-07-29 16:01:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:01:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:57
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:01:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:57
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:01:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:01:57
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:01:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:02:00
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:02:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:02:00
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:02:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:02:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:02:01
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:02:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:02:01
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:02:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:02:01
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:02:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:02:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:02:01
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:02:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:02:01
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:02:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:02:01
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:02:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:02:41
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:02:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:02:41
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:02:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:02:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:02:42
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:02:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:02:42
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:02:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:02:42
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:02:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:02:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:02:42
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:02:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:02:42
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:02:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:02:42
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:02:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:03:36
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:03:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:03:36
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:03:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:03:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:03:37
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:03:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:03:37
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:03:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:03:37
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:03:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:03:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:03:37
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:03:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:03:37
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:03:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:03:37
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:03:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:04:09
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:04:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:04:09
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:04:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:04:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:04:10
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:04:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:04:10
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:04:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:04:10
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:04:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:04:27
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:04:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:04:27
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:04:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:04:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:04:28
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:04:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:04:28
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:04:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:04:28
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:04:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:01
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:06:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:01
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:06:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:06:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:02
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:06:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:02
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:06:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:02
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:06:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:02
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:06:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:02
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:06:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:02
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:06:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:06:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:02
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:06:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:02
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:06:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:02
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:06:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:02
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:06:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:02
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:06:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:02
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:06:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:05
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:06:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:05
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:06:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:06:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:06
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:06:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:06
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:06:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:06
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:06:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:06
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:06:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:06
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:06:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:06
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:06:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:06:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:06
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:06:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:06
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:06:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:06
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:06:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:06
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:06:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:06
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:06:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:06
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:06:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:19
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:06:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:19
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:06:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:06:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:19
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:06:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:19
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:06:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:19
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:06:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:19
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:06:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:19
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:06:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:19
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:06:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:06:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:19
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:06:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:19
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:06:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:19
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:06:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:19
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:06:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:19
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:06:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:06:19
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:06:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:07:22
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:07:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:07:22
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:07:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:07:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:07:23
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:07:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:07:23
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:07:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:07:23
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:07:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:07:23
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:07:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:07:23
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:07:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:07:23
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:07:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:07:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:07:23
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:07:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:07:23
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:07:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:07:23
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:07:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:07:23
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:07:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:07:23
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:07:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:07:23
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:07:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:08:31
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:08:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:08:31
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:08:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:08:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:08:31
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:08:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:08:31
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:08:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:08:31
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:08:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:08:31
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:08:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:08:31
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:08:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:08:31
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:08:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:08:34
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:08:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:08:34
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:08:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:08:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:08:34
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:08:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:08:34
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:08:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:08:34
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:08:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:08:34
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:08:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:08:34
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:08:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:08:34
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:08:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:08:59
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:08:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:08:59
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:08:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:08:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:08:59
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:08:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:08:59
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:08:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:08:59
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:08:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:08:59
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:08:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:08:59
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:08:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:08:59
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:08:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:09:01
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:09:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:09:01
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:09:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:09:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:09:01
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:09:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:09:01
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:09:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:09:01
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:09:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:09:01
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:09:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:09:01
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:09:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:09:01
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:09:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:09:25
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:09:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:09:25
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:09:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:09:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:09:26
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:09:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:09:26
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:09:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:09:26
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:09:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:09:26
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:09:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:09:26
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:09:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:09:26
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:09:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:09:28
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:09:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:09:28
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:09:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:09:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:09:29
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:09:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:09:29
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:09:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:09:29
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:09:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:09:29
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:09:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:09:29
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:09:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:09:29
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:09:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:10:53
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:10:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:10:53
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:10:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:10:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:10:54
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:10:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:10:54
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:10:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:10:54
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:10:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:10:54
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:10:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:10:54
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:10:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:10:54
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:10:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:15
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:11:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:15
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:11:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:11:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:16
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:11:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:16
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:11:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:16
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:11:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:16
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:11:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:16
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:11:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:16
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:11:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:11:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:16
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:11:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:16
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:11:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:16
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:11:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:16
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:11:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:16
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:11:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:16
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:11:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:44
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:11:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:44
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:11:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:11:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:44
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:11:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:44
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:11:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:44
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:11:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:44
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:11:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:44
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:11:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:44
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:11:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:11:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:44
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:11:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:44
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:11:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:44
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:11:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:44
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:11:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:44
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:11:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:44
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:11:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:54
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:11:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:54
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:11:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:11:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:54
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:11:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:54
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:11:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:54
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:11:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:54
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:11:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:54
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:11:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:54
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:11:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:11:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:55
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:11:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:55
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:11:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:55
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:11:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:55
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:11:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:55
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:11:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:55
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:11:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:56
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:11:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:56
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:11:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:11:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:57
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:11:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:57
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:11:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:57
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:11:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:57
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:11:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:57
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:11:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:57
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:11:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:11:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:57
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:11:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:57
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:11:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:57
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:11:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:57
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:11:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:57
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:11:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:11:57
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:11:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:00
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:12:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:00
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:12:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:12:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:00
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:12:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:00
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:12:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:00
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:12:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:00
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:12:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:00
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:12:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:00
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:12:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:12:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:00
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:12:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:00
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:12:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:00
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:12:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:00
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:12:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:00
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:12:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:00
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:12:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:34
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:12:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:34
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:12:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:12:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:34
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:12:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:34
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:12:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:34
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:12:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:34
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:12:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:34
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:12:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:34
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:12:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:12:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:35
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:12:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:35
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:12:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:35
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:12:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:35
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:12:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:35
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:12:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:35
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:12:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:43
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:12:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:43
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:12:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:12:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:43
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:12:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:43
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:12:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:43
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:12:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:43
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:12:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:43
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:12:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:43
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:12:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:12:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:44
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:12:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:44
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:12:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:44
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:12:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:44
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:12:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:44
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:12:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:12:44
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:12:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:25
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:13:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:25
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:13:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:13:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:26
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:13:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:26
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:13:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:26
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:13:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:26
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:13:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:26
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:13:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:26
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:13:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:13:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:26
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:13:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:26
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:13:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:26
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:13:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:26
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:13:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:26
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:13:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:26
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:13:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:35
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:13:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:35
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:13:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:13:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:36
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:13:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:36
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:13:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:36
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:13:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:36
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:13:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:36
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:13:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:36
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:13:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:13:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:36
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:13:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:36
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:13:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:36
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:13:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:36
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:13:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:36
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:13:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:36
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:13:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:39
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:13:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:39
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:13:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:13:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:40
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:13:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:40
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:13:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:40
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:13:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:40
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:13:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:40
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:13:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:40
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:13:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:13:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:40
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:13:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:40
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:13:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:40
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:13:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:40
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:13:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:40
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:13:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:13:40
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:13:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:09
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:14:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:09
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:14:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:14:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:10
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:14:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:10
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:14:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:10
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:14:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:10
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:14:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:10
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:14:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:10
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:14:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:14:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:10
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:14:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:10
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:14:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:10
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:14:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:10
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:14:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:10
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:14:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:10
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:14:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:12
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:14:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:12
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:14:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:14:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:13
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:14:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:13
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:14:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:13
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:14:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:13
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:14:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:13
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:14:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:13
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:14:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:14:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:13
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:14:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:13
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:14:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:13
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:14:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:13
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:14:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:13
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:14:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:13
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:14:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:19
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:14:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:19
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:14:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:14:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:19
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:14:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:19
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:14:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:19
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:14:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:19
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:14:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:19
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:14:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:19
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:14:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:14:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:19
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:14:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:19
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:14:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:19
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:14:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:19
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:14:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:19
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:14:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:19
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:14:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:27
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:14:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:27
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:14:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:34
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:14:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:34
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:14:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:43
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:14:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:43
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:14:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:51
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:14:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:51
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:14:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:51
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:14:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:14:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:51
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:14:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:51
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:14:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:51
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:14:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:51
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:14:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:51
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:14:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:51
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:14:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:14:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:51
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:14:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:51
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:14:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:51
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:14:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:51
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:14:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:51
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:14:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:51
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:14:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:55
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:14:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:55
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:14:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:14:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:55
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:14:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:55
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:14:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:55
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:14:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:55
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:14:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:55
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:14:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:55
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:14:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:14:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:56
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:14:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:56
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:14:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:56
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:14:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:56
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:14:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:56
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:14:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:14:56
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:14:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:24:26
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:24:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:24:26
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:24:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:24:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:24:27
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:24:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:24:27
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:24:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:24:27
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:24:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:24:27
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:24:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:24:27
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:24:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:24:27
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:24:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:24:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:24:27
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:24:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:24:27
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:24:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:24:27
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:24:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:24:27
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:24:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:24:27
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:24:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:24:27
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:24:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:24:33
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:24:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:24:33
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:24:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:24:35
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:24:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:24:35
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:24:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:24:44
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:24:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:24:44
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:24:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:25:03
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:25:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:25:03
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:25:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:25:18
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:25:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:25:18
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:25:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:25:31
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:25:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:25:31
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:25:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:25:50
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:25:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:25:50
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:25:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:26:05
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:26:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:26:05
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:26:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:26:41
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:26:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:26:41
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:26:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:26:50
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:26:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:26:50
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:26:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:29:28
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:29:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:29:28
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:29:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:29:46
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:29:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:29:46
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:29:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:31:00
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:31:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:31:00
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:31:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:31:25
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:31:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:31:25
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:31:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:37:59
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:37:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:37:59
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:37:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:38:03
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:38:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:38:03
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:38:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:38:05
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:38:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:38:05
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:38:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:38:10
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:38:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:38:10
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:38:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:41:09
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:41:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:41:09
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:41:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:41:11
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:41:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:41:11
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:41:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:41:14
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:41:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:41:14
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:41:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:41:15
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:41:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:41:15
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:41:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:41:29
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:41:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:41:29
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:41:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:41:32
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:41:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:41:32
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:41:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:41:33
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:41:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:41:33
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:41:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:42:33
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:42:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:42:33
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:42:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:42:35
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:42:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:42:35
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:42:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:43:00
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:43:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:43:00
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:43:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:43:02
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:43:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:43:02
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:43:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:43:02
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:43:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:43:30
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:43:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:43:30
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:43:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:43:32
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:43:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:43:32
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:43:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:43:32
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:43:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:44:59
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:44:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:44:59
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:44:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:45:01
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:45:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:45:01
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:45:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:45:01
+----------------------------
+DESC dy_user
+TM : 0 : 2015-07-29 16:45:01
+----------------------------
+UPDATE dy_user SET uname = 'irones', tname = '312', pwd = '123' WHERE uid = 16
+TM : 0 : 2015-07-29 16:45:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:45:01
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:45:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:45:11
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:45:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:45:11
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:45:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:45:12
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:45:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:45:12
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:45:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:45:12
+----------------------------
+DESC dy_user
+TM : 0 : 2015-07-29 16:45:12
+----------------------------
+UPDATE dy_user SET uname = 'irones', tname = '312', pwd = '123' WHERE uid = 16
+TM : 0 : 2015-07-29 16:45:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:45:12
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:45:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:45:12
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:45:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:45:14
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:45:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:45:14
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:45:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:45:14
+----------------------------
+DESC dy_user
+TM : 0 : 2015-07-29 16:45:14
+----------------------------
+UPDATE dy_user SET uname = 'irones', tname = '312', pwd = '123' WHERE uid = 16
+TM : 0 : 2015-07-29 16:45:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:45:14
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:45:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:45:14
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:45:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:45:31
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:45:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:45:31
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:45:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:45:31
+----------------------------
+DESC dy_user
+TM : 0 : 2015-07-29 16:45:31
+----------------------------
+UPDATE dy_user SET uname = 'irones', tname = '杨俊', pwd = 'irones' WHERE uid = 16
+TM : 0 : 2015-07-29 16:45:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:45:31
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:45:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:45:31
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:45:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:45:34
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:45:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:45:34
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:45:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:06
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:46:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:06
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:46:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:11
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:46:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:11
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:46:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:11
+----------------------------
+DESC dy_user
+TM : 0 : 2015-07-29 16:46:11
+----------------------------
+UPDATE dy_user SET uname = 'irones', tname = '杨俊', pwd = 'irones' WHERE uid = 16
+TM : 0 : 2015-07-29 16:46:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:11
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:46:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:11
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:46:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:12
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:46:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:12
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:46:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:18
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:46:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:18
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:46:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:18
+----------------------------
+DESC dy_user
+TM : 0 : 2015-07-29 16:46:18
+----------------------------
+UPDATE dy_user SET uname = 'irones', tname = '杨俊', pwd = 'irones' WHERE uid = 16
+TM : 0 : 2015-07-29 16:46:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 16:46:18
+----------------------------
+ select uid,uname from dy_user
+TM : 0.00099992752075195 : 2015-07-29 16:46:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 16:46:18
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.00099992752075195 : 2015-07-29 16:46:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:22
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:46:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:22
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:46:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:22
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:46:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:30
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:46:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:30
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:46:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:30
+----------------------------
+DESC dy_user
+TM : 0 : 2015-07-29 16:46:30
+----------------------------
+UPDATE dy_user SET logtime = '192.168.1.200', regtime = '1438159590.2534' WHERE uname = 'irones'
+TM : 0 : 2015-07-29 16:46:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:30
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:46:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:30
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:46:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:46:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:31
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:46:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:31
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:46:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:31
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:46:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:31
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:46:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:31
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:46:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:31
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:46:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:46:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:31
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:46:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:31
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:46:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:31
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:46:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:31
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:46:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:31
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:46:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:31
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:46:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:35
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:46:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:35
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:46:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:40
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:46:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:40
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:46:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:40
+----------------------------
+DESC dy_user
+TM : 0 : 2015-07-29 16:46:40
+----------------------------
+UPDATE dy_user SET uname = 'irones', tname = '杨俊', pwd = '123' WHERE uid = 16
+TM : 0 : 2015-07-29 16:46:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:40
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:46:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:40
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:46:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:43
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:46:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:43
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:46:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:43
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:46:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:50
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:46:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:50
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:46:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:50
+----------------------------
+DESC dy_user
+TM : 0 : 2015-07-29 16:46:50
+----------------------------
+UPDATE dy_user SET logtime = '192.168.1.200', regtime = '1438159610.3676' WHERE uname = 'irones'
+TM : 0 : 2015-07-29 16:46:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0010008811950684 : 2015-07-29 16:46:50
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0010008811950684 : 2015-07-29 16:46:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0010008811950684 : 2015-07-29 16:46:50
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0010008811950684 : 2015-07-29 16:46:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:46:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:51
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:46:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:51
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:46:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:51
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:46:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:51
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:46:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:51
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:46:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:51
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:46:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:46:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:51
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:46:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:51
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:46:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:51
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:46:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:51
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:46:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:51
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:46:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:51
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:46:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:54
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:46:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:46:54
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:46:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:00
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:47:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:00
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:47:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:00
+----------------------------
+DESC dy_user
+TM : 0 : 2015-07-29 16:47:00
+----------------------------
+UPDATE dy_user SET uname = 'irones', tname = '杨俊', pwd = 'irones' WHERE uid = 16
+TM : 0 : 2015-07-29 16:47:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:00
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:47:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:00
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:47:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:05
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:47:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:05
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:47:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:08
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:47:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:08
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:47:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:08
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:47:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:16
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:47:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:16
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:47:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:16
+----------------------------
+DESC dy_user
+TM : 0 : 2015-07-29 16:47:16
+----------------------------
+UPDATE dy_user SET logtime = '192.168.1.200', regtime = '1438159636.7221' WHERE uname = 'irones'
+TM : 0 : 2015-07-29 16:47:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-07-29 16:47:17
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0010001659393311 : 2015-07-29 16:47:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-07-29 16:47:17
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0010001659393311 : 2015-07-29 16:47:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:47:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:17
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:47:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:17
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:47:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:17
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:47:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:17
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:47:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:17
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:47:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:17
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:47:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:47:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:17
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:47:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:17
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:47:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:17
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:47:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:17
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:47:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:17
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:47:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:17
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:47:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:19
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:47:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:19
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:47:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:47:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:19
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:47:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:19
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:47:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:19
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:47:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:19
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:47:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:19
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:47:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:19
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:47:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:47:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:19
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:47:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:19
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:47:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:19
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:47:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:19
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:47:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:19
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:47:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:19
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:47:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:28
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:47:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:28
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:47:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:47:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:29
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:47:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:29
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:47:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:29
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:47:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:29
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:47:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:29
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:47:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:29
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:47:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:47:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:29
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:47:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:29
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:47:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:29
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:47:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:29
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:47:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:29
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:47:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:29
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:47:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:32
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:47:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:32
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:47:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:47:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:32
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:47:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:32
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:47:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:32
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:47:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:32
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:47:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:32
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:47:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:32
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:47:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-29 16:47:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:32
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-29 16:47:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:32
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-29 16:47:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:32
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-29 16:47:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:32
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-29 16:47:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:32
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-29 16:47:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:32
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-29 16:47:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:40
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:47:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:40
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:47:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:44
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:47:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:47:44
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:47:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:48:35
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:48:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:48:35
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:48:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:48:52
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:48:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:48:52
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:48:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:50:29
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:50:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:50:29
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:50:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:50:37
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:50:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:50:37
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:50:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:50:45
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:50:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:50:45
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:50:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:50:52
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:50:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:50:52
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:50:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:51:28
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:51:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:51:28
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:51:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:51:30
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:51:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:51:30
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:51:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:51:35
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:51:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:51:35
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:51:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:51:45
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:51:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:51:45
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:51:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:52:19
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:52:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:52:19
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:52:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:52:35
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:52:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:52:35
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:52:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:52:38
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:52:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:52:38
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:52:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:53:12
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:53:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:53:12
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:53:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:56:25
+----------------------------
+ select * from g_group
+TM : 0 : 2015-07-29 16:56:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:56:25
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:56:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:56:25
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:56:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:57:39
+----------------------------
+ select * from g_group
+TM : 0 : 2015-07-29 16:57:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:57:39
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:57:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:57:39
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:57:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:58:00
+----------------------------
+ select * from g_group order by sort desc
+TM : 0 : 2015-07-29 16:58:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:58:00
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:58:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:58:00
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:58:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:58:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:58:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:58:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:58:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:58:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:58:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:58:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:58:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:58:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:58:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:58:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:58:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:58:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 16:58:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:58:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 16:58:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:58:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 16:58:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:58:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:58:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:59:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:59:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:59:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 16:59:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:59:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:59:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:59:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:59:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:59:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:59:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:59:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:59:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:59:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:59:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:59:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:59:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:59:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:59:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:59:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:59:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:59:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:59:12
+----------------------------
+ select * from g_group order by sort,groupid desc 
+TM : 0 : 2015-07-29 16:59:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:59:12
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:59:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:59:12
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:59:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:59:26
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 16:59:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:59:26
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:59:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:59:26
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:59:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:59:54
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 16:59:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:59:54
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 16:59:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 16:59:54
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 16:59:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:00:04
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:00:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:00:04
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:00:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:00:04
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:00:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:00:08
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:00:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:00:08
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:00:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:00:08
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:00:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:00:11
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:00:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:00:11
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:00:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:00:11
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:00:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:00:14
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:00:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:00:14
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:00:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:00:14
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:00:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:01:08
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:01:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:01:08
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:01:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:01:08
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:01:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:01:26
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:01:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:01:26
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:01:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:01:26
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:01:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:01:28
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:01:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:01:28
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:01:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:01:28
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:01:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:01:31
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:01:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:01:31
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:01:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:01:31
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:01:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:01:33
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:01:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:01:33
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:01:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:01:33
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:01:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:01:34
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:01:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:01:34
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:01:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:01:34
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:01:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:01:44
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:01:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:01:44
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:01:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:01:44
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:01:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:01:59
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:01:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:01:59
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:01:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:01:59
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:01:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:02:12
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:02:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:02:12
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:02:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:02:12
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:02:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:02:19
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:02:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:02:19
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:02:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:02:19
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:02:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:02:21
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:02:21
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:02:21
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:02:21
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:02:21
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:02:21
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:02:38
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:02:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:02:38
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:02:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:02:38
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:02:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:02:47
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:02:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:02:47
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:02:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:02:47
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:02:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:02:55
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:02:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:02:55
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:02:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:02:55
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:02:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:02:59
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:02:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:02:59
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:02:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:02:59
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:02:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:03:10
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:03:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:03:10
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:03:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:03:10
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:03:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:03:20
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:03:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:03:20
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:03:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:03:20
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:03:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:03:28
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:03:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:03:28
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:03:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:03:28
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:03:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-07-29 17:03:31
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0.0010001659393311 : 2015-07-29 17:03:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-07-29 17:03:31
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0010001659393311 : 2015-07-29 17:03:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-07-29 17:03:31
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0010001659393311 : 2015-07-29 17:03:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:04:44
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:04:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:04:44
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:04:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:04:44
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:04:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:04:52
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:04:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:04:52
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:04:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:04:52
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:04:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:05:22
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:05:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:05:22
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:05:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:05:22
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:05:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:05:23
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:05:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:05:23
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:05:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:05:23
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:05:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:05:25
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:05:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:05:25
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:05:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:05:26
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:05:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:05:26
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:05:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:05:26
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:05:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:05:26
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:05:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:06:22
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:06:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:06:22
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:06:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:06:22
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:06:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:06:23
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:06:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:06:23
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:06:23
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:06:25
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:06:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:06:25
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:06:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:06:25
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:06:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:06:30
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:06:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:06:30
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:06:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:07:28
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:07:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:07:28
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:07:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:07:28
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:07:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:07:30
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:07:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:07:30
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:07:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:07:31
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:07:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:07:31
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:07:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:07:31
+----------------------------
+DESC dy_user
+TM : 0 : 2015-07-29 17:07:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:07:31
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:07:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:07:31
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:07:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:07:31
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:07:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:07:34
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:07:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:07:34
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:07:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:07:37
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:07:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:07:37
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:07:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:07:37
+----------------------------
+DESC dy_user
+TM : 0 : 2015-07-29 17:07:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:07:37
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:07:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:07:37
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:07:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:07:37
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:07:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:07:47
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:07:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:07:47
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:07:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:07:47
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:07:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:07:55
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:07:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:07:55
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:07:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:07:55
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:07:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:08:00
+----------------------------
+DESC g_group
+TM : 0 : 2015-07-29 17:08:00
+----------------------------
+INSERT INTO g_group (groupname, groupchr, sort, enable) VALUES ('123', '123', '231', '1')
+TM : 0 : 2015-07-29 17:08:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:08:00
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:08:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:08:00
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:08:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:08:00
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:08:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:08:04
+----------------------------
+DESC g_group
+TM : 0 : 2015-07-29 17:08:04
+----------------------------
+INSERT INTO g_group (groupname, groupchr, sort, enable) VALUES ('123', '123', '231', '1')
+TM : 0 : 2015-07-29 17:08:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 17:08:04
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0.00099992752075195 : 2015-07-29 17:08:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 17:08:04
+----------------------------
+ select uid,uname from dy_user
+TM : 0.00099992752075195 : 2015-07-29 17:08:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 17:08:04
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.00099992752075195 : 2015-07-29 17:08:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:08:14
+----------------------------
+DESC g_group
+TM : 0 : 2015-07-29 17:08:14
+----------------------------
+INSERT INTO g_group (groupname, groupchr, sort, enable) VALUES ('', '123', '231', '1')
+TM : 0 : 2015-07-29 17:08:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:08:14
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:08:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:08:14
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:08:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:08:14
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:08:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:09:39
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:09:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:09:39
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:09:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:09:39
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:09:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:09:50
+----------------------------
+DESC g_group
+TM : 0 : 2015-07-29 17:09:50
+----------------------------
+INSERT INTO g_group (groupname, groupchr, sort, enable) VALUES ('1', '123', '231', '1')
+TM : 0 : 2015-07-29 17:09:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:09:50
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:09:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:09:50
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:09:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:09:50
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:09:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:10:27
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:10:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:10:27
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:10:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:10:27
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:10:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:11:00
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:11:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:11:00
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:11:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:11:00
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:11:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-07-29 17:11:26
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0.0010001659393311 : 2015-07-29 17:11:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-07-29 17:11:26
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0010001659393311 : 2015-07-29 17:11:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-07-29 17:11:26
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0010001659393311 : 2015-07-29 17:11:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:11:28
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:11:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:11:28
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:11:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:11:28
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:11:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:12:13
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:12:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:12:13
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:12:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:12:13
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:12:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:12:15
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:12:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:12:15
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:12:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:12:15
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:12:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:12:17
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:12:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:12:17
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:12:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:12:17
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:12:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 17:12:19
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0.00099992752075195 : 2015-07-29 17:12:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 17:12:19
+----------------------------
+ select uid,uname from dy_user
+TM : 0.00099992752075195 : 2015-07-29 17:12:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 17:12:19
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.00099992752075195 : 2015-07-29 17:12:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:12:21
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:12:21
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:12:21
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:12:21
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:12:21
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:12:21
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:12:40
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:12:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:12:40
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:12:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:12:40
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:12:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:12:46
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:12:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:12:46
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:12:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:12:46
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:12:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:13:29
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:13:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:13:29
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:13:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:13:29
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:13:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:13:32
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:13:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:13:32
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:13:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:13:32
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:13:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:15
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:14:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:15
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:14:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:15
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:14:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:17
+----------------------------
+delete from g_group WHERE  groupid =  14 
+TM : 0 : 2015-07-29 17:14:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:17
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:14:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:17
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:14:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:17
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:14:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:19
+----------------------------
+delete from g_group WHERE  groupid =  13 
+TM : 0 : 2015-07-29 17:14:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:19
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:14:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:19
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:14:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:19
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:14:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:21
+----------------------------
+delete from g_group WHERE  groupid =  12 
+TM : 0 : 2015-07-29 17:14:21
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:21
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:14:21
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:21
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:14:21
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:21
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:14:21
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:24
+----------------------------
+delete from g_group WHERE  groupid =  11 
+TM : 0 : 2015-07-29 17:14:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:24
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:14:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:24
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:14:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:24
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:14:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:26
+----------------------------
+delete from g_group WHERE  groupid =  10 
+TM : 0 : 2015-07-29 17:14:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:26
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:14:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:26
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:14:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:26
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:14:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:28
+----------------------------
+delete from g_group WHERE  groupid =  8 
+TM : 0 : 2015-07-29 17:14:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:28
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:14:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:28
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:14:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:28
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:14:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:30
+----------------------------
+delete from g_group WHERE  groupid =  7 
+TM : 0 : 2015-07-29 17:14:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:30
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:14:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:30
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:14:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:30
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:14:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:31
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:14:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:31
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:14:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:31
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:14:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:34
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:14:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:34
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:14:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:34
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:14:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:39
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:14:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:39
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:14:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:39
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:14:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:44
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:14:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:44
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:14:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:44
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:14:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:47
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:14:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:47
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:14:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:47
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:14:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:51
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:14:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:51
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:14:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:51
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:14:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:54
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:14:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:54
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:14:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:54
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:14:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:57
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:14:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:57
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:14:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:14:57
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:14:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:15:25
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:15:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:15:25
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:15:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:15:25
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:15:25
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:15:27
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:15:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:15:27
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:15:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:15:27
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:15:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:47:14
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:47:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:47:14
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:47:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:47:14
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:47:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:47:17
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:47:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:47:17
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:47:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:47:17
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:47:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:47:36
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:47:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:47:36
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:47:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:47:36
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:47:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:47:41
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:47:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:47:41
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:47:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:47:41
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:47:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:47:44
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:47:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:47:44
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:47:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:47:44
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:47:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:47:44
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:47:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:47:44
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:47:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:47:44
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:47:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:47:44
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:47:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:47:44
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:47:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:47:44
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:47:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:48:00
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:48:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:48:00
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:48:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:48:00
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:48:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:48:02
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:48:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:48:02
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:48:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:48:02
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:48:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:48:03
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:48:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:48:03
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:48:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:48:03
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:48:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:48:03
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:48:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:48:03
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:48:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:48:03
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:48:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:48:03
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:48:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:48:03
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:48:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:48:03
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:48:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:48:09
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:48:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:48:09
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:48:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:48:09
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:48:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:48:15
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:48:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:48:15
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:48:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:48:15
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:48:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:48:18
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:48:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:48:18
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:48:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:48:18
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:48:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:48:18
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:48:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:48:18
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:48:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:48:18
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:48:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:48:18
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:48:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:48:18
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:48:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:48:18
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:48:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:48:36
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:48:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:48:36
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:48:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:48:36
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:48:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:49:38
+----------------------------
+delete from g_group WHERE  groupid =  9 
+TM : 0 : 2015-07-29 17:49:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:49:38
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:49:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:49:38
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:49:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:49:38
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:49:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:49:41
+----------------------------
+delete from g_group WHERE  groupid =  2 
+TM : 0 : 2015-07-29 17:49:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:49:41
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:49:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:49:41
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:49:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:49:41
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:49:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:49:43
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:49:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:49:43
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:49:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:49:43
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:49:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:50:33
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:50:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:50:33
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:50:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:50:33
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:50:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:50:36
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:50:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:50:36
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:50:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:50:36
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:50:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:33
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:52:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:33
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:52:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:33
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:52:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:38
+----------------------------
+DESC g_group
+TM : 0 : 2015-07-29 17:52:38
+----------------------------
+INSERT INTO g_group (groupname, groupchr, sort, enable) VALUES ('1', '2', '3', '1')
+TM : 0 : 2015-07-29 17:52:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:38
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:52:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:38
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:52:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:38
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:52:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:41
+----------------------------
+delete from g_group WHERE  groupid =  15 
+TM : 0 : 2015-07-29 17:52:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:41
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:52:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:41
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:52:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:41
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:52:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:44
+----------------------------
+DESC g_group
+TM : 0 : 2015-07-29 17:52:44
+----------------------------
+INSERT INTO g_group (groupname, groupchr, sort, enable) VALUES ('123', '123', '123', '1')
+TM : 0 : 2015-07-29 17:52:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:44
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:52:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:44
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:52:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:44
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:52:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:47
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:52:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:47
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:52:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:47
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:52:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:48
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:52:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:48
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:52:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:48
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:52:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:50
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:52:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:50
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:52:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:50
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:52:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:51
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:52:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:51
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:52:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:51
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:52:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:54
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:52:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:54
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:52:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:54
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:52:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:57
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:52:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:57
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:52:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:57
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:52:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:58
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:52:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:58
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:52:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:52:58
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:52:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:56:05
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 17:56:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:56:05
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 17:56:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 17:56:05
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 17:56:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:02:50
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 18:02:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:02:50
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 18:02:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:02:50
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 18:02:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:02:53
+----------------------------
+DESC g_group
+TM : 0 : 2015-07-29 18:02:53
+----------------------------
+UPDATE g_group SET enable = '0' WHERE groupid =  1
+TM : 0 : 2015-07-29 18:02:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:02:53
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 18:02:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:02:53
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 18:02:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:02:53
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 18:02:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:02:55
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 18:02:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:02:55
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 18:02:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:02:55
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 18:02:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:02:57
+----------------------------
+DESC g_group
+TM : 0 : 2015-07-29 18:02:57
+----------------------------
+UPDATE g_group SET enable = '1' WHERE groupid =  1
+TM : 0 : 2015-07-29 18:02:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:02:57
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 18:02:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:02:57
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 18:02:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:02:57
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 18:02:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:02:58
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 18:02:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:02:58
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 18:02:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:02:58
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 18:02:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:03:06
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 18:03:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:03:06
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 18:03:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:03:06
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 18:03:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:03:08
+----------------------------
+DESC g_group
+TM : 0 : 2015-07-29 18:03:08
+----------------------------
+UPDATE g_group SET enable = '0' WHERE groupid =  1
+TM : 0 : 2015-07-29 18:03:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:03:12
+----------------------------
+DESC g_group
+TM : 0 : 2015-07-29 18:03:12
+----------------------------
+UPDATE g_group SET enable = '0' WHERE groupid =  1
+TM : 0 : 2015-07-29 18:03:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:03:12
+----------------------------
+DESC g_group
+TM : 0 : 2015-07-29 18:03:12
+----------------------------
+UPDATE g_group SET enable = '0' WHERE groupid =  1
+TM : 0 : 2015-07-29 18:03:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:03:19
+----------------------------
+DESC g_group
+TM : 0 : 2015-07-29 18:03:19
+----------------------------
+UPDATE g_group SET enable = '0' WHERE groupid =  1
+TM : 0 : 2015-07-29 18:03:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:03:34
+----------------------------
+DESC g_group
+TM : 0 : 2015-07-29 18:03:34
+----------------------------
+UPDATE g_group SET enable = '0' WHERE groupid =  1
+TM : 0 : 2015-07-29 18:03:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:03:45
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 18:03:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:03:45
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 18:03:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:03:45
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 18:03:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:03:48
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 18:03:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:03:48
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 18:03:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:03:48
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 18:03:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:04:04
+----------------------------
+DESC g_group
+TM : 0 : 2015-07-29 18:04:04
+----------------------------
+UPDATE g_group SET enable = '1' WHERE groupid =  1
+TM : 0 : 2015-07-29 18:04:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:04:38
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 18:04:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:04:38
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 18:04:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:04:38
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 18:04:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 18:04:40
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0.00099992752075195 : 2015-07-29 18:04:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 18:04:40
+----------------------------
+ select uid,uname from dy_user
+TM : 0.00099992752075195 : 2015-07-29 18:04:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-29 18:04:40
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.00099992752075195 : 2015-07-29 18:04:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:04:41
+----------------------------
+DESC g_group
+TM : 0 : 2015-07-29 18:04:41
+----------------------------
+UPDATE g_group SET enable = '0' WHERE groupid =  1
+TM : 0 : 2015-07-29 18:04:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:04:41
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 18:04:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:04:41
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 18:04:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:04:41
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 18:04:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:04:47
+----------------------------
+DESC g_group
+TM : 0 : 2015-07-29 18:04:47
+----------------------------
+UPDATE g_group SET enable = '1' WHERE groupid =  1
+TM : 0 : 2015-07-29 18:04:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:04:47
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 18:04:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:04:47
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 18:04:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:04:47
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 18:04:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:04:52
+----------------------------
+DESC g_group
+TM : 0 : 2015-07-29 18:04:52
+----------------------------
+UPDATE g_group SET enable = '0' WHERE groupid =  1
+TM : 0 : 2015-07-29 18:04:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:04:52
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 18:04:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:04:52
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 18:04:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:04:52
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 18:04:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:04:53
+----------------------------
+DESC g_group
+TM : 0 : 2015-07-29 18:04:53
+----------------------------
+UPDATE g_group SET enable = '0' WHERE groupid =  16
+TM : 0 : 2015-07-29 18:04:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:04:53
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 18:04:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:04:53
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 18:04:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:04:53
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 18:04:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:04:59
+----------------------------
+DESC g_group
+TM : 0 : 2015-07-29 18:04:59
+----------------------------
+UPDATE g_group SET enable = '1' WHERE groupid =  16
+TM : 0 : 2015-07-29 18:04:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:04:59
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 18:04:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:04:59
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 18:04:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:04:59
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 18:04:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:05:01
+----------------------------
+DESC g_group
+TM : 0 : 2015-07-29 18:05:01
+----------------------------
+UPDATE g_group SET enable = '1' WHERE groupid =  1
+TM : 0 : 2015-07-29 18:05:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:05:01
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 18:05:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:05:01
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 18:05:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:05:01
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 18:05:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:05:09
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-07-29 18:05:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:05:09
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-29 18:05:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-29 18:05:09
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-29 18:05:09
+----------------------------

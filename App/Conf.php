@@ -27,7 +27,8 @@ $config = [
 //            "quiet"     =>  0
 //        ],
         'default'=>[
-            "hostname"  =>  '58.30.248.98',
+//            "hostname"  =>  '58.30.248.98',
+            "hostname"  =>  '127.0.0.1',
             "username"  =>  'gracemain',
             "password"  =>  'gracemain',
             "database"  =>  'gracemain',

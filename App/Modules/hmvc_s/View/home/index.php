@@ -1,33 +1,11 @@
-<?php
-View::tplInclude('Frame/header', ['title' => $title]);
-?>
-
-
-
+<?php View::tplInclude('Frame/header', $data); ?>
 <body class="page-body">
 <div class="page-loading-overlay"><div class="loader-2"></div></div>
-<?php
-View::tplInclude('Frame/setting',  ['title' => $title]);
-?>
-
-	
-<?php
-View::tplInclude('Frame/headbar',  ['title' => $title]);
-?>
-
-	
-	
-	
+<?php View::tplInclude('Frame/setting',  $data); ?>
+<?php View::tplInclude('Frame/headbar',  $data); ?>
 	<div class="page-container"><!-- add class "sidebar-collapsed" to close sidebar by default, "chat-visible" to make chat appear always -->
-<?php
-View::tplInclude('Frame/sitebar',['title' => $title]);
-?>
-		
-
-		
+<?php View::tplInclude('Frame/sitebar',$data); ?>
 		<div class="main-content">
-        
-        
         
 <!-- path nav -->
 <div class="page-title">
@@ -78,53 +56,42 @@ View::tplInclude('Frame/sitebar',['title' => $title]);
 							<script type="text/javascript">
 								jQuery(document).ready(function($)
 								{
+									function getjson(url){
+										options = {
+											url : url,
+											dataType: "json",
+											async:false,
+											cache:true
+										}
+										return $.ajax(options).responseJSON;
+									}
 									$("#bar-1").dxChart({
-										dataSource: [
-											{day: "Monday", sales: 3},
-											{day: "Tuesday", sales: 2},
-											{day: "Wednesday", sales: 3},
-											{day: "Thursday", sales: 4},
-											{day: "Friday", sales: 6},
-											{day: "Saturday", sales: 11},
-											{day: "Sund2ay", sales: 4} ,
-											{day: "Sunday", sales: 4} 
-										],
-									 
+										dataSource:getjson('/home/Getdbused'),
 										series: {
-											argumentField: "day",
-											valueField: "sales",
+											argumentField: "table",
+											valueField: "val",
 											name: "Sales",
 											type: "bar",
 											color: '#68b828'
-										}
-									});
-									
-									$("#bar-1-randomize").on('click', function(ev)
-									{
-										ev.preventDefault();
+										},
+										tooltip: {
+											enabled: false,
+											customizeText: function() { 
+												return this.argumentText + "<br/>" + this.valueText;
+											}
+										},
+										pointClick: function(point) {
+											point.showTooltip();
+											clearTimeout(timer);
+										},										
 										
-										$('#bar-1').dxChart('instance').option('dataSource', [
-											{day: "Monday", sales: between(1,25)},
-											{day: "Tuesday", sales: between(1,25)},
-											{day: "Wednesday", sales: between(1,25)},
-											{day: "Thursday", sales: between(1,25)},
-											{day: "Friday", sales: between(1,25)},
-											{day: "Saturday", sales: between(1,25)},
-											{day: "Sunday", sales: between(1,25)} 
-										]);
 									});
-								});
-								
-								function between(randNumMin, randNumMax)
-								{
-									var randInt = Math.floor((Math.random() * ((randNumMax + 1) - randNumMin)) + randNumMin);
 									
-									return randInt;
-								}
+								});
 							</script>
 							<div id="bar-1" style="height: 440px; width: 100%;"></div>
 							<br />
-							<a href="#" id="bar-1-randomize" class="btn btn-primary btn-small">Randomize</a>
+							
 						</div>
 					</div>
 						
@@ -140,7 +107,7 @@ View::tplInclude('Frame/sitebar',['title' => $title]);
 				
 					<div class="panel panel-default">
 						<div class="panel-heading">
-							<h3 class="panel-title">数据库数据情况</h3>
+							<h3 class="panel-title">数据</h3>
 							<div class="panel-options">
 								<a href="#" data-toggle="panel">
 									<span class="collapse-icon">&ndash;</span>
@@ -155,27 +122,37 @@ View::tplInclude('Frame/sitebar',['title' => $title]);
 							<script type="text/javascript">
 								jQuery(document).ready(function($)
 								{
-									var dataSource = [
-										{region: "As1ia", val: 4119626293},
-										{region: "Af1rica", val: 1012956064},
-										{region: "No1rthern America", val: 344124520},
-										{region: "La1tin America and the Caribbean", val: 590946440},
-										{region: "Eu1rope", val: 727082222},
-										{region: "Asia", val: 4119626293},
-										{region: "Africa", val: 1012956064},
-										{region: "Northern America", val: 344124520},
-										{region: "Latin America and the Caribbean", val: 590946440},
-										{region: "Europe", val: 727082222},
-										{region: "Oceania", val: 35104756}
-									], timer;
-									
+
+
+//var dataSource = [
+//	{region: "Asia", val: 4119626293},
+//	{region: "Africa", val: 1012956064},
+//	{region: "Northern America", val: 344124520},
+//	{region: "Latin America and the Caribbean", val: 590946440},
+//	{region: "Europe", val: 727082222},
+//	{region: "Oceania", val: 35104756}
+//], timer;
+
+
+									function getjson(url){
+										options = {
+											url : url,
+											dataType: "json",
+											async:false,
+											cache:true
+										}
+										return $.ajax(options).responseJSON;
+									}
+									var dataSource = getjson('/home/Getdbused'), timer;
+//									console.log(dataSource);
 									$("#bar-10").dxPieChart({
 										dataSource: dataSource,
-										title: "数据库数据情况",
+										title: "表分布",
 										tooltip: {
 											enabled: false,
-										  	format:"millions",
+										  	//format:"millions",
 											customizeText: function() { 
+											//console.log( this.argumentText + "<br/>" + this.valueText);
 												return this.argumentText + "<br/>" + this.valueText;
 											}
 										},
@@ -185,15 +162,16 @@ View::tplInclude('Frame/sitebar',['title' => $title]);
 										pointClick: function(point) {
 											point.showTooltip();
 											clearTimeout(timer);
-											timer = setTimeout(function() { point.hideTooltip(); }, 2000);
-											$("select option:contains(" + point.argument + ")").prop("selected", true);
+											//timer = setTimeout(function() { point.hideTooltip(); }, 2000);
+											//$("select option:contains(" + point.argument + ")").prop("selected", true);
 										},
 										legend: {
 											visible: false
-										},  
+										},
 										series: [{
+											argumentField	: "table",
+											//valueField		: "val",
 											type: "doughnut",
-											argumentField: "region"
 										}],
 										palette: xenonPalette
 									});
@@ -219,7 +197,7 @@ View::tplInclude('Frame/sitebar',['title' => $title]);
 			
 
 <?php
-View::tplInclude('Frame/footer',[]);
+View::tplInclude('Frame/footer',$data);
 ?>
 	  </div>
 		
@@ -230,7 +208,7 @@ View::tplInclude('Frame/footer',[]);
 	
 	
 <?php
-View::tplInclude('Frame/footerjs', []);
+View::tplInclude('Frame/footerjs',$data);
 ?>
 
 

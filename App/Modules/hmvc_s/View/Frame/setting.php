@@ -13,7 +13,7 @@
 					<div class="user-info">
 						
 						<div class="user-image">
-							<a href="extra-profile.html">
+							<a href="/s/user/usereditprofile">
 								<img src="/assets/images/user-2.png" class="img-responsive img-circle" />
 							</a>
 						</div>
@@ -21,18 +21,18 @@
 						<div class="user-details">
 							
 							<h3>
-								<a href="extra-profile.html">John Smith</a>
+								<a href="/s/user/usereditprofile"><?=$user['tname']?:$user['uname'];?></a>
 								
 								<!-- Available statuses: is-online, is-idle, is-busy and is-offline -->
 								<span class="user-status is-online"></span>
 							</h3>
 							
-							<p class="user-title">Web Developer</p>
+							<p class="user-title"><?=$user['uname']?:$user['tname'];?></p>
 							
-							<div class="user-links">
+							<!--div class="user-links">
 								<a href="extra-profile.html" class="btn btn-primary">Edit Profile</a>
 								<a href="extra-profile.html" class="btn btn-success">Upgrade</a>
-							</div>
+							</div -->
 							
 						</div>
 						

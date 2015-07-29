@@ -66,6 +66,14 @@ class home extends BaseController {
     }
     //?ref=main.php
 
+    //denglu
+    public function doView(){
+        $this->display('',[
+            'title' => '查看',
+            'dis'   => '说明'
+        ]);       //默认的index.php
+    }
+    //?ref=main.php
 
 
 
