@@ -37946,3 +37946,5662 @@ TM : 0 : 2015-07-29 18:05:09
  select * from dy_user where uname = 'irones'
 TM : 0 : 2015-07-29 18:05:09
 ----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.039002180099487 : 2015-07-30 16:41:53
+----------------------------
+ select uid,uname from dy_user
+TM : 0.039002180099487 : 2015-07-30 16:41:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.039002180099487 : 2015-07-30 16:41:53
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.039002180099487 : 2015-07-30 16:41:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 16:42:28
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 16:42:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 16:42:28
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 16:42:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 16:42:31
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 16:42:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 16:42:31
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 16:42:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 16:50:38
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 16:50:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 16:50:38
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 16:50:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 16:50:57
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 16:50:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 16:50:57
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 16:50:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 16:51:05
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 16:51:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 16:51:05
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 16:51:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 16:51:10
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 16:51:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 16:51:10
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 16:51:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 16:51:16
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 16:51:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 16:51:16
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 16:51:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 16:52:06
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 16:52:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 16:52:06
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 16:52:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:20:09
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:20:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:20:09
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:20:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:23:04
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:23:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:23:04
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:23:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:23:04
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:23:04
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:23:06
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:23:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:23:06
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:23:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:23:06
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:23:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:23:40
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:23:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:23:40
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:23:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:23:40
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:23:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:24:00
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:24:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:24:00
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:24:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:24:00
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:24:00
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:24:06
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:24:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:24:06
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:24:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:24:06
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:24:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:24:13
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:24:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:24:13
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:24:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:24:13
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:24:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:24:18
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:24:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:24:18
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:24:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:24:18
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:24:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:30:16
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:30:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:30:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:30:40
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:30:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:30:40
+----------------------------
+ select * from g_booknode where bookid = 'home'
+TM : 0 : 2015-07-30 17:30:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:30:40
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:30:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:30:40
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:30:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:31:29
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:31:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:31:29
+----------------------------
+ select * from g_booknode where bookid = '0'
+TM : 0 : 2015-07-30 17:31:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:31:29
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:31:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:31:29
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:31:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:34:16
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:34:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:34:16
+----------------------------
+ select * from g_booknode where bookid = '0'
+TM : 0 : 2015-07-30 17:34:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:34:16
+----------------------------
+ select * from g_book where bookid = 0
+TM : 0 : 2015-07-30 17:34:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:34:16
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:34:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:34:16
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:34:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:34:35
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:34:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:34:35
+----------------------------
+ select * from g_booknode where bookid = '0'
+TM : 0 : 2015-07-30 17:34:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:34:35
+----------------------------
+ select * from g_book where bookid = 0
+TM : 0 : 2015-07-30 17:34:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:34:35
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:34:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:34:35
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:34:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:34:39
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:34:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:34:39
+----------------------------
+ select * from g_booknode where bookid = '0'
+TM : 0 : 2015-07-30 17:34:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:34:39
+----------------------------
+ select * from g_book where bookid = 0
+TM : 0 : 2015-07-30 17:34:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:34:39
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:34:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:34:39
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:34:39
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:34:56
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:34:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:34:56
+----------------------------
+ select * from g_booknode where bookid = '0'
+TM : 0 : 2015-07-30 17:34:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:34:56
+----------------------------
+ select * from g_book where bookid = 0
+TM : 0 : 2015-07-30 17:34:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:34:56
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:34:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:34:56
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:34:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0099999904632568 : 2015-07-30 17:35:06
+----------------------------
+ select * from g_book where enable = 1
+TM : 0.0099999904632568 : 2015-07-30 17:35:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0099999904632568 : 2015-07-30 17:35:06
+----------------------------
+ select * from g_booknode where bookid = '0'
+TM : 0.0099999904632568 : 2015-07-30 17:35:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0099999904632568 : 2015-07-30 17:35:06
+----------------------------
+ select * from g_book where bookid = 0
+TM : 0.0099999904632568 : 2015-07-30 17:35:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0099999904632568 : 2015-07-30 17:35:06
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0099999904632568 : 2015-07-30 17:35:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0099999904632568 : 2015-07-30 17:35:06
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0099999904632568 : 2015-07-30 17:35:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:35:07
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:35:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:35:07
+----------------------------
+ select * from g_booknode where bookid = '0'
+TM : 0 : 2015-07-30 17:35:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:35:07
+----------------------------
+ select * from g_book where bookid = 0
+TM : 0 : 2015-07-30 17:35:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:35:07
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:35:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:35:07
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:35:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:35:08
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:35:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:35:08
+----------------------------
+ select * from g_booknode where bookid = '0'
+TM : 0 : 2015-07-30 17:35:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:35:08
+----------------------------
+ select * from g_book where bookid = 0
+TM : 0 : 2015-07-30 17:35:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:35:08
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:35:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:35:08
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:35:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:35:32
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:35:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:35:32
+----------------------------
+ select * from g_booknode where bookid = '0'
+TM : 0 : 2015-07-30 17:35:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:35:32
+----------------------------
+ select * from g_book where bookid = 0
+TM : 0 : 2015-07-30 17:35:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:35:32
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:35:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:35:32
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:35:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:35:37
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:35:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:35:37
+----------------------------
+ select * from g_booknode where bookid = '0'
+TM : 0 : 2015-07-30 17:35:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:35:37
+----------------------------
+ select * from g_book where bookid = 0
+TM : 0 : 2015-07-30 17:35:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:35:37
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:35:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:35:37
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:35:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:35:42
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:35:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:35:42
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:35:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:35:42
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 17:35:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:35:42
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:35:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:35:42
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:35:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:35:58
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:35:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:35:58
+----------------------------
+ select * from g_booknode where bookid = '0'
+TM : 0 : 2015-07-30 17:35:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:35:58
+----------------------------
+ select * from g_book where bookid = 0
+TM : 0 : 2015-07-30 17:35:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:35:58
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:35:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:35:58
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:35:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:36:06
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:36:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:36:06
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:36:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:36:06
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 17:36:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:36:06
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:36:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:36:06
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:36:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:36:12
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:36:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:36:12
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:36:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:36:12
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 17:36:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:36:12
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:36:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:36:12
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:36:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:36:19
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:36:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:36:19
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:36:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:36:19
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 17:36:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:36:19
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:36:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:36:19
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:36:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:40:20
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:40:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:40:20
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:40:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:40:20
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 17:40:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:40:20
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:40:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:40:20
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:40:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:40:37
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:40:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:40:37
+----------------------------
+ select * from g_booknode where bookid = '0'
+TM : 0 : 2015-07-30 17:40:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:40:37
+----------------------------
+ select * from g_book where bookid = 0
+TM : 0 : 2015-07-30 17:40:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:40:37
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:40:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:40:37
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:40:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:40:41
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:40:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:40:41
+----------------------------
+ select * from g_booknode where bookid = '0'
+TM : 0 : 2015-07-30 17:40:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:40:41
+----------------------------
+ select * from g_book where bookid = 0
+TM : 0 : 2015-07-30 17:40:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:40:41
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:40:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:40:41
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:40:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:40:42
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:40:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:40:42
+----------------------------
+ select * from g_booknode where bookid = '0'
+TM : 0 : 2015-07-30 17:40:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:40:42
+----------------------------
+ select * from g_book where bookid = 0
+TM : 0 : 2015-07-30 17:40:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:40:42
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:40:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:40:42
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:40:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:41:16
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:41:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:41:16
+----------------------------
+ select * from g_booknode where bookid = '0'
+TM : 0 : 2015-07-30 17:41:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:41:16
+----------------------------
+ select * from g_book where bookid = 0
+TM : 0 : 2015-07-30 17:41:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:41:16
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:41:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:41:16
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:41:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:41:32
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:41:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:41:32
+----------------------------
+ select * from g_booknode where bookid = '0'
+TM : 0 : 2015-07-30 17:41:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:41:32
+----------------------------
+ select * from g_book where bookid = 0
+TM : 0 : 2015-07-30 17:41:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:41:32
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:41:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:41:32
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:41:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:41:34
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:41:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:41:34
+----------------------------
+ select * from g_booknode where bookid = '0'
+TM : 0 : 2015-07-30 17:41:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:41:34
+----------------------------
+ select * from g_book where bookid = 0
+TM : 0 : 2015-07-30 17:41:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:41:34
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:41:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:41:34
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:41:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:41:55
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:41:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:41:55
+----------------------------
+ select * from g_booknode where bookid = '0'
+TM : 0 : 2015-07-30 17:41:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:41:55
+----------------------------
+ select * from g_book where bookid = 0
+TM : 0 : 2015-07-30 17:41:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:41:55
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:41:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:41:55
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:41:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:42:30
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:42:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:42:30
+----------------------------
+ select * from g_booknode where bookid = '0'
+TM : 0 : 2015-07-30 17:42:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:42:30
+----------------------------
+ select * from g_book where bookid = 0
+TM : 0 : 2015-07-30 17:42:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:42:30
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:42:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:42:30
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:42:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:42:32
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:42:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:42:32
+----------------------------
+ select * from g_booknode where bookid = '0'
+TM : 0 : 2015-07-30 17:42:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:42:32
+----------------------------
+ select * from g_book where bookid = 0
+TM : 0 : 2015-07-30 17:42:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:42:32
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:42:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:42:32
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:42:32
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:42:38
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:42:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:42:38
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:42:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:42:38
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 17:42:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:42:38
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:42:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:42:38
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:42:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:43:12
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:43:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:43:12
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:43:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:43:12
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 17:43:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:43:12
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:43:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:43:12
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:43:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:43:16
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:43:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:43:16
+----------------------------
+ select * from g_booknode where bookid = '0'
+TM : 0 : 2015-07-30 17:43:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:43:16
+----------------------------
+ select * from g_book where bookid = 0
+TM : 0 : 2015-07-30 17:43:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:43:16
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:43:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:43:16
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:43:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:43:19
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:43:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:43:19
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:43:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:43:19
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 17:43:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:43:19
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:43:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:43:19
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:43:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:44:34
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:44:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:44:34
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:44:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:44:34
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 17:44:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:44:34
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:44:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:44:34
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:44:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:44:37
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:44:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:44:37
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:44:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:44:37
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 17:44:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:44:37
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:44:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:44:37
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:44:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:45:12
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:45:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:45:12
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:45:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:45:12
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 17:45:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:45:12
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:45:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:45:12
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:45:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:45:15
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:45:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:45:15
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:45:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:45:15
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 17:45:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:45:15
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:45:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:45:15
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:45:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:45:46
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:45:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:45:46
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:45:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:45:46
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 17:45:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:45:46
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:45:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:45:46
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:45:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:46:36
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:46:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:46:36
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:46:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:46:36
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 17:46:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:46:36
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:46:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:46:36
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:46:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:47:01
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:47:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:47:01
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:47:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:47:01
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 17:47:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:47:01
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:47:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:47:01
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:47:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:47:34
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:47:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:47:34
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:47:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:47:34
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 17:47:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:47:34
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:47:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:47:34
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:47:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-30 17:48:48
+----------------------------
+ select * from g_book where enable = 1
+TM : 0.00099992752075195 : 2015-07-30 17:48:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-30 17:48:48
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0.00099992752075195 : 2015-07-30 17:48:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-30 17:48:48
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0.00099992752075195 : 2015-07-30 17:48:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-30 17:48:48
+----------------------------
+ select uid,uname from dy_user
+TM : 0.00099992752075195 : 2015-07-30 17:48:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-30 17:48:48
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.00099992752075195 : 2015-07-30 17:48:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:49:31
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:49:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:49:31
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:49:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:49:31
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 17:49:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:49:31
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:49:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:49:31
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:49:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:49:44
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:49:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:49:44
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:49:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:49:44
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 17:49:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:49:44
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:49:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:49:44
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:49:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:49:47
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:49:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:49:47
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:49:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:49:47
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 17:49:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:49:47
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:49:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:49:47
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:49:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:50:07
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:50:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:50:07
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:50:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:50:07
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 17:50:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:50:07
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:50:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:50:07
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:50:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:50:21
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:50:21
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:50:21
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:50:21
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:50:21
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 17:50:21
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:50:21
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:50:21
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:50:21
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:50:21
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:50:56
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:50:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:50:56
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:50:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:50:56
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 17:50:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:50:56
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:50:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:50:56
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:50:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:51:26
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:51:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:51:26
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:51:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:51:26
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 17:51:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:51:26
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:51:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:51:26
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:51:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:51:33
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:51:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:51:33
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:51:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:51:33
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 17:51:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:51:33
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:51:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:51:33
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:51:33
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:51:40
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:51:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:51:40
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:51:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:51:40
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 17:51:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:51:40
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:51:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:51:40
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:51:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:51:42
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:51:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:51:42
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:51:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:51:42
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 17:51:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:51:42
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:51:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:51:42
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:51:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:51:43
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:51:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:51:43
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:51:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:51:43
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 17:51:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:51:43
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:51:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:51:43
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:51:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:03
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:52:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:03
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:52:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:03
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 17:52:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:03
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:52:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:03
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:52:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:22
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:52:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:22
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:52:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:22
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 17:52:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:22
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:52:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:22
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:52:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:27
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:52:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:27
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:52:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:27
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 17:52:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:27
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:52:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:27
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:52:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:34
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:52:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:34
+----------------------------
+ select * from g_booknode where bookid = '2'
+TM : 0 : 2015-07-30 17:52:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:34
+----------------------------
+ select * from g_book where bookid = 2
+TM : 0 : 2015-07-30 17:52:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:34
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:52:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:34
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:52:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:50
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:52:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:50
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:52:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:50
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 17:52:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:50
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:52:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:50
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:52:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:52
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:52:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:52
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:52:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:52
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 17:52:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:52
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:52:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:52
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:52:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:54
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:52:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:54
+----------------------------
+ select * from g_booknode where bookid = '2'
+TM : 0 : 2015-07-30 17:52:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:54
+----------------------------
+ select * from g_book where bookid = 2
+TM : 0 : 2015-07-30 17:52:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:54
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:52:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:52:54
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:52:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:09
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:53:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:09
+----------------------------
+ select * from g_booknode where bookid = '2'
+TM : 0 : 2015-07-30 17:53:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:09
+----------------------------
+ select * from g_book where bookid = 2
+TM : 0 : 2015-07-30 17:53:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:09
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:53:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:09
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:53:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:11
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:53:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:11
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:53:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:11
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 17:53:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:11
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:53:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:11
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:53:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:13
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:53:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:13
+----------------------------
+ select * from g_booknode where bookid = '2'
+TM : 0 : 2015-07-30 17:53:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:13
+----------------------------
+ select * from g_book where bookid = 2
+TM : 0 : 2015-07-30 17:53:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:13
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:53:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:13
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:53:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:15
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:53:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:15
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:53:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:15
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:53:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-30 17:53:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:16
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-30 17:53:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:16
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-30 17:53:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:16
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-30 17:53:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:16
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-30 17:53:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:16
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-30 17:53:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:16
+----------------------------
+ select count(*) from g_book
+TM : 0 : 2015-07-30 17:53:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:16
+----------------------------
+ select count(*) from g_booknode
+TM : 0 : 2015-07-30 17:53:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:16
+----------------------------
+ select count(*) from g_group
+TM : 0 : 2015-07-30 17:53:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:16
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-30 17:53:16
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-07-30 17:53:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:17
+----------------------------
+ select count(*) from doc_document
+TM : 0 : 2015-07-30 17:53:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:17
+----------------------------
+ select count(*) from doc_metro
+TM : 0 : 2015-07-30 17:53:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:17
+----------------------------
+ select count(*) from doc_metro_group
+TM : 0 : 2015-07-30 17:53:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:17
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-07-30 17:53:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:17
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-07-30 17:53:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:17
+----------------------------
+ select count(*) from g_book
+TM : 0 : 2015-07-30 17:53:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:17
+----------------------------
+ select count(*) from g_booknode
+TM : 0 : 2015-07-30 17:53:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:17
+----------------------------
+ select count(*) from g_group
+TM : 0 : 2015-07-30 17:53:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:17
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-07-30 17:53:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:19
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:53:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:19
+----------------------------
+ select * from g_booknode where bookid = '2'
+TM : 0 : 2015-07-30 17:53:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:19
+----------------------------
+ select * from g_book where bookid = 2
+TM : 0 : 2015-07-30 17:53:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:19
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:53:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:53:19
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:53:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:56:03
+----------------------------
+ select * from g_booknode where bookid = '2'
+TM : 0 : 2015-07-30 17:56:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:56:03
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 17:56:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:56:03
+----------------------------
+ select * from g_book where bookid = 2
+TM : 0 : 2015-07-30 17:56:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:56:03
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 17:56:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:56:03
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 17:56:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:56:18
+----------------------------
+ select * from g_booknode where bookid = '2'
+TM : 0 : 2015-07-30 17:56:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:56:19
+----------------------------
+ select * from g_booknode where bookid = '2'
+TM : 0 : 2015-07-30 17:56:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:56:19
+----------------------------
+ select * from g_booknode where bookid = '2'
+TM : 0 : 2015-07-30 17:56:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:56:19
+----------------------------
+ select * from g_booknode where bookid = '2'
+TM : 0 : 2015-07-30 17:56:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:56:20
+----------------------------
+ select * from g_booknode where bookid = '2'
+TM : 0 : 2015-07-30 17:56:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:56:20
+----------------------------
+ select * from g_booknode where bookid = '2'
+TM : 0 : 2015-07-30 17:56:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:56:20
+----------------------------
+ select * from g_booknode where bookid = '2'
+TM : 0 : 2015-07-30 17:56:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:56:20
+----------------------------
+ select * from g_booknode where bookid = '2'
+TM : 0 : 2015-07-30 17:56:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:56:42
+----------------------------
+ select * from g_booknode where bookid = '2'
+TM : 0 : 2015-07-30 17:56:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:56:43
+----------------------------
+ select * from g_booknode where bookid = '2'
+TM : 0 : 2015-07-30 17:56:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:56:43
+----------------------------
+ select * from g_booknode where bookid = '2'
+TM : 0 : 2015-07-30 17:56:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:56:43
+----------------------------
+ select * from g_booknode where bookid = '2'
+TM : 0 : 2015-07-30 17:56:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:56:43
+----------------------------
+ select * from g_booknode where bookid = '2'
+TM : 0 : 2015-07-30 17:56:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:56:44
+----------------------------
+ select * from g_booknode where bookid = '2'
+TM : 0 : 2015-07-30 17:56:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:56:56
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:56:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:56:57
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:56:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:56:58
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:56:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:56:58
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:56:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:56:58
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:56:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:56:58
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:56:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:56:58
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:56:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:56:58
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:56:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:56:58
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:56:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:56:58
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:56:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:56:58
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:56:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:56:58
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:56:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:21
+----------------------------
+ select * from g_booknode where bookid = '1'
+TM : 0 : 2015-07-30 17:59:21
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:52
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:53
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:54
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:54
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:55
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:55
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:55
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:55
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:55
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:55
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:56
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:56
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:56
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:56
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:56
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:56
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:56
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-07-30 17:59:56
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0.00099992752075195 : 2015-07-30 17:59:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:56
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:56
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:56
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:56
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:56
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:57
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:57
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:57
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:57
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:57
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-07-30 17:59:58
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0.0010001659393311 : 2015-07-30 17:59:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 17:59:59
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 17:59:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:03:10
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:03:10
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:03:18
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:03:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:03:29
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:03:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:03:38
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:03:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:03:40
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:03:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:03:41
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:03:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:03:41
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:03:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:03:41
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:03:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:03:41
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:03:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:03:41
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:03:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:03:41
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:03:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:03:41
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:03:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:03:41
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:03:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:03:41
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:03:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:03:41
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:03:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:03:41
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:03:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:03:42
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:03:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:03:42
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:03:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:03:42
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:03:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:03:42
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:03:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:03:43
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:03:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:03:43
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:03:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:03:43
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:03:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:03:43
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:03:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:03:43
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:03:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:03:44
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:03:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:03:44
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:03:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:03:44
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:03:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:03:44
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:03:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:03:44
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:03:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:05:01
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:05:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:06:36
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:06:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:06:36
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 18:06:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:06:36
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 18:06:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:06:36
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 18:06:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:06:36
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 18:06:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:06:41
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:06:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:06:41
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 18:06:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:06:41
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 18:06:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:06:41
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 18:06:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:06:41
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 18:06:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:07:42
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:07:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:07:42
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 18:07:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:07:42
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 18:07:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:07:42
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 18:07:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:07:42
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 18:07:42
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:08:12
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:08:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:08:12
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 18:08:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:08:12
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 18:08:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:08:12
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 18:08:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:08:12
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 18:08:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:09:51
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:09:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:09:51
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 18:09:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:09:51
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 18:09:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:09:51
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 18:09:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:09:51
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 18:09:51
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:10:17
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:10:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:10:17
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 18:10:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:10:17
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 18:10:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:10:17
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 18:10:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:10:17
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 18:10:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:10:38
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:10:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:10:38
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 18:10:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:10:38
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 18:10:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:10:38
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 18:10:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:10:38
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 18:10:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:10:47
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:10:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:10:47
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 18:10:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:10:47
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 18:10:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:10:47
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 18:10:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:10:47
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 18:10:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:10:49
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:10:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:10:49
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 18:10:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:10:49
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 18:10:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:10:49
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 18:10:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:10:49
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 18:10:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:10:54
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:10:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:10:54
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 18:10:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:10:54
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 18:10:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:10:54
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 18:10:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:10:54
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 18:10:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:11:15
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:11:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:11:15
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 18:11:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:11:15
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 18:11:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:11:15
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 18:11:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:11:15
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 18:11:15
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:12:05
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:12:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:12:05
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 18:12:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:12:05
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 18:12:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:12:05
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 18:12:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:12:05
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 18:12:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:12:48
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:12:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:12:48
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 18:12:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:12:48
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 18:12:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:12:48
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 18:12:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:12:48
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 18:12:48
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:12:50
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:12:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:12:50
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 18:12:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:12:50
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 18:12:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:12:50
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 18:12:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:12:50
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 18:12:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:14:34
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:14:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:14:34
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 18:14:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:14:34
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 18:14:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:14:34
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 18:14:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:14:34
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 18:14:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:14:40
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:14:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:14:40
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 18:14:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:14:40
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 18:14:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:14:40
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 18:14:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:14:40
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 18:14:40
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:15:08
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:15:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:15:08
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 18:15:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:15:08
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 18:15:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:15:08
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 18:15:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:15:08
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 18:15:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:15:11
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:15:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:15:11
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 18:15:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:15:11
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 18:15:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:15:11
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 18:15:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:15:11
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 18:15:11
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:15:13
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:15:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:15:13
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 18:15:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:15:13
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 18:15:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:15:13
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 18:15:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:15:13
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 18:15:13
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:15:57
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:15:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:15:57
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 18:15:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:15:57
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 18:15:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:15:57
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 18:15:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:15:57
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 18:15:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:16:03
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:16:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:16:03
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 18:16:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:16:03
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 18:16:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:16:03
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 18:16:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:16:03
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 18:16:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:16:05
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:16:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:16:05
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 18:16:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:16:05
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 18:16:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:16:05
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 18:16:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:16:05
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 18:16:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:16:22
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:16:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:16:22
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 18:16:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:16:22
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 18:16:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:16:22
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 18:16:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:16:22
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 18:16:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:16:28
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:16:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:16:28
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 18:16:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:16:28
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 18:16:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:16:28
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 18:16:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:16:28
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 18:16:28
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:16:31
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:16:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:16:31
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 18:16:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:16:31
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 18:16:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:16:31
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 18:16:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:16:31
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 18:16:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:16:59
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:16:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:16:59
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 18:16:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:16:59
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 18:16:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:16:59
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 18:16:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:16:59
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 18:16:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:17:18
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:17:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:17:18
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 18:17:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:17:18
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 18:17:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:17:18
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 18:17:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:17:18
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 18:17:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:17:37
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:17:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:17:37
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 18:17:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:17:37
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 18:17:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:17:37
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 18:17:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:17:37
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 18:17:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:18:30
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:18:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:18:30
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 18:18:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:18:30
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 18:18:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:18:30
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 18:18:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:18:30
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 18:18:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:18:46
+----------------------------
+ select * from g_booknode where bookid = '1' and enable = 1 order by  sort desc,nodeid desc
+TM : 0 : 2015-07-30 18:18:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:18:46
+----------------------------
+ select * from g_book where enable = 1
+TM : 0 : 2015-07-30 18:18:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:18:46
+----------------------------
+ select * from g_book where bookid = 1
+TM : 0 : 2015-07-30 18:18:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:18:46
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-07-30 18:18:46
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-07-30 18:18:46
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-07-30 18:18:46
+----------------------------

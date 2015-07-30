@@ -3,15 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-      <title>DigitalOcean API</title>
+      <title><?php if($book['bookname']) echo "{$book['bookname']} - ";?><?=$title?></title>
     <meta name="description" content="">
     <meta name="viewport" content="width = device-width, initial-scale = 1.0" />
-    <link href="/js/style-api-v2-cbb8772a.css" rel="stylesheet" type="text/css" />
-    <link href="/js/pikabu-22255a87.css" rel="stylesheet" type="text/css" />
-    <link href="/js/mobile-menu-be990f4f.css" rel="stylesheet" type="text/css" />
-    <!-- link type="image/ico" href="/assets/images/favicon.ico" rel="icon" / -->
+    
+    <link href="/assets/as_doc/style-api-v2-cbb8772a.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/as_doc/pikabu-22255a87.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/as_doc/mobile-menu-be990f4f.css" rel="stylesheet" type="text/css" />
+    
+    <link type="image/ico" href="/assets/images/favicon.ico" rel="icon" />
+    
+
     <!-- script type="text/javascript" src="//use.typekit.net/njm7orv.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script -->
+
   </head>
   <body class="documentation documentation_v2 documentation_v2_index ">
  
@@ -23,28 +28,14 @@
           <h4>Pages</h4>
           <ul>
             <li>
-              <a class="" href="/">Home</a>
+              <a class="" href="/s">Home</a>
             </li>
-
+<?php foreach($booklist as $key=>$value){?>	
             <li>
-              <a class="" href="/guides/">Guides</a>
+              <a class="" href="/s/doc/index/<?=$value['bookid']?>"><?=$value['bookname']?></a>
             </li>
+<?php }?>
 
-            <li>
-              <a class="" href="/documentation/">Docs</a>
-            </li>
-
-            <li>
-              <a class="" href="/libraries/">Libraries</a>
-            </li>
-
-            <li>
-              <a class="" href="/opensource/">OpenSource</a>
-            </li>
-
-            <li class="changelog">
-              <a class="" href="/documentation/changelog/">Changelog</a>
-            </li>
           </ul>
         </nav>
       </div>
@@ -59,26 +50,12 @@
       <li>
         <a class="" href="/">Home</a>
       </li>
+<?php foreach($booklist as $key=>$value){?>	
+            <li>
+              <a class="" href="/s/doc/index/<?=$value['bookid']?>"><?=$value['bookname']?></a>
+            </li>
+<?php }?>
 
-      <li>
-        <a class="" href="/guides/">Guides</a>
-      </li>
-
-      <li>
-        <a class="" href="/documentation/">Docs</a>
-      </li>
-
-      <li>
-        <a class="" href="/libraries/">Libraries</a>
-      </li>
-
-      <li>
-        <a class="" href="/opensource/">OpenSource</a>
-      </li>
-
-      <li class="changelog">
-        <a class="" href="/documentation/changelog/">Changelog</a>
-      </li>
     </ul>
     <a class="m-pikabu-nav-toggle icon-navicon" data-role="left">
       <span></span>
@@ -93,30 +70,29 @@
     <a href="#" class="navicon"></a>
 <nav class="sidebar">
   <ul id="spyMe" class="nav">
-    <li class="active">
-      <a href="#introduction">Introduction</a>
-      <ul class="nav">
-        <li><a href="#introduction">Introduction</a></li>
-        <li><a href="#requests">Requests</a></li>
-        <li><a href="#statuses">HTTP Statuses</a></li>
-        <li><a href="#responses">Responses</a></li>
-        <li><a href="#meta">Meta</a></li>
-        <li><a href="#links">Links</a></li>
-        <li><a href="#rate-limit">Rate Limit</a></li>
-        <li><a href="#curl">Curl Examples</a></li>
-        <li><a href="#authentication">OAuth Authentication</a></li>
-        <li><a href="#parameters">Parameters</a></li>
-        <li><a href="#cors">Cross Origin Resource Sharing</a></li>
-      </ul>
-    </li>
-
+  
+  
     <li>
-    <a href="#account">Account</a>
+    <a href="#actions">Actions</a>
       <ul class="nav">
-        <li><a href="#account">Account</a></li>
-        <li><a href="#get-user-information">Get User Information</a></li>
+        <li><a href="#actions">Actions</a></li>
+        <li><a href="#list-all-actions">List all Actions</a></li>
+        <li><a href="#retrieve-an-existing-action">Retrieve an existing Action</a></li>
+      </ul>
+    </li>  
+  
+<?php foreach($node as $key=>$value){ ?>
+    <li>
+      <a href="#s<?=$value['nodeid']?>"><?=$value['title']?></a>
+      <ul class="nav">
+      
+	    <li><a href="#s<?=$value['nodeid']?>"><?=$value['title']?></a></li>
+		<?php foreach($value['child'] as $k=>$v){?>
+        <li><a href="#s<?=$v['nodeid']?>"><?=$v['title']?></a></li>
+		<?php }?>  
       </ul>
     </li>
+<?php	}?>  
 
     <li>
     <a href="#actions">Actions</a>
@@ -127,124 +103,6 @@
       </ul>
     </li>
 
-    <li>
-    <a href="#domains">Domains</a>
-      <ul class="nav">
-        <li><a href="#domains">Domains</a></li>
-        <li><a href="#list-all-domains">List all Domains</a></li>
-        <li><a href="#create-a-new-domain">Create a new Domain</a></li>
-        <li><a href="#retrieve-an-existing-domain">Retrieve an existing Domain</a></li>
-        <li><a href="#delete-a-domain">Delete a Domain</a></li>
-      </ul>
-    </li>
-
-    <li>
-    <a href="#domain-records">Domain Records</a>
-      <ul class="nav">
-        <li><a href="#domain-records">Domain Records</a></li>
-        <li><a href="#list-all-domain-records">List all Domain Records</a></li>
-        <li><a href="#create-a-new-domain-record">Create a new Domain Record</a></li>
-        <li><a href="#retrieve-an-existing-domain-record">Retrieve an existing Domain Record</a></li>
-        <li><a href="#update-a-domain-record">Update a Domain Record</a></li>
-        <li><a href="#delete-a-domain-record">Delete a Domain Record</a></li>
-      </ul>
-    </li>
-
-    <li>
-    <a href="#droplets">Droplets</a>
-      <ul class="nav">
-        <li><a href="#droplets">Droplets</a></li>
-        <li><a href="#create-a-new-droplet">Create a new Droplet</a></li>
-        <li><a href="#retrieve-an-existing-droplet-by-id">Retrieve an existing Droplet by id</a></li>
-        <li><a href="#list-all-droplets">List all Droplets</a></li>
-        <li><a href="#list-all-available-kernels-for-a-droplet">List all available Kernels for a Droplet</a></li>
-        <li><a href="#list-snapshots-for-a-droplet">List snapshots for a Droplet</a></li>
-        <li><a href="#list-backups-for-a-droplet">List backups for a Droplet</a></li>
-        <li><a href="#list-actions-for-a-droplet">List actions for a Droplet</a></li>
-        <li><a href="#delete-a-droplet">Delete a Droplet</a></li>
-        <li><a href="#list-neighbors-for-a-droplet">List Neighbors for a Droplet</a></li>
-        <li><a href="#list-all-droplet-neighbors">List all Droplet Neighbors</a></li>
-        <li><a href="#list-droplet-upgrades">List Droplet Upgrades</a></li>
-      </ul>
-    </li>
-
-    <li>
-    <a href="#droplet-actions">Droplet Actions</a>
-      <ul class="nav">
-        <li><a href="#droplet-actions">Droplet Actions</a></li>
-        <li><a href="#disable-backups">Disable Backups</a></li>
-        <li><a href="#reboot-a-droplet">Reboot a Droplet</a></li>
-        <li><a href="#power-cycle-a-droplet">Power Cycle a Droplet</a></li>
-        <li><a href="#shutdown-a-droplet">Shutdown a Droplet</a></li>
-        <li><a href="#power-off-a-droplet">Power Off a Droplet</a></li>
-        <li><a href="#power-on-a-droplet">Power On a Droplet</a></li>
-        <li><a href="#restore-a-droplet">Restore a Droplet</a></li>
-        <li><a href="#password-reset-a-droplet">Password Reset a Droplet</a></li>
-        <li><a href="#resize-a-droplet">Resize a Droplet</a></li>
-        <li><a href="#rebuild-a-droplet">Rebuild a Droplet</a></li>
-        <li><a href="#rename-a-droplet">Rename a Droplet</a></li>
-        <li><a href="#change-the-kernel">Change the Kernel</a></li>
-        <li><a href="#enable-ipv6">Enable IPv6</a></li>
-        <li><a href="#enable-private-networking">Enable Private Networking</a></li>
-        <li><a href="#snapshot-a-droplet">Snapshot a Droplet</a></li>
-        <li><a href="#upgrade-a-droplet">Upgrade a Droplet</a></li>
-        <li><a href="#retrieve-a-droplet-action">Retrieve a Droplet Action</a></li>
-      </ul>
-    </li>
-
-    <li>
-    <a href="#images">Images</a>
-      <ul class="nav">
-        <li><a href="#images">Images</a></li>
-        <li><a href="#list-all-images">List all Images</a></li>
-        <li><a href="#list-all-distribution-images">List all Distribution Images</a></li>
-        <li><a href="#list-all-application-images">List all Application Images</a></li>
-        <li><a href="#list-a-user-s-images">List a User's Images</a></li>
-        <li><a href="#retrieve-an-existing-image-by-id">Retrieve an existing Image by id</a></li>
-        <li><a href="#retrieve-an-existing-image-by-slug">Retrieve an existing Image by slug</a></li>
-        <li><a href="#list-all-actions-for-an-image">List all actions for an image</a></li>
-        <li><a href="#update-an-image">Update an Image</a></li>
-        <li><a href="#delete-an-image">Delete an Image</a></li>
-      </ul>
-    </li>
-
-    <li>
-    <a href="#image-actions">Image Actions</a>
-      <ul class="nav">
-        <li><a href="#image-actions">Image Actions</a></li>
-        <li><a href="#transfer-an-image">Transfer an Image</a></li>
-        <li><a href="#convert-an-image-to-a-snapshot">Convert an Image to a Snapshot</a></li>
-        <li><a href="#retrieve-an-existing-image-action">Retrieve an existing Image Action</a></li>
-      </ul>
-    </li>
-
-    <li>
-    <a href="#ssh-keys">SSH Keys</a>
-      <ul class="nav">
-        <li><a href="#ssh-keys">SSH Keys</a></li>
-        <li><a href="#list-all-keys">List all Keys</a></li>
-        <li><a href="#create-a-new-key">Create a new Key</a></li>
-        <li><a href="#retrieve-an-existing-key">Retrieve an existing Key</a></li>
-        <li><a href="#update-a-key">Update a Key</a></li>
-        <li><a href="#destroy-a-key">Destroy a Key</a></li>
-      </ul>
-    </li>
-
-    <li>
-    <a href="#regions">Regions</a>
-      <ul class="nav">
-        <li><a href="#regions">Regions</a></li>
-        <li><a href="#list-all-regions">List all Regions</a></li>
-      </ul>
-    </li>
-
-    <li>
-    <a href="#sizes">Sizes</a>
-      <ul class="nav">
-        <li><a href="#sizes">Sizes</a></li>
-        <li><a href="#list-all-sizes">List all Sizes</a></li>
-      </ul>
-    </li>
   </ul>
 </nav>
 
@@ -7746,7 +7604,7 @@ ratelimit-reset: 1415984218' href='#'></a>
 
   
     <div class="set">
-      <div class="inner-set" id="delete-an-image">
+      <div class="inner-set" id="s1">
         <div class="set-description">
           <h3>Delete an Image</h3>
 
@@ -8557,7 +8415,7 @@ ratelimit-reset: 1415984218' href='#'></a>
 
   
     <div class="set">
-      <div class="inner-set" id="retrieve-an-existing-key">
+      <div class="inner-set" id="s2">
         <div class="set-description">
           <h3>Retrieve an existing Key</h3>
 
@@ -8729,6 +8587,7 @@ Authorization: Bearer b7d03a6947b217efb6f3ec3bd3504582
             <h4>Response Headers</h4>
 
             
+
             <pre><code>content-type: application/json; charset=utf-8
 status: 200 OK
 ratelimit-limit: 1200
@@ -9952,14 +9811,14 @@ ratelimit-reset: 1415984218' href='#'></a>
 
     </div>
   </div>
-  <script src="/js/jquery-1.10.2.min-21daab25.js" type="text/javascript"></script>
-  <script src="/js/scrollspy.min-2f1c4f84.js" type="text/javascript"></script>
-  <script src="/js/ZeroClipboard.min-b40acf8f.js" type="text/javascript"></script>
-  <script src="/js/tooltips.min-30a5b6c6.js" type="text/javascript"></script>
-  <script src="/js/highlight.pack-3cec78af.js" type="text/javascript"></script>
-  <script src="/js/docs-14162e9e.js" type="text/javascript"></script>
-  <script src="/js/pikabu-ddd39532.js" type="text/javascript"></script>
-  <script src="/js/mobile-menu-b2824345.js" type="text/javascript"></script>
+  <script src="/assets/as_doc/jquery-1.10.2.min-21daab25.js" type="text/javascript"></script>
+  <script src="/assets/as_doc/scrollspy.min-2f1c4f84.js" type="text/javascript"></script>
+  <script src="/assets/as_doc/ZeroClipboard.min-b40acf8f.js" type="text/javascript"></script>
+  <script src="/assets/as_doc/tooltips.min-30a5b6c6.js" type="text/javascript"></script>
+  <script src="/assets/as_doc/highlight.pack-3cec78af.js" type="text/javascript"></script>
+  <script src="/assets/as_doc/docs-14162e9e.js" type="text/javascript"></script>
+  <script src="/assets/as_doc/pikabu-ddd39532.js" type="text/javascript"></script>
+  <script src="/assets/as_doc/mobile-menu-b2824345.js" type="text/javascript"></script>
 
     </div>
   </body>
