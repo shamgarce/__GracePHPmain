@@ -103,7 +103,7 @@ View::tplInclude('Frame/sitebar', $data);
 											<span class="input-group-addon">
 												<i class="linecons-pencil"></i>
 											</span>
-											<input type="email" class="form-control no-right-border" placeholder="登陆名">
+											<input name="uname" class="form-control no-right-border" placeholder="登陆名">
 											<span class="input-group-addon">
 												<i class="linecons-paper-plane"></i>
 											</span>
@@ -122,7 +122,7 @@ View::tplInclude('Frame/sitebar', $data);
 											<span class="input-group-addon">
 												<i class="linecons-pencil"></i>
 											</span>
-											<input type="email" class="form-control no-right-border" placeholder="密码">
+											<input name="pwd" class="form-control no-right-border" placeholder="密码">
 											<span class="input-group-addon">
 												<i class="linecons-paper-plane"></i>
 											</span>
@@ -141,7 +141,7 @@ View::tplInclude('Frame/sitebar', $data);
 											<span class="input-group-addon">
 												<i class="linecons-pencil"></i>
 											</span>
-											<input type="email" class="form-control no-right-border" placeholder="确认密码">
+											<input name="pwdre" class="form-control no-right-border" placeholder="确认密码">
 											<span class="input-group-addon">
 												<i class="linecons-paper-plane"></i>
 											</span>
@@ -160,7 +160,7 @@ View::tplInclude('Frame/sitebar', $data);
 											<span class="input-group-addon">
 												<i class="linecons-pencil"></i>
 											</span>
-											<input type="email" class="form-control no-right-border" placeholder="真实姓名">
+											<input name="tname" class="form-control no-right-border" placeholder="真实姓名">
 											<span class="input-group-addon">
 												<i class="linecons-paper-plane"></i>
 											</span>
@@ -168,24 +168,39 @@ View::tplInclude('Frame/sitebar', $data);
 
 									</div>
 								</div>
-								
+                                
+                                
 								<div class="form-group-separator"></div>
 								
 								<div class="form-group">
-									<label class="col-sm-2 control-label">联系电话</label>
-									
+									<label class="col-sm-2 control-label">用户组</label>
 									<div class="col-sm-10">
-										<div class="input-group input-group-lg input-group-minimal">
-											<span class="input-group-addon">
-												<i class="linecons-pencil"></i>
-											</span>
-											<input type="email" class="form-control no-right-border" placeholder="联系电话">
-											<span class="input-group-addon">
-												<i class="linecons-paper-plane"></i>
-											</span>
-										</div>
+                                    
+<script type="text/javascript">
+										jQuery(document).ready(function($)
+										{
+											$("#sboxit-1").selectBoxIt().on('open', function()
+											{
+												// Adding Custom Scrollbar
+												$(this).data('selectBoxSelectBoxIt').list.perfectScrollbar();
+											});
+										});
+									</script>
+									
+									<select name="groupid" class="form-control" id="sboxit-1">
+                                    <?php
+                                    foreach($grouplist as $key=>$value){
+									?>
+										<option value="<?=$value['groupid']?>"><?=$value['groupname']?></option>
+                                    <?php
+										}
+									?>
+									</select>
+
 									</div>
 								</div>
+								
+								
 								
 								<div class="form-group-separator"></div>
 								<div class="form-group">
@@ -193,7 +208,7 @@ View::tplInclude('Frame/sitebar', $data);
 									<div class="col-sm-10">
 										<div class="input-group input-group-lg input-group-minimal">
                                             <div class="form-group">
-                                            <button class="btn btn-success" type="submit">确定</button>
+                                            <a class="btn btn-success form_submit" type="submit">确定</a>
                                             <button class="btn btn-white" type="reset">重置</button>
                                             </div>
 
@@ -259,29 +274,33 @@ View::tplInclude('Frame/sitebar', $data);
 <th>注册时间</th>
 <th>登陆时间</th>
 <th>登陆ip</th>
-<th width=70>无效？</th>
+<th width=70>有效？</th>
 <th width=300>操作</th>
 </tr>
 </thead>
 <tbody>
+
+<?php
+foreach($list as $key=>$value){
+?>
 <tr>
-<td>#</td>
-<td>Name<span class="label label-success">New2</span></td>
-<td>Address</td>
-<td>#</td>
-<td>Name</td>
-<td>Address</td>
-<td>#</td>
-<td><input class="iswitch iswitch-red" type="checkbox" checked=""></td>
+<td><?=$value['uid']?></td>
+<td><?=$value['uname']?></td>
+<td><?=$value['tname']?></td>
+<td><?=$value['groupid']?></td>
+<td><?=date('Y-m-d:His',$value['regtime'])?></td>
+<td><?=date('Y-m-d:His',$value['logtime'])?></td>
+<td><?=$value['logip']?></td>
+<td><input type="checkbox" class="iswitch iswitch-red changeenableflag" cenable="<?=$value['enable']?>" relid="<?=$value['uid']?>" <?=$value['enable']?'checked="CHECKED"':''?>></td>
 <td>
 <a class="btn btn-primary btn-single btn-sm  btn-icon icon-left" >Show Me</a>
 <a class="btn btn-secondary btn-sm btn-icon icon-left" onClick="showAjaxModal();" href="javascript:;"> Edit </a>
 <a class="btn btn-danger btn-sm btn-icon icon-left" href="#"> Delete </a>
 <a class="btn btn-info btn-sm btn-icon icon-left" href="#"> Profile </a>
-
 </td>
-
 </tr>
+<?php }?>
+
 
 <tr>
   <td colspan="9" align="right">
@@ -351,9 +370,25 @@ View::tplInclude('Frame/footer', $data);
 View::tplInclude('Frame/footerjs', $data);
 ?>
 
+<!-- Imported styles on this page -->
+	<link rel="stylesheet" href="/assets/js/daterangepicker/daterangepicker-bs3.css">
+	<link rel="stylesheet" href="/assets/js/select2/select2.css">
+	<link rel="stylesheet" href="/assets/js/select2/select2-bootstrap.css">
+	<link rel="stylesheet" href="/assets/js/multiselect/css/multi-select.css">
 
+	<!-- Imported scripts on this page -->
+	<script src="/assets/js/daterangepicker/daterangepicker.js"></script>
+	<script src="/assets/js/datepicker/bootstrap-datepicker.js"></script>
+	<script src="/assets/js/timepicker/bootstrap-timepicker.min.js"></script>
+	<script src="/assets/js/colorpicker/bootstrap-colorpicker.min.js"></script>
+	<script src="/assets/js/select2/select2.min.js"></script>
+	<script src="/assets/js/jquery-ui/jquery-ui.min.js"></script>
+	<script src="/assets/js/selectboxit/jquery.selectBoxIt.min.js"></script>
+	<script src="/assets/js/tagsinput/bootstrap-tagsinput.min.js"></script>
+	<script src="/assets/js/typeahead.bundle.js"></script>
+	<script src="/assets/js/handlebars.min.js"></script>
+	<script src="/assets/js/multiselect/js/jquery.multi-select.js"></script>
 
-    
 <script language="javascript"> 
 function showAjaxModal()
 {
@@ -368,8 +403,73 @@ function showAjaxModal()
 	});
 }
 
+
+
 $(document).ready(function(){
 
+		//更改用户状态
+		$('.changeenableflag').click(function(){
+			var res = $.ajax({
+				url : '/home/groupenablechange',
+				type: 'post',
+				data: {
+					groupid : $(this).attr("relid"),
+					enable 	: $(this).attr("cenable"),
+					},
+				dataType: "json",
+				async:false,
+				cache:false
+			}).responseJSON;
+			//console.log(res);
+			//==========================1
+			if(res.code<0){
+				alert(res.msg);
+				return false;
+			}else{
+				location.reload();
+				return true;
+			}
+			
+        })
+
+	
+		//提交添加组
+		$('.form_submit').click(function(){
+			if($("input[name='pwd']").val() != $("input[name='pwdre']").val()){
+				alert('两次密码不一致');
+				return false;
+			}
+
+			if($("input[name='pwd']").val().length < 6){
+				alert('长度太短');
+				return false;
+			}
+			
+			
+			var res = $.ajax({
+				url : '/s/user/userlist',
+				type: 'post',
+				data: {
+					uname 	: $("input[name='uname']").val(),
+					pwd 	: $("input[name='pwd']").val(),
+					tname 	: $("input[name='tname']").val(),
+					groupid : $("select[name='groupid']").val(),
+					},
+				dataType: "json",
+				async:false,
+				cache:false
+			}).responseJSON;
+			//console.log(res);
+			//==========================1
+			if(res.code<0){
+				alert(res.msg);
+				return false;
+			}else{
+				location.reload();
+				return true;
+			}
+			
+        })
 
 }) 
 </script> 

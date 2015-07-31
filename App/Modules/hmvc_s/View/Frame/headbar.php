@@ -73,6 +73,11 @@
                             <span class="title">接口管理</span>
                         </a>
                     </li>
+                    <li>
+                        <a href="/s/api/list">
+                            <span class="title">文档管理</span>
+                        </a>
+                    </li>
                 </ul>
             </li>
             
@@ -112,6 +117,12 @@
                             <span class="title">修改个人资料</span>
                         </a>
                     </li>
+                    <li class="active">
+                        <a href="/s/doc">
+                            <span class="title">文档</span>
+                        </a>
+                    </li>
+
                 </ul>
             </li>
             

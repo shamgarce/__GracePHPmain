@@ -246,8 +246,8 @@ foreach($rc as $key=>$value){
 <td><?=$value['sort']?></td>
 <td><input type="checkbox" class="iswitch iswitch-red changeenableflag" cenable="<?=$value['enable']?>" relid="<?=$value['groupid']?>" <?=$value['enable']?'checked="CHECKED"':''?>></td>
 <td>
-<a class="btn btn-secondary btn-sm btn-icon icon-left" onClick="showAjaxModal();" href="javascript:;"> 修改 </a>
-<a class="btn btn-info btn-sm btn-icon icon-left" href="/s/user/grouplist/delete/<?=$value['groupid']?>">删除</a>
+<a class="btn btn-secondary btn-sm btn-icon icon-left" onClick="showAjaxModal('/s/user/groupedit/<?=$value['groupid']?>','修改用户组');" href="javascript:;"> 修改 </a>
+<a class="btn btn-info btn-sm btn-icon icon-left confirm" ref="/s/user/grouplist/delete/<?=$value['groupid']?>">删除</a>
 </td>
 </tr>
 <?php
@@ -298,21 +298,38 @@ View::tplInclude('Frame/footerjs', $data);
 
     
 <script language="javascript"> 
-function showAjaxModal()
+function showAjaxModal(url,title)
 {
+	//console.log(url);
 	jQuery('#modal-7').modal('show', {backdrop: 'static'});
 	
 	jQuery.ajax({
-		url: "/test.html",
+		url: url,
 		success: function(response)
 		{
+			console.log(url);
+			jQuery('#modal-7 .modal-title').html(title);
 			jQuery('#modal-7 .modal-body').html(response);
+			var JS = $("script[type='text/dialog']").html();
+			eval(JS);												//sytle
 		}
 	});
 }
 
 $(document).ready(function(){
 	
+		$('.confirm').click(function(){
+			 var r=confirm("删除这条记录？")
+			if (r==true)
+			{
+				window.location.href = $(this).attr("ref");
+			}
+			else
+			{
+				return false;
+			}
+		});
+
 		$('.changeenableflag').click(function(){
 			var res = $.ajax({
 				url : '/home/groupenablechange',
@@ -373,7 +390,7 @@ $(document).ready(function(){
 				
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h4 class="modal-title">Dynamic Content</h4>
+					<h4 class="modal-title">title</h4>
 				</div>
 				
 				<div class="modal-body">
@@ -383,8 +400,8 @@ $(document).ready(function(){
 				</div>
 				
 				<div class="modal-footer">
-					<button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
-					<button type="button" class="btn btn-info">Save changes</button>
+					<button type="button" class="btn btn-white modal_close" data-dismiss="modal">关闭</button>
+					<button type="button" class="btn btn-info modal_ok">确定</button>
 				</div>
 			</div>
 		</div>

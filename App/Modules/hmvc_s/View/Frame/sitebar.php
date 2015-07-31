@@ -21,40 +21,35 @@
                 </a>
                 <ul>
                     <li>
-                        <a href="layout-variants.html">
+                        <a href="/s">
+                            <span class="title">仪表盘</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/s/user/userlist">
                             <span class="title">用户管理</span>
                         </a>
                     </li>
                     <li>
-                        <a href="layout-collapsed-sidebar.html">
+                        <a href="/s/user/grouplist">
                             <span class="title">用户组管理</span>
                         </a>
                     </li>
                     <li>
-                        <a href="layout-static-sidebar.html">
-                            <span class="title">权限管理</span>
+                        <a href="/s/api/list">
+                            <span class="title">接口管理</span>
                         </a>
                     </li>
-                    <li>
-                        <a href="layout-horizontal-menu.html">
-                            <span class="title">数据库仪表</span>
-                        </a>
-                    </li>
-                    <li class="active">
+                    <li class="active">     <!--  class="active" -->
                         <a href="layout-horizontal-plus-sidebar.html">
-                            <span class="title">接口管理</span>
+                            <span class="title">文档管理</span>
                         </a>
                     </li>
-                    <li>
-                        <a href="layout-horizontal-menu-click-to-open-subs.html">
-                            <span class="title">Help Tip</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="layout-horizontal-menu-click-to-open-subs.html">
-                            <span class="title">接口管理</span>
-                        </a>
-                    </li>
+
+
+
+
+
                 </ul>
             </li>
             
