@@ -293,10 +293,11 @@ foreach($list as $key=>$value){
 <td><?=$value['logip']?></td>
 <td><input type="checkbox" class="iswitch iswitch-red changeenableflag" cenable="<?=$value['enable']?>" relid="<?=$value['uid']?>" <?=$value['enable']?'checked="CHECKED"':''?>></td>
 <td>
-<a class="btn btn-primary btn-single btn-sm  btn-icon icon-left" >Show Me</a>
-<a class="btn btn-secondary btn-sm btn-icon icon-left" onClick="showAjaxModal();" href="javascript:;"> Edit </a>
-<a class="btn btn-danger btn-sm btn-icon icon-left" href="#"> Delete </a>
-<a class="btn btn-info btn-sm btn-icon icon-left" href="#"> Profile </a>
+<a class="btn btn-secondary btn-sm btn-icon icon-left" onClick="showAjaxModal('/s/user/userlist/vf/<?=$value['uid']?>','显示日志');" href="javascript:;"> 显示日志 </a>
+<a class="btn btn-secondary btn-sm btn-icon icon-left" onClick="showAjaxModal('/s/user/userlist/ed/<?=$value['uid']?>','修改用户');" href="javascript:;"> 修改 </a>
+<a class="btn btn-info btn-sm btn-icon icon-left confirm" relid="<?=$value['uid']?>">删除</a>
+
+
 </td>
 </tr>
 <?php }?>
@@ -390,15 +391,20 @@ View::tplInclude('Frame/footerjs', $data);
 	<script src="/assets/js/multiselect/js/jquery.multi-select.js"></script>
 
 <script language="javascript"> 
-function showAjaxModal()
+function showAjaxModal(url,title)
 {
+	//console.log(url);
 	jQuery('#modal-7').modal('show', {backdrop: 'static'});
 	
 	jQuery.ajax({
-		url: "/test.html",
+		url: url,
 		success: function(response)
 		{
+			console.log(url);
+			jQuery('#modal-7 .modal-title').html(title);
 			jQuery('#modal-7 .modal-body').html(response);
+			var JS = $("script[type='text/dialog']").html();
+			eval(JS);												//sytle
 		}
 	});
 }
@@ -407,10 +413,47 @@ function showAjaxModal()
 
 $(document).ready(function(){
 
+
+
+
+		$('.confirm').click(function(){
+			var uid = $(this).attr("relid");
+			 var r=confirm("删除这条记录？")
+			if (r==true)
+			{
+				//删除操作
+				var res = $.ajax({
+					url : '/s/user/userlist/de/'+uid,
+					type: 'post',
+					data: {
+						},
+					dataType: "json",
+					async:false,
+					cache:false
+				}).responseJSON;
+				//console.log(res);
+				//==========================1
+				if(res.code<0){
+					alert(res.msg);
+					return false;
+				}else{
+					location.reload();
+					return true;
+				}
+			}
+			else
+			{
+				return false;
+			}
+		});
+
+
+
+
 		//更改用户状态
 		$('.changeenableflag').click(function(){
 			var res = $.ajax({
-				url : '/home/groupenablechange',
+				url : '/s/user/userlist/cf/'+$(this).attr("relid"),
 				type: 'post',
 				data: {
 					groupid : $(this).attr("relid"),
@@ -426,7 +469,7 @@ $(document).ready(function(){
 				alert(res.msg);
 				return false;
 			}else{
-				location.reload();
+				//location.reload();
 				return true;
 			}
 			
@@ -491,8 +534,8 @@ $(document).ready(function(){
 				</div>
 				
 				<div class="modal-footer">
-					<button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
-					<button type="button" class="btn btn-info">Save changes</button>
+					<button type="button" class="btn btn-white modal_close" data-dismiss="modal">关闭</button>
+					<button type="button" class="btn btn-info modal_ok">确定</button>
 				</div>
 			</div>
 		</div>

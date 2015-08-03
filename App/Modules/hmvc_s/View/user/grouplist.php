@@ -246,8 +246,8 @@ foreach($rc as $key=>$value){
 <td><?=$value['sort']?></td>
 <td><input type="checkbox" class="iswitch iswitch-red changeenableflag" cenable="<?=$value['enable']?>" relid="<?=$value['groupid']?>" <?=$value['enable']?'checked="CHECKED"':''?>></td>
 <td>
-<a class="btn btn-secondary btn-sm btn-icon icon-left" onClick="showAjaxModal('/s/user/groupedit/<?=$value['groupid']?>','修改用户组');" href="javascript:;"> 修改 </a>
-<a class="btn btn-info btn-sm btn-icon icon-left confirm" ref="/s/user/grouplist/delete/<?=$value['groupid']?>">删除</a>
+<a class="btn btn-secondary btn-sm btn-icon icon-left" onClick="showAjaxModal('/s/user/grouplist/ed/<?=$value['groupid']?>','修改用户组');" href="javascript:;"> 修改 </a>
+<a class="btn btn-info btn-sm btn-icon icon-left confirm" ref="/s/user/grouplist/de/<?=$value['groupid']?>">删除</a>
 </td>
 </tr>
 <?php

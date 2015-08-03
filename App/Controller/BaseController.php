@@ -1,6 +1,15 @@
 <?php
+/**
+ * Class BaseController
+
+'po',       //post  有post
+'cg',       //修改
+'de',       //删除
+'json',     // json
+'vf',       //显示
 
 //hook
+ */
 
 class BaseController extends Controller{
 

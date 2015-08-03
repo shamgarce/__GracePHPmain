@@ -73,34 +73,61 @@ class GracePHP {
         }
         $router = new router();
         $conf['router'] = $router();        //这个是路由
+
         C($conf);                           //路由进配置
         $this->loadAppConfig();             //覆盖hmvc配置
         C('APP_FULL_PATH', truepath(getcwd().'/'.C('APP_PATH')).'/');
         C('BASE_FULL_PATH', truepath(getcwd().'/'.C('APP_BASE')).'/');
         //除controllers外，都需要检测根下有没有相对应的组件
-        //======================================================================
+        //===========================================================
         $router = C('router');
+        $router['params'] = isset($router['params'])?$router['params']:[];
+        $params = $router['params_'];
+        //===========================================================
         $controllerfile2 = C('APP_FULL_PATH').C('controller_folder').'BaseController'.C('controller_file_subfix');
         includeIfExist($controllerfile2);
-        $controllerfile = C('APP_FULL_PATH').C('controller_folder').$router['Controller'].C('controller_file_subfix');
+
+        //================================================
+        //标准控制器不存在，检查扩展控制器
+        $controller_ext_file = $router['Controller'].'.'.$router['Action'].".php";
+        $controllerfile = C('APP_FULL_PATH').C('controller_folder').$controller_ext_file;
         includeIfExist($controllerfile);
-
-
-
         if(!class_exists($router['Controller'])){
-            halt('控制器'.$router['Controller'].'不存在');
+            //扩展控制器没有加载成功 加载标准控制器
+            $controllerfile = C('APP_FULL_PATH').C('controller_folder').$router['Controller'].C('controller_file_subfix');
+            includeIfExist($controllerfile);
+            //===========================================================
         }
+
+        //判断控制器是否存在
+        if(!class_exists($router['Controller'])){
+            halt('控制器'.$router['Controller'].'不存在');  //交由扩展进行判断
+        }
+        //实例化
         $controllerClass = $router['Controller'];
         $controller = new $controllerClass();
-        $method = 'do'.ucfirst($router['Action']);
+        //确定运行的方法
+        //判断扩展方法
+        $act_ext = $router['ispost']?'_post':'';
+        $act_ext = ($router['Action_ext'] != 'post')?$act_ext:'';
+
+
+        $method = 'do'.ucfirst($router['Action']).'_'.$router['Action_ext'].$act_ext;
         if(!method_exists($controller, $method)){
-            halt('方法'.$method.'不存在');
+            //扩展post没找到
+            $method = 'do'.ucfirst($router['Action']).'_'.$router['Action_ext'];
+            if(!method_exists($controller, $method)){
+                //扩展方法不存在，判断主方法
+                $method = 'do'.ucfirst($router['Action']);
+                if(!method_exists($controller, $method)){
+                    halt('方法'.$method.'不存在');
+                }
+            }
         }
+
+
+
         spl_autoload_register(array('GracePHP', 'autoload'));              //psr-0
-        $router['params'] = isset($router['params'])?$router['params']:[];
-
-        $params = $router['params_'];
-
 //        $params = $router['params'];
 //        if(count($router['params']) ==1 ){
 //            $nr = current(array_values($router['params']));
@@ -108,8 +135,13 @@ class GracePHP {
 //                $params = current(array_keys($router['params']));
 //            }
 //        }
+        //=====================================
+        //扩展，对mothod 进行修改
 
+        //标准动作扩展 insert update delete select json
+        //_se[post]  _cg [change]    _de [delete]    json[jsonout]   vf[view flit] 显示筛选
         call_user_func(array($controller,$method),$params);
+
     }
 
 
@@ -300,6 +332,7 @@ class Controller {
 //
 //
 //
+        $this->ispost = $this->router['ispost'];
         $this->_view = new View();
         $this->_init();
     }
@@ -367,7 +400,7 @@ class Controller {
         //D($this->getaccessRules());
         $this->rbac->run($this->getaccessRules());
         //+--------------------------------------------------
-        if($this->request->post) $this->ispost = true;
+        //if($this->request->post) $this->ispost = true;
     }
 
     /**
@@ -817,14 +850,19 @@ class Model
 }
 class Router
 {
-    public $router      = [];
+    public $router = [];
     public $moduleslist = [];
+
     //返回route值
-    public function __invoke(){
+    public function __invoke()
+    {
         $this->moduleslist = array_keys(C('modules'));              //模块列表索引
         $this->routerini()->routerpath()->routermcapathmix();
-      // print_r($this->router);
-//exit;
+        $this->router['ispost'] = $_POST ? 'post' : '';      //标记post
+        $ext = $this->router['Action_ext'];
+        $postf = $_POST?'post':'';
+        $this->router['Action_ext'] = $ext ?:$postf;      //标记post
+
         return $this->router;
     }
 
@@ -835,22 +873,22 @@ class Router
     {
         //mix 获得m c a params
         /**
-        [Module] =>
-        [Controller] =>
-        [Action] =>
+         * [Module] =>
+         * [Controller] =>
+         * [Action] =>
          */
-        if(!in_array($this->router['_params']['__mm'],$this->moduleslist)) $this->router['_params']['__mm'] = '';
-        if(!in_array($this->router['_params']['m'],$this->moduleslist))    $this->router['_params']['m'] = '';
+        if (!in_array($this->router['_params']['__mm'], $this->moduleslist)) $this->router['_params']['__mm'] = '';
+        if (!in_array($this->router['_params']['m'], $this->moduleslist)) $this->router['_params']['m'] = '';
 
-        if(!$this->is_zm($this->router['_params']['c']))    $this->router['_params']['c'] = '';
-        if(!$this->is_zm($this->router['_params']['__c']))  $this->router['_params']['__c'] = '';
-        if(!$this->is_zm($this->router['_params']['__cc'])) $this->router['_params']['__cc'] = '';
+        if (!$this->is_zm($this->router['_params']['c'])) $this->router['_params']['c'] = '';
+        if (!$this->is_zm($this->router['_params']['__c'])) $this->router['_params']['__c'] = '';
+        if (!$this->is_zm($this->router['_params']['__cc'])) $this->router['_params']['__cc'] = '';
 
-        $this->router['Module']     = $this->router['_params']['m']?:$this->router['_params']['__mm'];
-        $this->router['Controller'] = $this->router['_params']['c']?:$this->router['_params']['__c']?:$this->router['_params']['__cc'];
-        $this->router['Action']     = $this->router['_params']['a']?:$this->router['_params']['__a']?:$this->router['_params']['__aa'];
-        $this->router['Controller'] = $this->router['Controller']?:'';
-        $this->router['Action']     = $this->router['Action']?:'';
+        $this->router['Module'] = $this->router['_params']['m'] ?: $this->router['_params']['__mm'];
+        $this->router['Controller'] = $this->router['_params']['c'] ?: $this->router['_params']['__c'] ?: $this->router['_params']['__cc'];
+        $this->router['Action'] = $this->router['_params']['a'] ?: $this->router['_params']['__a'] ?: $this->router['_params']['__aa'];
+        $this->router['Controller'] = $this->router['Controller'] ?: '';
+        $this->router['Action'] = $this->router['Action'] ?: '';
 
         //mix参数
         unset($this->router['_params']['m']);
@@ -863,21 +901,21 @@ class Router
         unset($this->router['_params']['a']);
 
 //        $this->router['params'] = array_merge($this->router['_params'], $this->router['_paramspath']);
-        foreach($this->router['_params'] as $key=>$value){
+        foreach ($this->router['_params'] as $key => $value) {
             $this->router['params'][$key] = $value;
         }
 
 
         $params_ = '';
-            if (count($this->router['_paramspath']) == 1) {
-                $nr = current(array_values($this->router['_paramspath']));
-                if (empty($nr)) {
-                    $params_ = current(array_keys($this->router['_paramspath']));
-                }
+        if (count($this->router['_paramspath']) == 1) {
+            $nr = current(array_values($this->router['_paramspath']));
+            if (empty($nr)) {
+                $params_ = current(array_keys($this->router['_paramspath']));
             }
+        }
         $this->router['params_'] = $params_;
 
-        foreach($this->router['_paramspath'] as $key=>$value){
+        foreach ($this->router['_paramspath'] as $key => $value) {
             $this->router['params'][$key] = $value;
         }
         unset($this->router['_params']);
@@ -885,33 +923,61 @@ class Router
         return $this;
     }
 
+    public function ActionExt()
+    {
+        return [
+            'po',       //post  有post
+            'ed',       //修改
+            'cf',       //修改状态
+            'de',       //删除
+            'json',     // json
+            'vf',       //显示
+        ];
+    }
 
     public function routerpath()
     {
         //获取参数中的module
         //获取_pathmca] => [_paramsmca
         //标记path的中间变量
-        $p = isset($this->router['_path'])?explode('/', $this->router['_path']):[];
+        $p = isset($this->router['_path']) ? explode('/', $this->router['_path']) : [];
         $m = current($p);
-        if(in_array($m,$this->moduleslist)){      //模块
+        if (in_array($m, $this->moduleslist)) {      //模块
             array_shift($p);
-            $this->router['_params']['__mm']     = $m;
+            $this->router['_params']['__mm'] = $m;
             //$this->router['_pathm']['m']= $m;
         }
-        $this->router['_params']['__cc'] = array_shift($p)?:'';
-        $this->router['_params']['__aa'] = array_shift($p)?:'';
+        $this->router['_params']['__cc'] = array_shift($p) ?: '';
+        $this->router['_params']['__aa'] = array_shift($p) ?: '';
+
+        if (in_array(current($p),$this->ActionExt())) {      //模块
+            $this->router['Action_ext'] = array_shift($p);
+        }
 
         $_params = [];
         $count = ceil(count($p) / 2);
-        for($i=0;$i<$count;$i++){
-            $ii = $i*2;
-            $_params[$p[$ii]] = isset($p[$ii+1])?$p[$ii+1]:'';
+        for ($i = 0; $i < $count; $i++) {
+            $ii = $i * 2;
+            $_params[$p[$ii]] = isset($p[$ii + 1]) ? $p[$ii + 1] : '';
         }
         $this->router['_paramspath'] = $_params;            //这个是path后面的参数
 
         return $this;
     }
 
+
+    public function RouterDefault(){
+        return [
+            'Module'        => '',
+            'Controller'    => '',
+            'Action'        => '',
+            'Action_ext'    => '',
+            'ispost'        => false,
+
+            //'ActionPrefix'  => C('Default_Action_Prefix'),
+
+        ];
+    }
     //原始解析获取到的数据
     public function routerini()
     {
@@ -919,12 +985,7 @@ class Router
         $query = strtolower($query);
         //这里包含两部分 path 和params
         $p = explode('&', $query);
-        $router =  [
-            'Module'        => '',
-            'Controller'    => '',
-            'Action'        => '',
-            //'ActionPrefix'  => C('Default_Action_Prefix'),
-        ];
+        $router = $this->RouterDefault();
         $params['m'] = $params['__mm'] = $params['__cc'] = $params['__aa'] = $params['__c'] = $params['__a'] = $params['a'] = $params['c'] = '';
         if(!isset(explode('=',  current($p))[1])){
             $router['_path'] = trim(array_shift($p),'/');
@@ -949,6 +1010,29 @@ class Router
             }
         }
         $router['_params'] = $params;
+        /*
+         * router like
+         *
+Array
+(
+    [Module] =>
+    [Controller] =>
+    [Action] =>
+    [ispost] =>
+    [_path] => userr/oper/de
+    [_params] => Array
+        (
+            [c] => asdf.asdf
+            [a] => aasdf
+            [__a] =>
+            [__c] =>
+            [__aa] =>
+            [__cc] =>
+            [__mm] =>
+            [m] =>
+        )
+
+)         * */
         $this->router = $router;
         return $this;
     }

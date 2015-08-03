@@ -59,9 +59,11 @@
 
 <script type="text/dialog">
 $(document).ready(function(){
+$(".modal_ok").unbind( "click" );
+	
 		$('.modal_ok').click(function(){
 			var res = $.ajax({
-				url : '/s/user/groupedit',
+				url : '/s/user/Grouplist/ed',
 				type: 'post',
 				data: {
 					groupid 	: $("input[name='edgroupid']").val(),
