@@ -9,13 +9,41 @@ class BaseController extends Controller{
         parent::__construct();
     }
 
-//    protected function _init(){
-//        header("Content-Type:text/html; charset=utf-8");
-//        //+--------------------------------------------------
-//        $this->rbac->run($this->getaccessRules());
-//        //+--------------------------------------------------
-//        if($this->request->post) $this->ispost = true;
-//    }
+    public function _init(){
+        header("Content-Type:text/html; charset=utf-8");
+        $this->model->logc->L();        //开始执行的时候 insert log
+        //+--------------------------------------------------
+        //在这里判断状态 是否停用 是否调试
+        $router = C('router');
+        $chr = $router['Controller'].'/'.$router['Action'];
+//查询数据库
+        $where = "api = '$chr'";
+        $row = $this->table->g_userapi->where($where)->getrow();
+        if(!$row['enable']){
+            echo json_encode([
+                'code'=>-500,
+                'msg'=>'disable'
+            ]);
+            exit;
+        }
+
+        if($row['debug']){
+            if($row['response']) {
+                $res = $row['response'];
+                $res = json_decode($res,true);
+                $res['st'] = 'from controll';
+                echo json_encode($res);
+                exit;
+            }else{
+                echo json_encode([
+                    'code'=>400,
+                    'msg'=>'empty response'
+                ]);
+                exit;
+            }
+        }
+
+    }
 
 
 //  '*'     //所有
@@ -29,67 +57,17 @@ class BaseController extends Controller{
 
         return [
             'access' => [
-                'only' => [ 'login','logout', 'signup','main'],
+                'only' => [],
                 'rules' => [
                     [
                         'actions' => ['signout'],
                         'allow' => true,
                         'roles' => ['G'],
                     ],
-                    [
-                        'actions' => ['main'],
-                        'allow' => true,
-                        'roles' => ['*'],
-                    ],
                 ],
             ],
         ];
     }
 
-//    protected function _init(){
-//        header("Content-Type:text/html; charset=utf-8");
-//        if($this->request->post) $this->ispost = true;
-//    }
-
-
-//
-//    /**
-//     * 基于用户角色的权限控制
-//     */
-//    protected function getaccessRules()
-//    {
-//        $this->accessRules['Module']    = $this->router['Module'];
-//        $this->accessRules['Controller']= $this->router['Controller'];
-//        $this->accessRules['Action']    = $this->router['Action'];
-//        $this->accessRules['Isguest'] = 1;
-//        $this->accessRules['rules']     = RULES();
-//        $this->accessRules['behaviors'] =  $this->behaviors();
-////        $this->res['IsAdmin'] = 1;
-////        $this->res['groupid'] = 32;
-////        $this->res['uname'] = 32;
-//        return $this->accessRules;
-//    }
-
-//  扩展内容包括
-//  内容包括
-/**
- * 属性 ispost
- *
- * db
- * table
- * cache
- * user
- * router
- * input
- * model
- * library
- * helper
- * log
- * trace
- * cache
- * ldb
- * debug
- * S
- */
 
 } 

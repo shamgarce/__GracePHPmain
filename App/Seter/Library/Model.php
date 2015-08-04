@@ -9,6 +9,7 @@ class Model{
 
     public function __get($ModelName) {
         $ModelName = '\\'.ucfirst($ModelName);
+        return new \Logc();
         return new $ModelName();
     }
 }

@@ -80,6 +80,7 @@ class GracePHP {
         $this->loadAppConfig();             //覆盖hmvc配置
         C('APP_FULL_PATH', truepath(getcwd().'/'.C('APP_PATH')).'/');
         C('BASE_FULL_PATH', truepath(getcwd().'/'.C('APP_BASE')).'/');
+        spl_autoload_register(array('GracePHP', 'autoload'));              //psr-0
         includeIfExist(C('BASE_FULL_PATH').'Seter/I.php');              //第一时间载入服务层
 
         //除controllers外，都需要检测根下有没有相对应的组件
@@ -109,6 +110,9 @@ class GracePHP {
             error404();
             halt('控制器'.$router['Controller'].'不存在');  //交由扩展进行判断
         }
+
+
+
         //实例化
         $controllerClass = $router['Controller'];
         $controller = new $controllerClass();
@@ -126,14 +130,14 @@ class GracePHP {
                 //扩展方法不存在，判断主方法
                 $method = 'do'.ucfirst($router['Action']);
                 if(!method_exists($controller, $method)){
-                    halt('方法'.$method.'不存在');
+                    error404();
+//                    halt('方法'.$method.'不存在2');
                 }
             }
         }
 
 
 
-        spl_autoload_register(array('GracePHP', 'autoload'));              //psr-0
 //        $params = $router['params'];
 //        if(count($router['params']) ==1 ){
 //            $nr = current(array_values($router['params']));

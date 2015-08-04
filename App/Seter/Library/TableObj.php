@@ -37,7 +37,7 @@ class TableObj
                 where table_schema='{$this->db->Config['database']}' and table_type='base table'
                 ";
         $colar = $this->db->getcol($sql);
-        if(!in_array($tablename,$colar)) die('error tablename;');
+        if(!in_array($tablename,$colar)) die("error tablename : $table;");
     }
 
     public function colm($chr = '*')

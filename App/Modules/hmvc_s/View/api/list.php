@@ -74,9 +74,8 @@ View::tplInclude('Frame/sitebar', $data);
 <div class="col-sm-12">
 <div class="panel panel-default collapsed">
     <div class="panel-heading">
-    <h3 class="panel-title"><a data-toggle="panel" href="#">
-    <span class="expand-icon">添加</span>
-    </a></h3>
+    <h3 class="panel-title"><a class="btn btn-info btn-lg btn-icon icon-left" data-toggle="panel" href="#">
+    <span class=" expand-icon">添加新接口</span></a></h3>
         <div class="panel-options">
             <!-- a href="#">
             <i class="linecons-cog"></i>
@@ -99,40 +98,33 @@ View::tplInclude('Frame/sitebar', $data);
 
 
 
+<form role="form" class="form-horizontal">
 
-<table class="table table-hover table-condensed" >
+<table>
     <tr>
-        <td valign="top"><table class="table table-hover table-condensed" >
-                <tr>
-                    <td>接口映射</td>
-                </tr>
+        <td valign="top"><table class="table table-model-2 table-hover">
                 <tr>
                   <td>排序 ： 
-                  <input name="sort" type="text" value="9" /></td>
+                    <input name="sort" type="text" value="9" /></td>
                 </tr>
                 <tr>
                     <td>版本 :
-                        <input name="v" type="text" value="v6" /></td>
+                        <input name="v" type="text" value="v" /></td>
                 </tr>
                 <tr>
                     <td>接口 :<input type="text" name="api" />
                         </td>
                 </tr>
                 <tr>
-                    <td>名称 :
-                        <input name="name" type="text" size="50" /></td>
+                  <td>名称 :
+                    <input name="name" type="text" size="50" /></td>
                 </tr>
                 <tr>
-                    <td>映射 :
-                        <input name="ys" type="text" value="r/s" />
-                        后台填写</td>
-                </tr>
-                <tr>
-                    <td>调试 :
-                        <input name="debug" type="radio" value="0" />
-                        关闭
-                        <input name="debug" type="radio" value="1" checked="checked"/>
-                        开启</td>
+                  <td>调试 :
+                    <input name="debug" type="radio" value="0" />
+                    关闭
+                    <input name="debug" type="radio" value="1" checked="checked"/>
+                    开启</td>
                 </tr>
                 <tr>
                   <td>关闭 :
@@ -180,48 +172,26 @@ OTHER</td>
             </table></td>
     </tr>
 </table>
+
+
+<div class="form-group-separator"></div>
+<div class="form-group">
+    <label class="col-sm-2 control-label"></label>
+    <div class="col-sm-10">
+        <div class="input-group input-group-lg input-group-minimal">
+            <div class="form-group">
+            <a class="btn btn-success form_submit" type="submit">确定</a>
+            <button class="btn btn-white" type="reset">重置</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+</form>
+
 <script type="text/dialog">
 
-this.opt = {				//确定按钮的点击
-	ok:function(){
-			var res = $.ajax({
-			url : '/man/home.apiadd',
-			type: 'post',
-			data: {
-				name 	: $("input[name='name']").val(),
-				v 		: $("input[name='v']").val(),
-				api 	: $("input[name='api']").val(),
-				ys 		: $("input[name='ys']").val(),
-
-				dis 	: $(".dis").val(),
-				request : $(".request").val(),
-				response: $(".response").val(),
-				sort 	: $("input[name='sort']").val(),
-				
-				
-				type 	: $("input[name='type']:checked").val(),
-				debug 	: $("input[name='debug']:checked").val(),
-				enable 	: $("input[name='enable']:checked").val(),
-				},
-			dataType: "json",
-			async:false,
-			cache:false
-		}).responseJSON;
-		//console.log(res);
-		//==========================1
-		if(res.code<0){
-			alert(res.msg);
-			return false;
-		}else{
-			//location.reload();
-			return true;
-		}
-		return true;
-	},
-	cancel:function(){},						//点击cancel按钮
-	close:function(){},							//关闭对话框 不是回调
-}
-
+		
 </script>
 
 
@@ -243,7 +213,7 @@ this.opt = {				//确定按钮的点击
 
 <div class="panel panel-default">
     <div class="panel-heading">
-    <h3 class="panel-title">用户列表</h3>
+    <h3 class="panel-title">接口列表</h3>
         <div class="panel-options">
             <a  onclick="showAjaxModal();" href="javascript:;">
             <i class="linecons-cog"></i>
@@ -260,218 +230,129 @@ this.opt = {				//确定按钮的点击
     </div>
 
     <div class="panel-body">
-   <table class="table table-model-2 table-hover" >
-	  <tr>
-	    <td width="40">
-        
-<!-- GET -->
-<!--a aria-controls="collapseExample" aria-expanded="false" href="#collapseExample31" data-toggle="collapse" class="collapsed"> GET [获取]</a -->
-<a aria-controls="collapseExample" aria-expanded="false" href="/man/get"  class="collapsed"> GET [获取]</a>
-<div id="collapseExample31" class="collapse in" style=""><br>
-    <table class="table table-model-2 table-hover table-condensed table-striped" >
     
+<!--  sham begin -->
+<div class="search-results">
+						
+							<div class="tabs-vertical-env">
+							
+								<ul class="nav tabs-vertical">
+									<li class="active">
+										<a href="#GET" data-toggle="tab">
+											<i class="fa-globe visible-xs"></i>
+											<span class="hidden-xs">GET</span>
+										</a>
+									</li>
+									<li>
+										<a href="#POST" data-toggle="tab">
+											<i class="fa-picture visible-xs"></i>
+											<span class="hidden-xs">POST</span>
+										</a>
+									</li>
+									<li>
+										<a href="#PUT" data-toggle="tab">
+											<i class="fa-docs visible-xs"></i>
+											<span class="hidden-xs">PUT</span>
+										</a>
+									</li>
+									<li>
+										<a href="#DELETE" data-toggle="tab">
+											<i class="fa-video visible-xs"></i>
+											<span class="hidden-xs">DELETE</span>
+										</a>
+									</li>
+									<li>
+										<a href="#OTHER" data-toggle="tab">
+											<i class="fa-users visible-xs"></i>
+											<span class="hidden-xs">OTHER</span>
+										</a>
+									</li>
+								</ul>
+								
+								<div class="tab-content">
+									
+									<!-- Sample Search Results Tab -->
+									<div class="tab-pane active" id="GET">
+<?php
+//D($rc);
+?>    
+                                    
+<table class="table table-model-2 table-hover table-condensed table-striped" >
+    
+    
+<?php
+
+foreach($rc as $key=>$value){
+if($value['type'] === 'GET'){
+?>
         <tr>
-        <td>v6 <a class="apiview" sid="1">friend.search</a></td>
-        <td>查找好友</td>
+        <td><?=$value['v']?> <a href="#" class="apiview" relid="<?=$value['id']?>"><?=$value['api']?></a></td>
+        <td><?=$value['name']?></td>
         <td>9</td>
         <td>
 
-          <a class="apiviewlog" sid="1" rid=55><span class="glyphicon glyphicon-barcode"></span></a>
 
+<a href="#" class="apiviewlog" relid="<?=$value['id']?>"><span class="glyphicon glyphicon-barcode"></span></a>
 
-          |            <a class="apicenable" sid="1" debug=1><span class="glyphicon glyphicon-ok red"></span></a>
-          
-                      | <a class="apicenable" sid="1" enable=1><span class="glyphicon glyphicon-ok-sign green"></span></a>
-          
-          |  <a class="apiedit" sid="1" rel="55"><span class="glyphicon glyphicon-wrench yellow"></span></a>
+<?php
+if($value['enable']){
+?>
+|  <a href="#" class="apicenable" relid="<?=$value['id']?>"><span class="glyphicon glyphicon-ok red"></span></a>
+<?php
+}else{
+?>
+|  <a href="#" class="apicenable" relid="<?=$value['id']?>"><span class="glyphicon glyphicon-remove green"></span></a>
+<?php
+}
+?>
 
+|  <a href="#" class="apiedit" relid="<?=$value['id']?>"><span class="glyphicon glyphicon-wrench yellow"></span></a>
+<!--  | <a class="apicenable" sid="1" enable=1><span class="glyphicon glyphicon-ok-sign green"></span></a>-->
         </td>
         </tr>
-        <tr>
-        <td>v6 <a class="apiview" sid="2">friend.add</a></td>
-        <td>添加好友</td>
-        <td>9</td>
-        <td>
-
-          <a class="apiviewlog" sid="2" rid=55><span class="glyphicon glyphicon-barcode"></span></a>
-
-
-                      | <a class="apicenable" sid="2" debug=0><span class="glyphicon glyphicon-remove green"></span></a>
-          
-                      | <a class="apicenable" sid="2" enable=1><span class="glyphicon glyphicon-ok-sign green"></span></a>
-          
-          |  <a class="apiedit" sid="2" rel="55"><span class="glyphicon glyphicon-wrench yellow"></span></a>
-
-        </td>
-        </tr>
-        <tr>
-        <td>v6 <a class="apiview" sid="3">friend.getfriends</a></td>
-        <td>获取好友列表</td>
-        <td>9</td>
-        <td>
-
-          <a class="apiviewlog" sid="3" rid=55><span class="glyphicon glyphicon-barcode"></span></a>
-
-
-                      | <a class="apicenable" sid="3" debug=0><span class="glyphicon glyphicon-remove green"></span></a>
-          
-                      | <a class="apicenable" sid="3" enable=1><span class="glyphicon glyphicon-ok-sign green"></span></a>
-          
-          |  <a class="apiedit" sid="3" rel="55"><span class="glyphicon glyphicon-wrench yellow"></span></a>
-
-        </td>
-        </tr>
-        <tr>
-        <td>v6 <a class="apiview" sid="4">user.gettoken</a></td>
-        <td>获取用户token值</td>
-        <td>9</td>
-        <td>
-
-          <a class="apiviewlog" sid="4" rid=55><span class="glyphicon glyphicon-barcode"></span></a>
-
-
-          |            <a class="apicenable" sid="4" debug=1><span class="glyphicon glyphicon-ok red"></span></a>
-          
-                      | <a class="apicenable" sid="4" enable=1><span class="glyphicon glyphicon-ok-sign green"></span></a>
-          
-          |  <a class="apiedit" sid="4" rel="55"><span class="glyphicon glyphicon-wrench yellow"></span></a>
-
-        </td>
-        </tr>
-        <tr>
-        <td>v6 <a class="apiview" sid="5">user.getmessage</a></td>
-        <td>用户获取消息队列</td>
-        <td>9</td>
-        <td>
-
-          <a class="apiviewlog" sid="5" rid=55><span class="glyphicon glyphicon-barcode"></span></a>
-
-
-                      | <a class="apicenable" sid="5" debug=0><span class="glyphicon glyphicon-remove green"></span></a>
-          
-                      | <a class="apicenable" sid="5" enable=1><span class="glyphicon glyphicon-ok-sign green"></span></a>
-          
-          |  <a class="apiedit" sid="5" rel="55"><span class="glyphicon glyphicon-wrench yellow"></span></a>
-
-        </td>
-        </tr>
-        <tr>
-        <td>v6 <a class="apiview" sid="6">friend.test</a></td>
-        <td>friend.test</td>
-        <td>9</td>
-        <td>
-
-          <a class="apiviewlog" sid="6" rid=55><span class="glyphicon glyphicon-barcode"></span></a>
-
-
-          |            <a class="apicenable" sid="6" debug=1><span class="glyphicon glyphicon-ok red"></span></a>
-          
-                      | <a class="apicenable" sid="6" enable=1><span class="glyphicon glyphicon-ok-sign green"></span></a>
-          
-          |  <a class="apiedit" sid="6" rel="55"><span class="glyphicon glyphicon-wrench yellow"></span></a>
-
-        </td>
-        </tr>
-
-
-    </table>
-
-</div>         
-<!-- GET END -->
-
+<?php
+}
+}
+?>        
         
         
-        </td>
-      </tr>
-	  <tr>
-	    <td>
-        
-<!-- POST -->
-<!--a aria-controls="collapseExample" aria-expanded="false" href="#collapseExample32" data-toggle="collapse" class="collapsed"> POST [新加]</a-->
-            <a aria-controls="collapseExample" aria-expanded="false" href="/man/post"  class="collapsed"> POST [新加]</a>
-<div id="collapseExample32" class="collapse " style=""><br>
-    <table class="table table-hover table-condensed table-striped table-bordered" >
- 
- 
- 
-    </table>
 
-</div>
-<!-- POST END -->
-        
-        
-        
-        </td>
-      </tr>
-      
-      
-      
-<tr>
-<td>
-        
-<!-- put -->
-<!--a aria-controls="collapseExample" aria-expanded="false" href="#collapseExample33" data-toggle="collapse" class="collapsed"> PUT [更新]</a -->
-    <a aria-controls="collapseExample" aria-expanded="false" href="/man/put"  class="collapsed"> PUT [更新]</a>
 
-    <div id="collapseExample33" class="collapse " style=""><br>
-    <table class="table table-hover table-condensed table-striped table-bordered" >
-      
-      
- 
-      
-      
-      
-      
-    </table>
-
-</div>
-<!-- PUT END -->
-        
-        
-        
-        </td>
-      </tr>
-      
-<tr>
-<td>
-        
-<!-- DELETE -->
-<!--a aria-controls="collapseExample" aria-expanded="false" href="#collapseExample34" data-toggle="collapse" class="collapsed"> DELETE [删除]</a-->
-    <a aria-controls="collapseExample" aria-expanded="false" href="/man/delete"  class="collapsed"> DELETE [删除]</a>
-<div id="collapseExample34" class="collapse " style=""><br>
-    <table class="table table-hover table-condensed table-striped table-bordered" >
-        
-
-    </table>
-
-</div>
-<!-- DELETE END -->
-        
-        
-        
-        </td>
-      </tr>      
-      
-<tr>
-<td>
-        
-<!-- OTHER -->
-<!--a aria-controls="collapseExample" aria-expanded="false" href="#collapseExample35" data-toggle="collapse" class="collapsed"> OTHER [其他]</a-->
-    <a aria-controls="collapseExample" aria-expanded="false" href="/man/other"  class="collapsed"> OTHER [其他]</a>
-<div id="collapseExample35" class="collapse " style=""><br>
-    <table class="table table-hover table-condensed table-striped table-bordered" >
-        
-
-    </table>
-
-</div>
-<!-- GET END -->
-        
-        
-        
-        </td>
-      </tr>
-  <tr>
+    </table>                                    
+                                    
+									</div>
+									
+									<!-- Search Results Tab -->
+									<div class="tab-pane" id="POST">
+										Search results about images...
+									</div>
+									
+									<!-- Search Results Tab -->
+									<div class="tab-pane" id="PUT">
+										Search results about documents...
+									</div>
+									
+									<!-- Search Results Tab -->
+									<div class="tab-pane" id="DELETE">
+										Search results about videos...
+									</div>
+									
+									<!-- Search Results Tab -->
+									<div class="tab-pane" id="OTHER">
+										Search results about contacts...
+									</div>
+								</div>
+								
+							</div>
+							
+						</div>
+<!--  sham end -->
+    
+    
+    
+    
+    <table>
+      <tr>
     <td>
 
       <a class="changedebug" rel=0 rid=55><span class="glyphicon glyphicon-barcode"></span></a> 日志
@@ -484,10 +365,13 @@ this.opt = {				//确定按钮的点击
 
     </td>
   </tr>
-</table>
+</table>										
 
-
+    
+    
    
+
+  
    
    
     </div>
@@ -531,24 +415,150 @@ View::tplInclude('Frame/footerjs', $data);
 
     
 <script language="javascript"> 
-function showAjaxModal()
+
+
+function showAjaxModal(url,title)
 {
+	//console.log(url);
 	jQuery('#modal-7').modal('show', {backdrop: 'static'});
-	
 	jQuery.ajax({
-		url: "/test.html",
+		url: url,
 		success: function(response)
 		{
+			console.log(url);
+			jQuery('#modal-7 .modal-title').html(title);
 			jQuery('#modal-7 .modal-body').html(response);
+			var JS = $("script[type='text/dialog']").html();
+			eval(JS);												//sytle
+		}
+	});
+}
+
+function showAjaxModal2(url,title)
+{
+	//console.log(url);
+	jQuery('#modal-2').modal('show', {backdrop: 'static'});
+	jQuery.ajax({
+		url: url,
+		success: function(response)
+		{
+			console.log(url);
+			jQuery('#modal-2 .modal-title').html(title);
+			jQuery('#modal-2 .modal-body').html(response);
+			var JS = $("script[type='text/dialog']").html();
+			eval(JS);												//sytle
 		}
 	});
 }
 
 $(document).ready(function(){
 
+//apiviewlog
+//apicenable
+//apiedit
+
+		$('.apiviewlog').click(function(){
+			showAjaxModal('/s/api/log/'+$(this).attr("relid"),'查看日志');
+		});
+		
+		
+		$('.apicenable').click(function(){
+			var res = $.ajax({
+				url : '/s/api/list/de/'+$(this).attr("relid"),
+				type: 'post',
+				data: {
+					groupid : $(this).attr("relid"),
+					enable 	: $(this).attr("cenable"),
+					},
+				dataType: "json",
+				async:false,
+				cache:false
+			}).responseJSON;
+			//console.log(res);
+			//==========================1
+			if(res.code<0){
+				alert(res.msg);
+				return false;
+			}else{
+				location.reload();
+				return true;
+			}			
+			
+			
+			alert('更改enable');
+		});
+		$('.apiedit').click(function(){
+			showAjaxModal2('/s/api/list/ed/'+$(this).attr("relid"),'编辑');
+		});
+		$('.apiview').click(function(){
+			showAjaxModal('/s/api/list/vf/'+$(this).attr("relid"),'测试');
+		});
+
+
+		//添加新数据
+		$('.form_submit').click(function(){
+			var res = $.ajax({
+				url : '/s/api/list',
+				type: 'post',
+				data: {
+					name 	: $("input[name='name']").val(),
+					v 		: $("input[name='v']").val(),
+					api 	: $("input[name='api']").val(),
+	
+					dis 	: $(".dis").val(),
+					request : $(".request").val(),
+					response: $(".response").val(),
+					sort 	: $("input[name='sort']").val(),
+					
+					
+					type 	: $("input[name='type']:checked").val(),
+					debug 	: $("input[name='debug']:checked").val(),
+					enable 	: $("input[name='enable']:checked").val(),
+					},
+				dataType: "json",
+				async:false,
+				cache:false
+			}).responseJSON;
+			//console.log(res);
+			//==========================1
+			if(res.code<0){
+				alert(res.msg);
+				return false;
+			}else{
+				location.reload();
+				return true;
+			}
+		});
+
+
+
 
 }) 
 </script> 
+    
+	<!-- Modal 2 (Custom Width)-->
+	<div class="modal fade custom-width" id="modal-2">
+		<div class="modal-dialog" style="width: 60%;">
+			<div class="modal-content">
+				
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title">Custom Width Modal</h4>
+				</div>
+				
+				<div class="modal-body">
+					Any type of width can be applied.
+					
+				</div>
+				
+				<div class="modal-footer">
+					<button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-info">Save changes</button>
+				</div>
+			</div>
+		</div>
+	</div>    
+    
     
     	<!-- Modal 7 (Ajax Modal)-->
 	<div class="modal fade" id="modal-7">
