@@ -68,6 +68,8 @@ class GracePHP {
      * @return void
      */
     public function run(){
+
+
         if(C('USE_SESSION') == true){
             session_start();
         }
@@ -78,6 +80,8 @@ class GracePHP {
         $this->loadAppConfig();             //覆盖hmvc配置
         C('APP_FULL_PATH', truepath(getcwd().'/'.C('APP_PATH')).'/');
         C('BASE_FULL_PATH', truepath(getcwd().'/'.C('APP_BASE')).'/');
+        includeIfExist(C('BASE_FULL_PATH').'Seter/I.php');              //第一时间载入服务层
+
         //除controllers外，都需要检测根下有没有相对应的组件
         //===========================================================
         $router = C('router');
@@ -101,6 +105,8 @@ class GracePHP {
 
         //判断控制器是否存在
         if(!class_exists($router['Controller'])){
+            //404
+            error404();
             halt('控制器'.$router['Controller'].'不存在');  //交由扩展进行判断
         }
         //实例化
@@ -191,8 +197,6 @@ class GracePHP {
             'error_page_404'    => C('APP_PATH').'error/error_404.php',
             'error_page_500'    => C('APP_PATH').'error/error_500.php',
             'error_page_msg'     => C('APP_PATH').'error/error_msg.php',
-            'error_page_db'     => C('APP_PATH').'error/error_db.php',
-
             'message_page_view' => C('APP_PATH').'error/error_view.php',
 
 
@@ -273,7 +277,6 @@ class Controller {
         $this->env['ip'] = '';
         $this->env['mem'] = memory_get_usage();
 //
-        includeIfExist(C('BASE_FULL_PATH').'Seter/I.php');
 //        // 依赖注入
         $this->singleton('S', function ($c) {
             return \Seter\Seter::getInstance();

@@ -1,19 +1,23 @@
 <?php
-View::tplInclude('Frame/header', $data);
+View::tplInclude('Frame/header', ['title' => 'Welcome']);
 ?>
 
 
 
 <body class="page-body">
-<div class="page-loading-overlay"><div class="loader-2"></div></div>
-<?php
-
+<!--div class="page-loading-overlay"><div class="loader-2"></div></div -->
+	<?php
+$data = array(
+'title' => 'Welcome',  //设置title变量为Welcome
+);
 View::tplInclude('Frame/setting', $data);
 ?>
 
-
-<?php
-
+	
+		<?php
+$data = array(
+'title' => 'Welcome',  //设置title变量为Welcome
+);
 View::tplInclude('Frame/headbar', $data);
 ?>
 
@@ -22,6 +26,9 @@ View::tplInclude('Frame/headbar', $data);
 	
 	<div class="page-container"><!-- add class "sidebar-collapsed" to close sidebar by default, "chat-visible" to make chat appear always -->
 <?php
+$data = array(
+'title' => 'Welcome',  //设置title变量为Welcome
+);
 View::tplInclude('Frame/sitebar', $data);
 ?>
 		
@@ -34,8 +41,8 @@ View::tplInclude('Frame/sitebar', $data);
 <!-- path nav -->
 <div class="page-title">
     <div class="title-env">
-        <h1 class="title">用户管理</h1>
-        <p class="description">用户增删改查</p>
+        <h1 class="title">用户组管理</h1>
+        <p class="description">用户组增删改查</p>
     </div>
 
     <div class="breadcrumb-env">
@@ -68,7 +75,8 @@ View::tplInclude('Frame/sitebar', $data);
 <div class="panel panel-default collapsed">
     <div class="panel-heading">
     <h3 class="panel-title"><a class="btn btn-info btn-lg btn-icon icon-left" data-toggle="panel" href="#">
-    <span class=" expand-icon">添加新用户</span></a></h3>
+    <span class=" expand-icon">添加用户组</span></a></h3>
+    
     
         <div class="panel-options">
             <!-- a href="#">
@@ -96,14 +104,14 @@ View::tplInclude('Frame/sitebar', $data);
 <form role="form" class="form-horizontal">
 								
 								<div class="form-group">
-									<label class="col-sm-2 control-label">登陆名</label>
+									<label class="col-sm-2 control-label">组名</label>
 									
 									<div class="col-sm-10">
 										<div class="input-group input-group-lg input-group-minimal">
 											<span class="input-group-addon">
 												<i class="linecons-pencil"></i>
 											</span>
-											<input name="uname" class="form-control no-right-border" placeholder="登陆名">
+											<input name="groupname" class="form-control no-right-border" placeholder="组名">
 											<span class="input-group-addon">
 												<i class="linecons-paper-plane"></i>
 											</span>
@@ -115,14 +123,14 @@ View::tplInclude('Frame/sitebar', $data);
 								<div class="form-group-separator"></div>
 								
 								<div class="form-group">
-									<label class="col-sm-2 control-label">密码</label>
+									<label class="col-sm-2 control-label">标识</label>
 									
 									<div class="col-sm-10">
 										<div class="input-group input-group-lg input-group-minimal">
 											<span class="input-group-addon">
 												<i class="linecons-pencil"></i>
 											</span>
-											<input name="pwd" class="form-control no-right-border" placeholder="密码">
+											<input name="groupchr" class="form-control no-right-border" placeholder="标识">
 											<span class="input-group-addon">
 												<i class="linecons-paper-plane"></i>
 											</span>
@@ -134,68 +142,18 @@ View::tplInclude('Frame/sitebar', $data);
 								<div class="form-group-separator"></div>
 								
 								<div class="form-group">
-									<label class="col-sm-2 control-label">确认密码</label>
+									<label class="col-sm-2 control-label">排序</label>
 									
 									<div class="col-sm-10">
 										<div class="input-group input-group-lg input-group-minimal">
 											<span class="input-group-addon">
 												<i class="linecons-pencil"></i>
 											</span>
-											<input name="pwdre" class="form-control no-right-border" placeholder="确认密码">
+											<input name="sort" class="form-control no-right-border" placeholder="排序">
 											<span class="input-group-addon">
 												<i class="linecons-paper-plane"></i>
 											</span>
 										</div>
-
-									</div>
-								</div>
-								
-								<div class="form-group-separator"></div>
-								
-								<div class="form-group">
-									<label class="col-sm-2 control-label">真实姓名</label>
-									
-									<div class="col-sm-10">
-										<div class="input-group input-group-lg input-group-minimal">
-											<span class="input-group-addon">
-												<i class="linecons-pencil"></i>
-											</span>
-											<input name="tname" class="form-control no-right-border" placeholder="真实姓名">
-											<span class="input-group-addon">
-												<i class="linecons-paper-plane"></i>
-											</span>
-										</div>
-
-									</div>
-								</div>
-                                
-                                
-								<div class="form-group-separator"></div>
-								
-								<div class="form-group">
-									<label class="col-sm-2 control-label">用户组</label>
-									<div class="col-sm-10">
-                                    
-<script type="text/javascript">
-										jQuery(document).ready(function($)
-										{
-											$("#sboxit-1").selectBoxIt().on('open', function()
-											{
-												// Adding Custom Scrollbar
-												$(this).data('selectBoxSelectBoxIt').list.perfectScrollbar();
-											});
-										});
-									</script>
-									
-									<select name="groupid" class="form-control" id="sboxit-1">
-                                    <?php
-                                    foreach($grouplist as $key=>$value){
-									?>
-										<option value="<?=$value['groupid']?>"><?=$value['groupname']?></option>
-                                    <?php
-										}
-									?>
-									</select>
 
 									</div>
 								</div>
@@ -267,76 +225,35 @@ View::tplInclude('Frame/sitebar', $data);
 <table class="table table-model-2 table-hover">
 <thead>
 <tr>
-<th>id</th>
-<th>登陆名</th>
-<th>真实姓名</th>
-<th>用户组</th>
-<th>注册时间</th>
-<th>登陆时间</th>
-<th>登陆ip</th>
+<th width=50>id</th>
+<th>用户组名称</th>
+<th>标识</th>
+<th>排序</th>
 <th width=70>有效？</th>
-<th width=250>操作</th>
+<th width=150>操作</th>
 </tr>
 </thead>
 <tbody>
 
 <?php
-foreach($list as $key=>$value){
+foreach($rc as $key=>$value){
 ?>
+
 <tr>
-<td><?=$value['uid']?></td>
-<td><?=$value['uname']?></td>
-<td><?=$value['tname']?></td>
 <td><?=$value['groupid']?></td>
-<td><?=date('Y-m-d:His',$value['regtime'])?></td>
-<td><?=date('Y-m-d:His',$value['logtime'])?></td>
-<td><?=$value['logip']?></td>
-<td><input type="checkbox" class="iswitch iswitch-red changeenableflag" cenable="<?=$value['enable']?>" relid="<?=$value['uid']?>" <?=$value['enable']?'checked="CHECKED"':''?>></td>
+<td><?=$value['groupname']?></td>
+<td><?=$value['groupchr']?></td>
+<td><?=$value['sort']?></td>
+<td><input type="checkbox" class="iswitch iswitch-red changeenableflag" cenable="<?=$value['enable']?>" relid="<?=$value['groupid']?>" <?=$value['enable']?'checked="CHECKED"':''?>></td>
 <td>
-<a class="btn btn-secondary btn-sm btn-icon icon-left" onClick="showAjaxModal('/s/user/userlist/vf/<?=$value['uid']?>','显示日志');" href="javascript:;"> 显示日志 </a>
-<a class="btn btn-secondary btn-sm btn-icon icon-left" onClick="showAjaxModal('/s/user/userlist/ed/<?=$value['uid']?>','修改用户');" href="javascript:;"> 修改 </a>
-<a class="btn btn-info btn-sm btn-icon icon-left confirm" relid="<?=$value['uid']?>">删除</a>
-
-
+<a class="btn btn-secondary btn-sm btn-icon icon-left" onClick="showAjaxModal('/s/user/grouplist/ed/<?=$value['groupid']?>','修改用户组');" href="javascript:;"> 修改 </a>
+<a class="btn btn-info btn-sm btn-icon icon-left confirm" ref="/s/user/grouplist/de/<?=$value['groupid']?>">删除</a>
 </td>
 </tr>
-<?php }?>
+<?php
+}
+?>
 
-
-<tr>
-  <td colspan="9" align="right">
- <!-- 
-  <div id="example-1_paginate" class="dataTables_paginate paging_simple_numbers">
-<ul class="pagination">
-<li id="example-1_previous" class="paginate_button previous disabled" aria-controls="example-1" tabindex="0">
-<a href="#">Previous</a>
-</li>
-<li class="paginate_button active" aria-controls="example-1" tabindex="0">
-<a href="#">1</a>
-</li>
-<li class="paginate_button " aria-controls="example-1" tabindex="0">
-<a href="#">2</a>
-</li>
-<li class="paginate_button " aria-controls="example-1" tabindex="0">
-<a href="#">3</a>
-</li>
-<li class="paginate_button " aria-controls="example-1" tabindex="0">
-<a href="#">4</a>
-</li>
-<li class="paginate_button " aria-controls="example-1" tabindex="0">
-<a href="#">5</a>
-</li>
-<li class="paginate_button " aria-controls="example-1" tabindex="0">
-<a href="#">6</a>
-</li>
-<li id="example-1_next" class="paginate_button next" aria-controls="example-1" tabindex="0">
-<a href="#">Next</a>
-</li>
-</ul>
-</div>
--->  
-  </td>
-  </tr>
 
 </tbody>
 </table>
@@ -356,7 +273,10 @@ foreach($list as $key=>$value){
 
 			
 
-<?php
+		  <?php
+$data = array(
+'title' => 'Welcome',  //设置title变量为Welcome
+);
 View::tplInclude('Frame/footer', $data);
 ?>
 	  </div>
@@ -367,29 +287,16 @@ View::tplInclude('Frame/footer', $data);
 	</div>
 	
 	
-<?php
+	<?php
+$data = array(
+'title' => 'Welcome',  //设置title变量为Welcome
+);
 View::tplInclude('Frame/footerjs', $data);
 ?>
 
-<!-- Imported styles on this page -->
-	<link rel="stylesheet" href="/assets/js/daterangepicker/daterangepicker-bs3.css">
-	<link rel="stylesheet" href="/assets/js/select2/select2.css">
-	<link rel="stylesheet" href="/assets/js/select2/select2-bootstrap.css">
-	<link rel="stylesheet" href="/assets/js/multiselect/css/multi-select.css">
 
-	<!-- Imported scripts on this page -->
-	<script src="/assets/js/daterangepicker/daterangepicker.js"></script>
-	<script src="/assets/js/datepicker/bootstrap-datepicker.js"></script>
-	<script src="/assets/js/timepicker/bootstrap-timepicker.min.js"></script>
-	<script src="/assets/js/colorpicker/bootstrap-colorpicker.min.js"></script>
-	<script src="/assets/js/select2/select2.min.js"></script>
-	<script src="/assets/js/jquery-ui/jquery-ui.min.js"></script>
-	<script src="/assets/js/selectboxit/jquery.selectBoxIt.min.js"></script>
-	<script src="/assets/js/tagsinput/bootstrap-tagsinput.min.js"></script>
-	<script src="/assets/js/typeahead.bundle.js"></script>
-	<script src="/assets/js/handlebars.min.js"></script>
-	<script src="/assets/js/multiselect/js/jquery.multi-select.js"></script>
 
+    
 <script language="javascript"> 
 function showAjaxModal(url,title)
 {
@@ -409,37 +316,13 @@ function showAjaxModal(url,title)
 	});
 }
 
-
-
 $(document).ready(function(){
-
-
-
-
+	
 		$('.confirm').click(function(){
-			var uid = $(this).attr("relid");
 			 var r=confirm("删除这条记录？")
 			if (r==true)
 			{
-				//删除操作
-				var res = $.ajax({
-					url : '/s/user/userlist/de/'+uid,
-					type: 'post',
-					data: {
-						},
-					dataType: "json",
-					async:false,
-					cache:false
-				}).responseJSON;
-				//console.log(res);
-				//==========================1
-				if(res.code<0){
-					alert(res.msg);
-					return false;
-				}else{
-					location.reload();
-					return true;
-				}
+				window.location.href = $(this).attr("ref");
 			}
 			else
 			{
@@ -447,13 +330,9 @@ $(document).ready(function(){
 			}
 		});
 
-
-
-
-		//更改用户状态
 		$('.changeenableflag').click(function(){
 			var res = $.ajax({
-				url : '/s/user/userlist/cf/'+$(this).attr("relid"),
+				url : '/home/groupenablechange',
 				type: 'post',
 				data: {
 					groupid : $(this).attr("relid"),
@@ -469,34 +348,21 @@ $(document).ready(function(){
 				alert(res.msg);
 				return false;
 			}else{
-				//location.reload();
+				location.reload();
 				return true;
 			}
 			
         })
-
-	
-		//提交添加组
+				
+	//提交添加组
 		$('.form_submit').click(function(){
-			if($("input[name='pwd']").val() != $("input[name='pwdre']").val()){
-				alert('两次密码不一致');
-				return false;
-			}
-
-			if($("input[name='pwd']").val().length < 6){
-				alert('长度太短');
-				return false;
-			}
-			
-			
 			var res = $.ajax({
-				url : '/s/user/userlist',
+				url : '/s/user/grouplist',
 				type: 'post',
 				data: {
-					uname 	: $("input[name='uname']").val(),
-					pwd 	: $("input[name='pwd']").val(),
-					tname 	: $("input[name='tname']").val(),
-					groupid : $("select[name='groupid']").val(),
+					groupname 	: $("input[name='groupname']").val(),
+					groupchr 	: $("input[name='groupchr']").val(),
+					sort 		: $("input[name='sort']").val(),
 					},
 				dataType: "json",
 				async:false,
@@ -524,7 +390,7 @@ $(document).ready(function(){
 				
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h4 class="modal-title">Dynamic Content</h4>
+					<h4 class="modal-title">title</h4>
 				</div>
 				
 				<div class="modal-body">

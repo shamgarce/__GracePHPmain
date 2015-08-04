@@ -76834,3 +76834,2430 @@ TM : 0 : 2015-08-03 18:10:44
  select * from dy_user where uname = 'irones'
 TM : 0 : 2015-08-03 18:10:44
 ----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:24
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-08-04 09:56:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:24
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-08-04 09:56:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:24
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-08-04 09:56:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-08-04 09:56:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:26
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-08-04 09:56:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:26
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-08-04 09:56:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:26
+----------------------------
+ select count(*) from g_book
+TM : 0 : 2015-08-04 09:56:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:26
+----------------------------
+ select count(*) from g_booknode
+TM : 0 : 2015-08-04 09:56:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:26
+----------------------------
+ select count(*) from g_group
+TM : 0 : 2015-08-04 09:56:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:26
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-08-04 09:56:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-08-04 09:56:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:26
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-08-04 09:56:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:26
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-08-04 09:56:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:26
+----------------------------
+ select count(*) from g_book
+TM : 0 : 2015-08-04 09:56:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:26
+----------------------------
+ select count(*) from g_booknode
+TM : 0 : 2015-08-04 09:56:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:26
+----------------------------
+ select count(*) from g_group
+TM : 0 : 2015-08-04 09:56:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:26
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-08-04 09:56:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:29
+----------------------------
+ select * from g_group
+TM : 0 : 2015-08-04 09:56:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:29
+----------------------------
+ select * from dy_user order by uid desc
+TM : 0 : 2015-08-04 09:56:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:29
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-08-04 09:56:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:29
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-08-04 09:56:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:34
+----------------------------
+ select * from g_group
+TM : 0 : 2015-08-04 09:56:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:34
+----------------------------
+ select * from dy_user where uid = 18
+TM : 0 : 2015-08-04 09:56:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:34
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-08-04 09:56:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:34
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-08-04 09:56:34
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:36
+----------------------------
+ select * from g_group
+TM : 0 : 2015-08-04 09:56:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:36
+----------------------------
+ select * from dy_user where uid = 18
+TM : 0 : 2015-08-04 09:56:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:36
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-08-04 09:56:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:36
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-08-04 09:56:36
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:44
+----------------------------
+ select * from g_group
+TM : 0 : 2015-08-04 09:56:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:44
+----------------------------
+ select * from dy_user where uid = 29
+TM : 0 : 2015-08-04 09:56:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:44
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-08-04 09:56:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:44
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-08-04 09:56:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:50
+----------------------------
+ select * from g_group
+TM : 0 : 2015-08-04 09:56:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:50
+----------------------------
+ select * from dy_user order by uid desc
+TM : 0 : 2015-08-04 09:56:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:50
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-08-04 09:56:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:56:50
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-08-04 09:56:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:58:38
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-08-04 09:58:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:58:38
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-08-04 09:58:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:58:38
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-08-04 09:58:38
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:58:44
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-08-04 09:58:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:58:44
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-08-04 09:58:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:58:44
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-08-04 09:58:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-08-04 09:58:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:58:44
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-08-04 09:58:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:58:44
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-08-04 09:58:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:58:44
+----------------------------
+ select count(*) from g_book
+TM : 0 : 2015-08-04 09:58:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:58:44
+----------------------------
+ select count(*) from g_booknode
+TM : 0 : 2015-08-04 09:58:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:58:44
+----------------------------
+ select count(*) from g_group
+TM : 0 : 2015-08-04 09:58:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:58:44
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-08-04 09:58:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-08-04 09:58:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:58:45
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-08-04 09:58:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:58:45
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-08-04 09:58:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:58:45
+----------------------------
+ select count(*) from g_book
+TM : 0 : 2015-08-04 09:58:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:58:45
+----------------------------
+ select count(*) from g_booknode
+TM : 0 : 2015-08-04 09:58:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:58:45
+----------------------------
+ select count(*) from g_group
+TM : 0 : 2015-08-04 09:58:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:58:45
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-08-04 09:58:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:58:49
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-08-04 09:58:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:58:49
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-08-04 09:58:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.00099992752075195 : 2015-08-04 09:58:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-08-04 09:58:49
+----------------------------
+ select count(*) from dy_user
+TM : 0.00099992752075195 : 2015-08-04 09:58:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-08-04 09:58:49
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.00099992752075195 : 2015-08-04 09:58:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-08-04 09:58:49
+----------------------------
+ select count(*) from g_book
+TM : 0.00099992752075195 : 2015-08-04 09:58:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-08-04 09:58:49
+----------------------------
+ select count(*) from g_booknode
+TM : 0.00099992752075195 : 2015-08-04 09:58:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-08-04 09:58:49
+----------------------------
+ select count(*) from g_group
+TM : 0.00099992752075195 : 2015-08-04 09:58:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-08-04 09:58:49
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.00099992752075195 : 2015-08-04 09:58:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-08-04 09:58:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:58:49
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-08-04 09:58:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:58:49
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-08-04 09:58:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:58:49
+----------------------------
+ select count(*) from g_book
+TM : 0 : 2015-08-04 09:58:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:58:49
+----------------------------
+ select count(*) from g_booknode
+TM : 0 : 2015-08-04 09:58:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:58:49
+----------------------------
+ select count(*) from g_group
+TM : 0 : 2015-08-04 09:58:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:58:49
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-08-04 09:58:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:58:52
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-08-04 09:58:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:58:52
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-08-04 09:58:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:58:52
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-08-04 09:58:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:58:54
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-08-04 09:58:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:58:54
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-08-04 09:58:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:58:56
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-08-04 09:58:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 09:58:56
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-08-04 09:58:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:01:24
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-08-04 10:01:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:01:24
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-08-04 10:01:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:14
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-08-04 10:02:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:14
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-08-04 10:02:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:14
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-08-04 10:02:14
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:17
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-08-04 10:02:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:17
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-08-04 10:02:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:22
+----------------------------
+ select * from g_group
+TM : 0 : 2015-08-04 10:02:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:22
+----------------------------
+ select * from dy_user order by uid desc
+TM : 0 : 2015-08-04 10:02:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:22
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-08-04 10:02:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:22
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-08-04 10:02:22
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:24
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-08-04 10:02:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:24
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-08-04 10:02:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:24
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-08-04 10:02:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:27
+----------------------------
+ select * from g_group
+TM : 0 : 2015-08-04 10:02:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:27
+----------------------------
+ select * from dy_user order by uid desc
+TM : 0 : 2015-08-04 10:02:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:27
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-08-04 10:02:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:27
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-08-04 10:02:27
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-08-04 10:02:29
+----------------------------
+ select uid,uname from dy_user
+TM : 0.0010001659393311 : 2015-08-04 10:02:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-08-04 10:02:29
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0.0010001659393311 : 2015-08-04 10:02:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:44
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-08-04 10:02:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:44
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-08-04 10:02:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-08-04 10:02:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:45
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-08-04 10:02:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:45
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-08-04 10:02:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:45
+----------------------------
+ select count(*) from g_book
+TM : 0 : 2015-08-04 10:02:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:45
+----------------------------
+ select count(*) from g_booknode
+TM : 0 : 2015-08-04 10:02:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:45
+----------------------------
+ select count(*) from g_group
+TM : 0 : 2015-08-04 10:02:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:45
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-08-04 10:02:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0.0010001659393311 : 2015-08-04 10:02:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-08-04 10:02:45
+----------------------------
+ select count(*) from dy_user
+TM : 0.0010001659393311 : 2015-08-04 10:02:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-08-04 10:02:45
+----------------------------
+ select count(*) from g_accessrules
+TM : 0.0010001659393311 : 2015-08-04 10:02:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-08-04 10:02:45
+----------------------------
+ select count(*) from g_book
+TM : 0.0010001659393311 : 2015-08-04 10:02:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-08-04 10:02:45
+----------------------------
+ select count(*) from g_booknode
+TM : 0.0010001659393311 : 2015-08-04 10:02:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-08-04 10:02:45
+----------------------------
+ select count(*) from g_group
+TM : 0.0010001659393311 : 2015-08-04 10:02:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-08-04 10:02:45
+----------------------------
+ select count(*) from g_rulelib
+TM : 0.0010001659393311 : 2015-08-04 10:02:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:53
+----------------------------
+ select * from g_group
+TM : 0 : 2015-08-04 10:02:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:53
+----------------------------
+ select * from dy_user order by uid desc
+TM : 0 : 2015-08-04 10:02:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:53
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-08-04 10:02:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:53
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-08-04 10:02:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:57
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-08-04 10:02:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:57
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-08-04 10:02:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:57
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-08-04 10:02:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:59
+----------------------------
+ select * from g_group
+TM : 0 : 2015-08-04 10:02:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:59
+----------------------------
+ select * from dy_user order by uid desc
+TM : 0 : 2015-08-04 10:02:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:59
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-08-04 10:02:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:02:59
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-08-04 10:02:59
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:03:26
+----------------------------
+ select * from g_group
+TM : 0 : 2015-08-04 10:03:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:03:26
+----------------------------
+ select * from dy_user order by uid desc
+TM : 0 : 2015-08-04 10:03:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:03:26
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-08-04 10:03:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:03:26
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-08-04 10:03:26
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:03:35
+----------------------------
+ select * from g_group
+TM : 0 : 2015-08-04 10:03:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:03:35
+----------------------------
+ select * from dy_user order by uid desc
+TM : 0 : 2015-08-04 10:03:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:03:35
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-08-04 10:03:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:03:35
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-08-04 10:03:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:03:41
+----------------------------
+ select * from g_group
+TM : 0 : 2015-08-04 10:03:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:03:41
+----------------------------
+ select * from dy_user order by uid desc
+TM : 0 : 2015-08-04 10:03:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:03:41
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-08-04 10:03:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:03:41
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-08-04 10:03:41
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:03:45
+----------------------------
+ select * from g_group order by sort desc,groupid desc 
+TM : 0 : 2015-08-04 10:03:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:03:45
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-08-04 10:03:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:03:45
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-08-04 10:03:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:03:47
+----------------------------
+ select * from g_group
+TM : 0 : 2015-08-04 10:03:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:03:47
+----------------------------
+ select * from dy_user order by uid desc
+TM : 0 : 2015-08-04 10:03:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:03:47
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-08-04 10:03:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:03:47
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-08-04 10:03:47
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:04:03
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-08-04 10:04:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:04:03
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-08-04 10:04:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:09:49
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-08-04 10:09:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:09:49
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-08-04 10:09:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-08-04 10:09:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:09:49
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-08-04 10:09:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:09:49
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-08-04 10:09:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:09:49
+----------------------------
+ select count(*) from g_book
+TM : 0 : 2015-08-04 10:09:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:09:49
+----------------------------
+ select count(*) from g_booknode
+TM : 0 : 2015-08-04 10:09:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:09:49
+----------------------------
+ select count(*) from g_group
+TM : 0 : 2015-08-04 10:09:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:09:49
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-08-04 10:09:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:09:49
+----------------------------
+ select count(*) from g_userapi
+TM : 0 : 2015-08-04 10:09:49
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-08-04 10:09:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:09:50
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-08-04 10:09:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:09:50
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-08-04 10:09:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:09:50
+----------------------------
+ select count(*) from g_book
+TM : 0 : 2015-08-04 10:09:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:09:50
+----------------------------
+ select count(*) from g_booknode
+TM : 0 : 2015-08-04 10:09:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:09:50
+----------------------------
+ select count(*) from g_group
+TM : 0 : 2015-08-04 10:09:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:09:50
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-08-04 10:09:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:09:50
+----------------------------
+ select count(*) from g_userapi
+TM : 0 : 2015-08-04 10:09:50
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:09:53
+----------------------------
+ select uid,uname from dy_user
+TM : 0 : 2015-08-04 10:09:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:09:53
+----------------------------
+ select * from dy_user where uname = 'irones'
+TM : 0 : 2015-08-04 10:09:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-08-04 10:09:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:09:53
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-08-04 10:09:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:09:53
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-08-04 10:09:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:09:53
+----------------------------
+ select count(*) from g_book
+TM : 0 : 2015-08-04 10:09:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:09:53
+----------------------------
+ select count(*) from g_booknode
+TM : 0 : 2015-08-04 10:09:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:09:53
+----------------------------
+ select count(*) from g_group
+TM : 0 : 2015-08-04 10:09:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:09:53
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-08-04 10:09:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:09:53
+----------------------------
+ select count(*) from g_userapi
+TM : 0 : 2015-08-04 10:09:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+TM : 0 : 2015-08-04 10:09:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:09:53
+----------------------------
+ select count(*) from dy_user
+TM : 0 : 2015-08-04 10:09:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:09:53
+----------------------------
+ select count(*) from g_accessrules
+TM : 0 : 2015-08-04 10:09:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:09:53
+----------------------------
+ select count(*) from g_book
+TM : 0 : 2015-08-04 10:09:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:09:53
+----------------------------
+ select count(*) from g_booknode
+TM : 0 : 2015-08-04 10:09:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:09:53
+----------------------------
+ select count(*) from g_group
+TM : 0 : 2015-08-04 10:09:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:09:53
+----------------------------
+ select count(*) from g_rulelib
+TM : 0 : 2015-08-04 10:09:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:09:53
+----------------------------
+ select count(*) from g_userapi
+TM : 0 : 2015-08-04 10:09:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:37:55
+----------------------------
+ select * from g_userapi where api = 'asdfasdf.index'
+TM : 0 : 2015-08-04 10:37:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:37:56
+----------------------------
+ select * from g_userapi where api = 'asdfasdf.index'
+TM : 0 : 2015-08-04 10:37:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:37:57
+----------------------------
+ select * from g_userapi where api = 'asdfasdf.index'
+TM : 0 : 2015-08-04 10:37:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:37:57
+----------------------------
+ select * from g_userapi where api = 'asdfasdf.index'
+TM : 0 : 2015-08-04 10:37:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:37:57
+----------------------------
+ select * from g_userapi where api = 'asdfasdf.index'
+TM : 0 : 2015-08-04 10:37:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:37:57
+----------------------------
+ select * from g_userapi where api = 'asdfasdf.index'
+TM : 0 : 2015-08-04 10:37:57
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:37:58
+----------------------------
+ select * from g_userapi where api = 'asdfasdf.index'
+TM : 0 : 2015-08-04 10:37:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:37:58
+----------------------------
+ select * from g_userapi where api = 'asdfasdf.index'
+TM : 0 : 2015-08-04 10:37:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:37:58
+----------------------------
+ select * from g_userapi where api = 'asdfasdf.index'
+TM : 0 : 2015-08-04 10:37:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:37:58
+----------------------------
+ select * from g_userapi where api = 'asdfasdf.index'
+TM : 0 : 2015-08-04 10:37:58
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:38:17
+----------------------------
+ select * from g_userapi where api = 'friend.search'
+TM : 0 : 2015-08-04 10:38:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:38:18
+----------------------------
+ select * from g_userapi where api = 'friend.search'
+TM : 0 : 2015-08-04 10:38:18
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:38:19
+----------------------------
+ select * from g_userapi where api = 'friend.search'
+TM : 0 : 2015-08-04 10:38:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:38:19
+----------------------------
+ select * from g_userapi where api = 'friend.search'
+TM : 0 : 2015-08-04 10:38:19
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:38:20
+----------------------------
+ select * from g_userapi where api = 'friend.search'
+TM : 0 : 2015-08-04 10:38:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:38:20
+----------------------------
+ select * from g_userapi where api = 'friend.search'
+TM : 0 : 2015-08-04 10:38:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:38:20
+----------------------------
+ select * from g_userapi where api = 'friend.search'
+TM : 0 : 2015-08-04 10:38:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:38:20
+----------------------------
+ select * from g_userapi where api = 'friend.search'
+TM : 0 : 2015-08-04 10:38:20
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:38:30
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:38:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:39:43
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:39:43
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:39:44
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:39:44
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:39:45
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:39:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:39:45
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:39:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:39:45
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:39:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:39:45
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:39:45
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:40:37
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:40:37
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:41:12
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:41:12
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:41:24
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:41:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:41:29
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:41:29
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:41:30
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:41:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:41:30
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:41:30
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:41:31
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:41:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:41:31
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:41:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:41:31
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:41:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:41:31
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:41:31
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:41:52
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:41:52
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:41:53
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:41:53
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:41:54
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:41:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:41:54
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:41:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:41:54
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:41:54
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:41:55
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:41:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:41:55
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:41:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:41:55
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:41:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:41:55
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:41:55
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:41:56
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:41:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:42:01
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:42:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:42:21
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:42:21
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:42:24
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:42:24
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-08-04 10:42:56
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0.00099992752075195 : 2015-08-04 10:42:56
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:01
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:01
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:02
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:02
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:02
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:02
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:02
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:02
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:02
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:02
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:02
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:02
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:02
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:02
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-08-04 10:43:02
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0.00099992752075195 : 2015-08-04 10:43:02
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:03
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:03
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:03
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:03
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:05
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:05
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:05
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:06
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-08-04 10:43:06
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0.00099992752075195 : 2015-08-04 10:43:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:06
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:06
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:06
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:07
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:07
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.00099992752075195 : 2015-08-04 10:43:07
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0.00099992752075195 : 2015-08-04 10:43:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:07
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:07
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:07
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0.0010001659393311 : 2015-08-04 10:43:07
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0.0010001659393311 : 2015-08-04 10:43:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:07
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:07
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:07
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:07
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:07
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:07
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:07
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:08
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:08
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:08
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 10:43:09
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 10:43:09
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 11:14:17
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 11:14:17
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 11:15:35
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 11:15:35
+----------------------------
+select table_name
+                from information_schema.tables
+                where table_schema='gracemain' and table_type='base table'
+                
+TM : 0 : 2015-08-04 11:16:59
+----------------------------
+ select * from g_userapi where api = 'friend/search'
+TM : 0 : 2015-08-04 11:16:59
+----------------------------
