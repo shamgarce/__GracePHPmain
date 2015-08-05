@@ -32,11 +32,13 @@ class BaseController extends Controller{
                 $res = $row['response'];
                 $res = json_decode($res,true);
                 $res['st'] = 'from controll';
+                $res['getpost'] = print_r($this->request->post,true);
                 echo json_encode($res);
                 exit;
             }else{
                 echo json_encode([
                     'code'=>400,
+                    'getpost'=> print_r($this->request->post,true),
                     'msg'=>'empty response'
                 ]);
                 exit;

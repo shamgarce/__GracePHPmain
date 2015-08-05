@@ -5,7 +5,7 @@ View::tplInclude('Frame/header', ['title' => 'Welcome']);
 <link href="/A/CSS/font.css" rel="stylesheet">
 
 <body class="page-body">
-<div class="page-loading-overlay"><div class="loader-2"></div></div>
+<!-- div class="page-loading-overlay"><div class="loader-2"></div></div -->
 	<?php
 $data = array(
 'title' => 'Welcome',  //设置title变量为Welcome
@@ -213,7 +213,8 @@ OTHER</td>
 
 <div class="panel panel-default">
     <div class="panel-heading">
-    <h3 class="panel-title">接口列表</h3>
+    <h3 class="panel-title">接口列表 </h3>
+
         <div class="panel-options">
             <a  onclick="showAjaxModal();" href="javascript:;">
             <i class="linecons-cog"></i>
@@ -273,40 +274,31 @@ OTHER</td>
 									
 									<!-- Sample Search Results Tab -->
 									<div class="tab-pane active" id="GET">
-<?php
-//D($rc);
-?>    
+  
                                     
 <table class="table table-model-2 table-hover table-condensed table-striped" >
-    
-    
 <?php
-
 foreach($rc as $key=>$value){
 if($value['type'] === 'GET'){
 ?>
         <tr>
-        <td><?=$value['v']?> <a href="#" class="apiview" relid="<?=$value['id']?>"><?=$value['api']?></a></td>
+        <td><?=$value['v']?> <a href="javascript:;" class="apiview" relid="<?=$value['id']?>"><?=$value['api']?></a></td>
         <td><?=$value['name']?></td>
-        <td>9</td>
+        <td><?=$value['sort']?></td>
         <td>
-
-
-<a href="#" class="apiviewlog" relid="<?=$value['id']?>"><span class="glyphicon glyphicon-barcode"></span></a>
-
+<a href="javascript:;" class="apiviewlog" relid="<?=$value['id']?>"><span class="glyphicon glyphicon-barcode"></span></a>
 <?php
 if($value['enable']){
 ?>
-|  <a href="#" class="apicenable" relid="<?=$value['id']?>"><span class="glyphicon glyphicon-ok red"></span></a>
+|  <a href="javascript:;" class="apicenable" relid="<?=$value['id']?>"><span class="glyphicon glyphicon-ok red"></span></a>
 <?php
 }else{
 ?>
-|  <a href="#" class="apicenable" relid="<?=$value['id']?>"><span class="glyphicon glyphicon-remove green"></span></a>
+|  <a href="javascript:;" class="apicenable" relid="<?=$value['id']?>"><span class="glyphicon glyphicon-remove green"></span></a>
 <?php
 }
 ?>
-
-|  <a href="#" class="apiedit" relid="<?=$value['id']?>"><span class="glyphicon glyphicon-wrench yellow"></span></a>
+|  <a href="javascript:;" class="apiedit" relid="<?=$value['id']?>"><span class="glyphicon glyphicon-wrench yellow"></span></a>
 <!--  | <a class="apicenable" sid="1" enable=1><span class="glyphicon glyphicon-ok-sign green"></span></a>-->
         </td>
         </tr>
@@ -314,32 +306,148 @@ if($value['enable']){
 }
 }
 ?>        
-        
-        
-
-
-    </table>                                    
+</table>                                    
                                     
 									</div>
 									
 									<!-- Search Results Tab -->
 									<div class="tab-pane" id="POST">
-										Search results about images...
+<table class="table table-model-2 table-hover table-condensed table-striped" >
+<?php
+foreach($rc as $key=>$value){
+if($value['type'] === 'POST'){
+?>
+        <tr>
+        <td><?=$value['v']?> <a href="javascript:;" class="apiview" relid="<?=$value['id']?>"><?=$value['api']?></a></td>
+        <td><?=$value['name']?></td>
+        <td>9</td>
+        <td>
+<a href="javascript:;" class="apiviewlog" relid="<?=$value['id']?>"><span class="glyphicon glyphicon-barcode"></span></a>
+<?php
+if($value['enable']){
+?>
+|  <a href="javascript:;" class="apicenable" relid="<?=$value['id']?>"><span class="glyphicon glyphicon-ok red"></span></a>
+<?php
+}else{
+?>
+|  <a href="javascript:;" class="apicenable" relid="<?=$value['id']?>"><span class="glyphicon glyphicon-remove green"></span></a>
+<?php
+}
+?>
+|  <a href="javascript:;" class="apiedit" relid="<?=$value['id']?>"><span class="glyphicon glyphicon-wrench yellow"></span></a>
+<!--  | <a class="apicenable" sid="1" enable=1><span class="glyphicon glyphicon-ok-sign green"></span></a>-->
+        </td>
+        </tr>
+<?php
+}
+}
+?>        
+</table>             
 									</div>
 									
 									<!-- Search Results Tab -->
 									<div class="tab-pane" id="PUT">
-										Search results about documents...
+<table class="table table-model-2 table-hover table-condensed table-striped" >
+<?php
+foreach($rc as $key=>$value){
+if($value['type'] === 'PUT'){
+?>
+        <tr>
+        <td><?=$value['v']?> <a href="javascript:;" class="apiview" relid="<?=$value['id']?>"><?=$value['api']?></a></td>
+        <td><?=$value['name']?></td>
+        <td>9</td>
+        <td>
+<a href="javascript:;" class="apiviewlog" relid="<?=$value['id']?>"><span class="glyphicon glyphicon-barcode"></span></a>
+<?php
+if($value['enable']){
+?>
+|  <a href="javascript:;" class="apicenable" relid="<?=$value['id']?>"><span class="glyphicon glyphicon-ok red"></span></a>
+<?php
+}else{
+?>
+|  <a href="javascript:;" class="apicenable" relid="<?=$value['id']?>"><span class="glyphicon glyphicon-remove green"></span></a>
+<?php
+}
+?>
+|  <a href="javascript:;" class="apiedit" relid="<?=$value['id']?>"><span class="glyphicon glyphicon-wrench yellow"></span></a>
+<!--  | <a class="apicenable" sid="1" enable=1><span class="glyphicon glyphicon-ok-sign green"></span></a>-->
+        </td>
+        </tr>
+<?php
+}
+}
+?>        
+</table> 
 									</div>
 									
 									<!-- Search Results Tab -->
 									<div class="tab-pane" id="DELETE">
-										Search results about videos...
+<table class="table table-model-2 table-hover table-condensed table-striped" >
+<?php
+foreach($rc as $key=>$value){
+if($value['type'] === 'DELETE'){
+?>
+        <tr>
+        <td><?=$value['v']?> <a href="javascript:;" class="apiview" relid="<?=$value['id']?>"><?=$value['api']?></a></td>
+        <td><?=$value['name']?></td>
+        <td>9</td>
+        <td>
+<a href="javascript:;" class="apiviewlog" relid="<?=$value['id']?>"><span class="glyphicon glyphicon-barcode"></span></a>
+<?php
+if($value['enable']){
+?>
+|  <a href="javascript:;" class="apicenable" relid="<?=$value['id']?>"><span class="glyphicon glyphicon-ok red"></span></a>
+<?php
+}else{
+?>
+|  <a href="javascript:;" class="apicenable" relid="<?=$value['id']?>"><span class="glyphicon glyphicon-remove green"></span></a>
+<?php
+}
+?>
+|  <a href="javascript:;" class="apiedit" relid="<?=$value['id']?>"><span class="glyphicon glyphicon-wrench yellow"></span></a>
+<!--  | <a class="apicenable" sid="1" enable=1><span class="glyphicon glyphicon-ok-sign green"></span></a>-->
+        </td>
+        </tr>
+<?php
+}
+}
+?>        
+</table> 
 									</div>
 									
 									<!-- Search Results Tab -->
 									<div class="tab-pane" id="OTHER">
-										Search results about contacts...
+<table class="table table-model-2 table-hover table-condensed table-striped" >
+<?php
+foreach($rc as $key=>$value){
+if($value['type'] === 'OTHER'){
+?>
+        <tr>
+        <td><?=$value['v']?> <a href="javascript:;" class="apiview" relid="<?=$value['id']?>"><?=$value['api']?></a></td>
+        <td><?=$value['name']?></td>
+        <td>9</td>
+        <td>
+<a href="javascript:;" class="apiviewlog" relid="<?=$value['id']?>"><span class="glyphicon glyphicon-barcode"></span></a>
+<?php
+if($value['enable']){
+?>
+|  <a href="javascript:;" class="apicenable" relid="<?=$value['id']?>"><span class="glyphicon glyphicon-ok red"></span></a>
+<?php
+}else{
+?>
+|  <a href="javascript:;" class="apicenable" relid="<?=$value['id']?>"><span class="glyphicon glyphicon-remove green"></span></a>
+<?php
+}
+?>
+|  <a href="javascript:;" class="apiedit" relid="<?=$value['id']?>"><span class="glyphicon glyphicon-wrench yellow"></span></a>
+<!--  | <a class="apicenable" sid="1" enable=1><span class="glyphicon glyphicon-ok-sign green"></span></a>-->
+        </td>
+        </tr>
+<?php
+}
+}
+?>        
+</table>
 									</div>
 								</div>
 								
@@ -378,6 +486,59 @@ if($value['enable']){
 </div>
 </div>
 
+
+
+
+
+<div class="col-sm-12">
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+    <h3 class="panel-title"> 校验工具  </h3>
+
+        <div class="panel-options">
+            <a  onclick="showAjaxModal();" href="javascript:;">
+            <i class="linecons-cog"></i>
+            </a>
+            <a data-toggle="panel" href="#">
+            <span class="collapse-icon">–</span>
+            <span class="expand-icon">+</span>
+            </a>
+            <a data-toggle="reload" href="#">
+            <i class="fa-rotate-right"></i>
+            </a>
+            <a data-toggle="remove" href="#"> × </a>
+        </div>
+    </div>
+
+    <div class="panel-body">
+    
+<!--  sham begin -->
+<div class="search-results">
+						
+							<div class="tabs-vertical-env">
+							   <a href="http://www.sojson.com/" target="_blank">http://www.sojson.com/</a>
+								
+							</div>
+							
+						</div>
+<!--  sham end -->
+    
+    
+    
+    
+    										
+
+    
+    
+   
+
+  
+   
+   
+    </div>
+</div>
+</div>
 
 
 </div>
@@ -445,7 +606,8 @@ function showAjaxModal2(url,title)
 			console.log(url);
 			jQuery('#modal-2 .modal-title').html(title);
 			jQuery('#modal-2 .modal-body').html(response);
-			var JS = $("script[type='text/dialog']").html();
+			var JS = $("script[type='text/dialoglist_edit']").html();
+			//console.log(JS);
 			eval(JS);												//sytle
 		}
 	});
@@ -458,11 +620,16 @@ $(document).ready(function(){
 //apiedit
 
 		$('.apiviewlog').click(function(){
-			showAjaxModal('/s/api/log/'+$(this).attr("relid"),'查看日志');
+			
+			
+			showAjaxModal('/s/api/list/json/'+$(this).attr("relid"),'查看日志');
 		});
 		
 		
 		$('.apicenable').click(function(){
+			
+			
+			
 			var res = $.ajax({
 				url : '/s/api/list/de/'+$(this).attr("relid"),
 				type: 'post',
@@ -483,16 +650,21 @@ $(document).ready(function(){
 				location.reload();
 				return true;
 			}			
-			
-			
-			alert('更改enable');
 		});
+		
+		
 		$('.apiedit').click(function(){
+			
 			showAjaxModal2('/s/api/list/ed/'+$(this).attr("relid"),'编辑');
+			event.stopPropagation();
 		});
+		
+		
 		$('.apiview').click(function(){
-			showAjaxModal('/s/api/list/vf/'+$(this).attr("relid"),'测试');
-		});
+			
+			
+			showAjaxModal2('/s/api/list/vf/'+$(this).attr("relid"),'模拟');
+event.stopPropagation();		});
 
 
 		//添加新数据
@@ -552,8 +724,8 @@ $(document).ready(function(){
 				</div>
 				
 				<div class="modal-footer">
-					<button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
-					<button type="button" class="btn btn-info">Save changes</button>
+					<button type="button" class="btn btn-white " data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-info modal_ok">Save changes</button>
 				</div>
 			</div>
 		</div>

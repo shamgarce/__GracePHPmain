@@ -7,14 +7,14 @@
  */
 class friend extends BaseController {
 
-    public function doSearch(){
-
-
-//echo 1234;
-//        $this->display('',[
-//            'title'=>'主界面'
-//        ]);
-    }
+//    public function doSearch(){
+//
+//
+////echo 1234;
+////        $this->display('',[
+////            'title'=>'主界面'
+////        ]);
+//    }
 
 
 }

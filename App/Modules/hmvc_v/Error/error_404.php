@@ -10,6 +10,7 @@ $row = $s->table->g_userapi->where($where)->getrow();
 if($row['response']) {
     $res = $row['response'];
     $res = json_decode($res,true);
+    $res['getpost'] = print_r($s->request->post,true);
     $res['st'] = 'from 404';
 }else{
     $res = [

@@ -40,11 +40,11 @@
                             <span class="title">接口管理</span>
                         </a>
                     </li>
-                    <li class="active">     <!--  class="active" -->
+                    <!-- li class="active">     <!--  class="active" - ->
                         <a href="layout-horizontal-plus-sidebar.html">
                             <span class="title">文档管理</span>
                         </a>
-                    </li>
+                    </li -->
 
 
 

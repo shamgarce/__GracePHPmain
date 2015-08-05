@@ -69,8 +69,8 @@ class Logc extends Model
         $this->log['action']    = C('router')['Action'];
         $this->log['time']['timebe'] = BTIME;        //log
         $this->log['time']['timecu'] = time();        //log
-        $this->log['_GET']      = $this->S->reuqest->get;            //log
-        $this->log['_POST']     = $this->S->reuqest->post;        //log
+        $this->log['_GET']      = $this->S->request->get;            //log
+        $this->log['_POST']     = $this->S->request->post;        //log
         $this->log['_FILE']    = $_FILES;
         $this->log['router']    = C('router');              //获得路由信息
         return true;
