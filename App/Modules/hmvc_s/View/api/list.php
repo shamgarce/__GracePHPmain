@@ -288,7 +288,7 @@ if($value['type'] === 'GET'){
         <td>
 <a href="javascript:;" class="apiviewlog" relid="<?=$value['id']?>"><span class="glyphicon glyphicon-barcode"></span></a>
 <?php
-if($value['enable']){
+if($value['debug']){
 ?>
 |  <a href="javascript:;" class="apicenable" relid="<?=$value['id']?>"><span class="glyphicon glyphicon-ok red"></span></a>
 <?php

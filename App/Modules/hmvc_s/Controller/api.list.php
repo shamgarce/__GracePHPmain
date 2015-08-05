@@ -85,7 +85,7 @@ class api extends Controller {
     public function doList_de($params){
         $id = intval($params);
         $row = $this->table->g_userapi->where("id = $id")->getrow();
-        $res['enable'] = $row['enable']?0:1;
+        $res['debug'] = $row['debug']?0:1;
         $this->table->g_userapi->where("id = $id")->update($res);
         echo json_encode([
             'code'=>200,

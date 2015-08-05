@@ -19,40 +19,17 @@ class BaseController extends Controller{
 //查询数据库
         $where = "api = '$chr'";
         $row = $this->table->g_userapi->where($where)->getrow();
-        if(!$row['enable']){
-            echo json_encode([
-                'code'=>-500,
-                'msg'=>'disable'
-            ]);
+
+        if($row['debug']){
+            $res = $row['response']?:'{}';
+            $res = json_decode($res,true);
+            $res['st'] = 'from controll';
+            $res['getpost'] = print_r($this->request->post,true);
+            echo json_encode($res);
             exit;
         }
 
-        if($row['debug']){
-            if($row['response']) {
-                $res = $row['response'];
-                $res = json_decode($res,true);
-                $res['st'] = 'from controll';
-                $res['getpost'] = print_r($this->request->post,true);
-                echo json_encode($res);
-                exit;
-            }else{
-                echo json_encode([
-                    'code'=>400,
-                    'getpost'=> print_r($this->request->post,true),
-                    'msg'=>'empty response'
-                ]);
-                exit;
-            }
-        }
-
     }
-
-
-//  '*'     //所有
-//  '@'     //登陆用户
-//  'A'     //管理员
-//  'G'     //游客
-//  '?'     //查询数据库
 
     public function behaviors()
     {

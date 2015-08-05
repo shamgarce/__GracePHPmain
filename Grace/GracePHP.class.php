@@ -1123,7 +1123,7 @@ Array
  */
 class St{
 
-    public static $json = [1];
+    public static $json = [];
     public static $codelist = [];
 
 
@@ -1188,5 +1188,17 @@ class St{
         return intval(self::$json['code']>0)?true:false;
         exit;
     }
+
+    //简化的方法
+    public static function J($code =0,$msg= '',$data = [])
+    {
+
+        self::$json['code'] = $code;
+        if($msg) self::$json['msg']  = $msg;
+        if($data) self::$json['data'] = $data;
+        echo json_encode(self::$json);
+        exit;
+    }
+
 
 }
