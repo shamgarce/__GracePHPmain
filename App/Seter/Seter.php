@@ -7,6 +7,7 @@
  * */
 namespace Seter;
 !defined('FAST_PATH') && die('out of app');
+
 class Seter extends \Seter\Core\Base
 {
     /*
@@ -42,7 +43,7 @@ class Seter extends \Seter\Core\Base
 //    public $data = array();
 
 
-    public function __construct($items = array())
+    private  function __construct($items = array())
     {
         //iniaction
 
@@ -169,11 +170,12 @@ class Seter extends \Seter\Core\Base
         $namespace = '';
         if ($lastNsPos = strripos($className, '\\')) {
             $namespace = substr($className, 0, $lastNsPos);
+            if($namespace == 'F') $namespace = 'Seter\Function';
             $className = substr($className, $lastNsPos + 1);
             $fileName .= str_replace('\\', DIRECTORY_SEPARATOR, $namespace) . DIRECTORY_SEPARATOR;
         }
         $fileName .= str_replace('_', DIRECTORY_SEPARATOR, $className) . '.php';
-//        echo $fileName;
+        //echo $fileName;
         if (file_exists($fileName)) {
             require $fileName;
         }
@@ -186,25 +188,6 @@ class Seter extends \Seter\Core\Base
     {
         spl_autoload_register(__NAMESPACE__ . "\\Seter::autoload");
     }
-
-    /*
-     * 判断失败之后，失败消息存放到这里面
-     * 格式 code / msg / data 可以用jsong输出
-     * 这里是json失败消息机制，判断操作失败的数据存放到这里，用统一的函数进行输出
-     * 也可以采用模型本身的消息，二选一，只选一
-     * */
-    public $jsoninfo        = array();
-    public function setjsoninfo($ar = array())
-    {
-        $this->jsoninfo = $ar;
-    }
-
-    public function getjsoninfo()
-    {
-        echo json_encode($this->$json);
-        exit;
-    }
-
 
 }
 

@@ -35,7 +35,7 @@ class Base implements \ArrayAccess, \Countable, \IteratorAggregate {
     public $data = array();
 
 
-    public function __construct($items = array())
+    private function __construct($items = array())
     {
     }
 
