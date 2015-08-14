@@ -87,8 +87,10 @@
 						
 						  <div class="row">
 								<div class="col-sm-12">
-								<h4><a href="SeterDocaddedit.php">添加新数据</a></h4>
-									<!-- Table Model 2 -->
+								<?php if($_GET['bookid']){?>
+                                <h4><a href="SeterDocaddedit.php?bookid=<?=$_GET['bookid']?>">添加新数据</a></h4>
+								<?php }?>
+                                	<!-- Table Model 2 -->
 									<strong>book列表 ： </strong>
                                     <?php
                                     foreach($booklist as $key=>$value){
@@ -129,6 +131,7 @@
                                             
                                             <!-- child -->
 											<?php
+                                            if($value['child']){
                                             foreach($value['child'] as $k=>$v){
                                             ?>
                                             
@@ -143,6 +146,8 @@
                                             
                                             <?php
 											}
+                                            }
+
 											?>
       
                                             <!-- /child -->

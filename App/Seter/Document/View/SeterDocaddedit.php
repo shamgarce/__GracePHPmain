@@ -71,72 +71,40 @@
 
 			
 			<form role="form" method="post">
-				
 				<div class="form-group">
-                
-                
-               <h3>book ： </h3>
-									<select class="form-control" id="sboxit-1">
-										<option value="al">Albania</option>
-										<option value="au">Australia</option>
-										<option value="bd">Bandgladesh</option>
-										<option value="br">Brasil</option>
-										<option value="ca">Canada</option>
-										<option value="cn">China</option>
-										<option value="de">Germany</option>
-										<option value="fr">France</option>
-										<option value="gr">Greece</option>
-										<option value="jp">Japan</option>
-										<option value="xk">Kosovo</option>
-										<option value="nl">Netherlands</option>
-										<option value="no">Norway</option>
-										<option value="ru">Russia</option>
-										<option value="se">Sweden</option>
-										<option value="tr">Turkey</option>
-										<option value="uk">United Kingdom</option>
-										<option value="us">United States</option>
-									</select>
-               <h3>node ： </h3>
-                <input id="field-1" class="form-control" type="text" placeholder="Placeholder">
-               <h3>sort ： </h3>
-                <input id="field-1" class="form-control" type="text" placeholder="Placeholder">
-               
-           <h3>说明文字</h3>
-                
-					<textarea class="form-control" rows="10" data-uk-htmleditor="{markdown:true}"><h1>Heading</h1>
-			
-			<p>Lorem ipsum dolor sit <strong>amet</strong>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="#">This is a link</a></p>
-			
-			<ul>
-			    <li>Item111</li>
-			    <li>Item</li>
-			    <li>Item</li>
-			</ul>
-			
-			<h2>Heading</h2>
-			
-			<p>Ut enim ad <em>minim</em> veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p></textarea>
-           <h3>代码示例</h3>
-            			<textarea class="form-control" rows="10" data-uk-htmleditor="{markdown:true}"><h1>Heading</h1>
-			
-			<p>Lorem ipsum dolor sit <strong>amet</strong>, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="#">This is a link</a></p>
-			
-			<ul>
-			    <li>Item111</li>
-			    <li>Item</li>
-			    <li>Item</li>
-			</ul>
-			
-			<h2>Heading</h2>
-			
-			<p>Ut enim ad <em>minim</em> veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p></textarea>
-            
-            
-            
-            
-				</div>
+                    <h3>book ： </h3>
+                    <?=$booklist[$node['bookid']]?>
+                    <input name="bookid" id="field-1" class="form-control" type="hidden" value="<?=$node['bookid']?>">
 
-				
+                     <h3>pre ： </h3>
+                    <select name="preid" class="form-control" id="sboxit-1">
+                        <option value="0" <?php if(0 == $node['preid']) echo ' selected="selected" '?>>基础 pre=0</option>
+                        <?php
+                        foreach($prelist as $key=>$value){
+                        ?>
+                            <option value="<?=$value['nodeid']?>" <?php if($value['nodeid'] == $node['preid']) echo ' selected="selected" '?>><?=$value['title']?></option>
+                        <?php
+                        }
+                        ?>
+                    </select>
+                    
+                    
+                    
+                    
+                    <h3>node <?=$node['nodeid']?> ： </h3>
+                    <input name="title" id="field-1" class="form-control" type="text" value="<?=$node['title']?>">
+                    <h3>sort ： </h3>
+                    <input name="sort" id="field-1" class="form-control" type="text" value="<?=$node['sort']?>">
+
+                    <h3>说明文字</h3>
+                    <textarea name="nr" class="form-control" rows="10" data-uk-htmleditor="{markdown:true}"><?=$node['nr']?></textarea>
+                    <h3>代码示例</h3>
+                    <textarea name="nrcode" class="form-control" rows="10" data-uk-htmleditor="{markdown:true}"><?=$node['nrcode']?></textarea>
+
+                    <input type="hidden" name="nodeid" value="<?=$node['nodeid']?>">
+                    
+                    <input type="submit" name="button" id="button" value="提交">
+				</div>
 			</form>
 			
 			

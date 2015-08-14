@@ -83,9 +83,13 @@
       <ul class="nav">
       
 	    <li><a href="#s<?=$value['nodeid']?>"><?=$value['title']?></a></li>
-		<?php foreach($value['child'] as $k=>$v){?>
+		<?php
+        if($value['child']){
+        foreach($value['child'] as $k=>$v){?>
         <li><a href="#s<?=$v['nodeid']?>"><?=$v['title']?></a></li>
-		<?php }?>  
+		<?php }
+        }
+        ?>
       </ul>
     </li>
 <?php	}?>  
