@@ -125,7 +125,9 @@
 
 
 
-<?php foreach($value['child'] as $k=>$v){?>
+<?php
+    if($value['child']){
+    foreach($value['child'] as $k=>$v){?>
         <div class="set" >   <!-- or <div class="set "> -->
             <div class="inner-set" id="s<?=$v['nodeid']?>">
                 <div class="set-description">
@@ -139,7 +141,11 @@
                 </div>
             </div>
         </div>
-    <?php }?>
+    <?php
+    }
+    }
+    ?>
+
 <?php	}?>
 
 

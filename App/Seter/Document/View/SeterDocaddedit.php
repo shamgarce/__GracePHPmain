@@ -74,7 +74,7 @@
 				<div class="form-group">
                     <h3>book ： </h3>
                     <?=$booklist[$node['bookid']]?>
-                    <input name="bookid" id="field-1" class="form-control" type="hidden" value="<?=$node['bookid']?>">
+                    <input name="bookid" id="field-1" class="form-control" type="hidden" value="<?=$_GET['bookid']?>">
 
                      <h3>pre ： </h3>
                     <select name="preid" class="form-control" id="sboxit-1">
