@@ -9,7 +9,7 @@ define('FAST_PATH',__DIR__);
 
 //use Seter\RedBeanPHP;
 define('SHAM_PATH',__DIR__);
-include(__DIR__ . 'Function/Fun.php');
+include(__DIR__ . '/Function/Fun.php');
 !empty($_GET)   && define('ISGET',TRUE);
 !empty($_POST)  && define('ISPOST',TRUE);
 !defined('ISGET')   && define('ISGET',false);

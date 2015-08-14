@@ -5,6 +5,8 @@ class doc extends Controller {
 
     //根据情况进行跳转
     public function doIndex($params){
+
+
         $params = $params?intval($params):1;
 
         $booknode  = $this->table->g_booknode->where("bookid = '$params' and enable = 1")->order(" sort desc,nodeid desc")->getall();

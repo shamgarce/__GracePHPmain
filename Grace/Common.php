@@ -1,4 +1,9 @@
 <?php
+/**
+ * 一切的基础，基础函数和常量
+ */
+
+
 
 // System Start Time
 define('START_TIME', $_SERVER['REQUEST_TIME_FLOAT']);
@@ -139,9 +144,11 @@ function truepath($path) {
 function C($key = '',$value=null){
     static $_config = array();
     $args = func_num_args();
+    //返回所有值
     if($args == 0){
             return $_config;
     }
+    //某一个返回值 这个值是字符串或者数组
     if($args == 1){
         if(is_string($key)){  //如果传入的key是字符串
             return isset($_config[$key])?$_config[$key]:null;
@@ -158,6 +165,7 @@ function C($key = '',$value=null){
             }
         }
     }else{
+        //设置一个值
         if(is_string($key)){
             $_config[$key] = $value;
         }else{

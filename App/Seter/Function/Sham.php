@@ -4,7 +4,16 @@
  * \Sham::T()
  */
 //namespace \Sham;
+
+
+/**
+ * 先不要用
+ *
+ */
 namespace F;
+
+
+
 
 class Sham
 {

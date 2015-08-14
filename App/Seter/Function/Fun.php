@@ -4,6 +4,11 @@
  * \Sham::T()
  */
 //namespace \Sham;
+/**
+ * 尽量不要再用了
+ */
+
+
 
 class Sham
 {
