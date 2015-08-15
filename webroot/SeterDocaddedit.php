@@ -55,7 +55,7 @@ $node  = $S->table->g_booknode->where("bookid = '$bookid' and nodeid = '$nodeid'
 $booklist   = $S->table->g_book->colm("bookid,bookname")->getmap()?:[];
 
 $node       = $node;
-$prelist       = $S->table->g_booknode->colm("nodeid,title")->where("preid = 0")->getall()?:[];
+$prelist       = $S->table->g_booknode->colm("nodeid,title")->where("preid = 0 and bookid= $bookid")->getall()?:[];
 //D($prelist);
 
 //D($prelist);

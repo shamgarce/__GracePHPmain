@@ -16,7 +16,8 @@ $booknode  = $S->table->g_booknode->where("bookid = '$params' and enable = 1")->
 
 $Cimarkdown = new Cimarkdown();
 foreach($booknode as $key=>$value){
-    $booknode[$key]['nr']       = $Cimarkdown->markit($booknode[$key]['nr']);
+    //$booknode[$key]['nr']       = $Cimarkdown->markit($booknode[$key]['nr']);
+    //$booknode[$key]['nr']       = htmlentities($booknode[$key]['nr']);
     $booknode[$key]['nrcode']   = $Cimarkdown->markit($booknode[$key]['nrcode']);
 }
 foreach($booknode as $key=>$value){

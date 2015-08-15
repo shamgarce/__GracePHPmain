@@ -97,7 +97,7 @@
                     <input name="sort" id="field-1" class="form-control" type="text" value="<?=$node['sort']?>">
 
                     <h3>说明文字</h3>
-                    <textarea name="nr" class="form-control" rows="10" data-uk-htmleditor="{markdown:true}"><?=$node['nr']?></textarea>
+                    <textarea name="nr" class="form-control ckeditor" rows="10" ><?=$node['nr']?></textarea>
                     <h3>代码示例</h3>
                     <textarea name="nrcode" class="form-control" rows="10" data-uk-htmleditor="{markdown:true}"><?=$node['nrcode']?></textarea>
 
