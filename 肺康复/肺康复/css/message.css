@@ -1,0 +1,23 @@
+.mess {overflow: hidden;}
+.mess .mess_left {float: left;width: 670px;} 
+.mess .mess_right {float: right;width: 300px;}
+
+
+.foot {margin-top: 20px;}
+.mess .mess_left h2 {font-size: 22px;color: #333;line-height: 32px;overflow: hidden;border-bottom: 1px solid #e0e0e0;font-weight: normal;}
+.mess .mess_left h2 span {float: left;line-height: 32px;border-bottom: 2px solid #8dbd32;}
+.mess .mess_left .quanshi {font-size: 14px;color: #666;line-height: 24px;padding: 24px 15px;background: #f7f7f7 url(../images/quanshi.png) top right no-repeat;border-bottom: 1px dotted #dfdfdf;}
+.mess .mess_left li {padding-top: 15px;border-top: 1px dotted #dfdfdf;}
+.mess .mess_left li h3 {font-size: 18px;color: #333;line-height: 38px;font-weight: normal;}
+.mess .mess_left li p {font-size: 14px;color: #666;line-height: 23px;margin-bottom: 15px;}
+.mess .mess_left li div {text-align: right;padding-bottom: 5px;}
+.mess .mess_left li div a {padding-right: 10px;}
+.mess .mess_left li .fx span {padding-left: 15px;background: url(../images/fx.png) 0 center no-repeat;}
+.mess .mess_left li .hf span {padding-left: 17px;background: url(../images/xinxi.png) 0 center no-repeat;}
+
+.mess_right .vdph ul {width: 300px;height: 347px;overflow: hidden;}
+.mess_right .vdph ul .actives h3 {width: 130px;}
+.mess_right .vdph ul li h3 {width: 275px;}
+.mess_banner {overflow: hidden;padding:15px 0;border-top: 1px solid #ececec;border-bottom: 1px solid #ececec;}
+.mess_banner img {border:0;border:none;display: block;width: 300px;height: auto;}
+.mess_right .vdph2 ul {height: 307px;}
