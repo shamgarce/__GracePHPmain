@@ -88,6 +88,14 @@
                         ?>
                     </select>
                     
+                     <h3>类型 ： </h3>
+                    <select name="type" class="form-control" id="sboxit-1">
+                    <option value="con" <?php if('con' == $node['type']) echo 'selected="selected" '?>>markdown </option>
+                    <option value="fun" <?php if('fun' == $node['type']) echo ' selected="selected" '?>>函数 </option>
+                    <option value="cla" <?php if('cla' == $node['type']) echo ' selected="selected" '?>>类 </option>
+                    <option value="tes" <?php if('tes' == $node['type']) echo ' selected="selected" '?>>测试 </option>
+                    </select>
+                    
                     
                     
                     
@@ -97,12 +105,13 @@
                     <input name="sort" id="field-1" class="form-control" type="text" value="<?=$node['sort']?>">
 
                     <h3>说明文字</h3>
-                    <textarea name="nr" class="form-control ckeditor" rows="10" ><?=$node['nr']?></textarea>
-                    <h3>代码示例</h3>
-                    <textarea name="nrcode" class="form-control" rows="10" data-uk-htmleditor="{markdown:true}"><?=$node['nrcode']?></textarea>
-
-                    <input type="hidden" name="nodeid" value="<?=$node['nodeid']?>">
+                    <textarea name="nr" class="form-control ckeditor" rows="5" ><?=$node['nr']?></textarea>
+                    <h3>代码示例2</h3>
+                    <textarea name="nrcode" class="form-control" rows="5" data-uk-htmleditor="{markdown:true}"><?=$node['nrcode']?></textarea>
                     
+                    <h3>参数【json】</h3>
+                    <textarea name="params" class="form-control" rows="10"><?=$node['params']?></textarea>
+                    <input type="hidden" name="nodeid" value="<?=$node['nodeid']?>">
                     <input type="submit" name="button" id="button" value="提交">
 				</div>
 			</form>
